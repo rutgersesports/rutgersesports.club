@@ -1,0 +1,21 @@
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: #282828;
+}
+
+.desc h1 {
+    position: absolute;
+    color: #FFFFFF;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 0rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
