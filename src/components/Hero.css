@@ -1,21 +1,20 @@
-.hero {
-    position: relative;
+.desc {
     text-align: center;
-    background-color: #282828;
+    align-items: center;
+    padding: 15rem;
+    background: url('../images/hero-bg-placeholder.jpg') no-repeat;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.desc::after {
+    filter: brightness(50%)
 }
 
 .desc h1 {
-    position: absolute;
     color: #FFFFFF;
-    top: 50%;
-    left: 0;
-    right: 0;
     text-transform: uppercase;
     font-size: 4rem;
-    line-height: 0rem;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
+    line-height: 4rem;
+    filter: drop-shadow(0 0.4rem 0 #a71f1f)
 }
