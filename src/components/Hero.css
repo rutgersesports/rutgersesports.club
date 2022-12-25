@@ -8,10 +8,6 @@
     background-size: auto 100%;
 }
 
-.hero-text::after {
-    filter: brightness(50%)
-}
-
 .hero-text h1 {
     color: #FFFFFF;
     text-transform: uppercase;
