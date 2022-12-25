@@ -1,0 +1,92 @@
+{
+    "clubs": [
+        {
+            "name": "Rutgers Overwatch",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/ruoverwatch",
+            "social-media": {
+                "discord": "https://discord.gg/U6P3Dtp"
+            }
+        },
+        {
+            "name": "Rutgers Valorant",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/rutgersvalorant",
+            "social-media": {
+                "discord": "https://discord.gg/valowatch"
+            }
+        },
+        {
+            "name": "Creation of Games Society",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/cogs",
+            "social-media": {
+                "discord": "https://discord.gg/rucogs",
+                "website": "https://cogs.club"
+            }
+        },
+        {
+            "name": "League of Legends",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/leagueoflegends",
+            "social-media": {
+                "discord": "https://discord.gg/skqkEYD"
+            }
+        },
+        {
+            "name": "Rutgers Womens Gaming League",
+            "get-involved": null,
+            "social-media": {
+                "discord": "https://discord.com/invite/caNGe8HG2D",
+                "instagram": "https://www.instagram.com/rutgerswgl/",
+                "facebook": "https://www.facebook.com/groups/rutgerswgl/",
+                "twitch": "https://www.twitch.tv/rutgerswgl"
+            }
+        },
+        {
+            "name": "Rhythm Game Club",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/rgc",
+            "social-media": {
+                "discord": "https://discord.com/invite/jwuMCDp"
+            }
+        },
+        {
+            "name": "Rutgers Rocket League",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/RURL",
+            "social-media": {
+                "discord": "https://discord.gg/fVg6EDmBNb"
+            }
+        },
+        {
+            "name": "Rutgers Counter-Strike Club",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/rutgerscs",
+            "social-media": {
+                "discord": "https://discord.gg/uJuk7ufwjw"
+            }
+        },
+        {
+            "name": "Scarlet Smash",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/smash",
+            "social-media": {
+                "discord": "https://discord.io/ScarletSmash"
+            }
+        },
+        {
+            "name": "Pokemon Club",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/rutgerspokemon",
+            "social-media": {
+                "discord": "https://discord.gg/MMwgM9H"
+            }
+        },
+        {
+            "name": "DotA Club",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/dotaclub",
+            "social-media": {
+                "discord": "https://discord.gg/yFKghbJ"
+            }
+        },
+        {
+            "name": "Hearthstone",
+            "get-involved": "https://rutgers.campuslabs.com/engage/organization/hearthstone",
+            "social-media": {
+                "discord": "https://discord.com/invite/b7aeQhu"
+            }
+        }
+    ]
+}
