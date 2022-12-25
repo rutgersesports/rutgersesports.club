@@ -1,0 +1,26 @@
+.about-ourselves {
+    padding-inline: 5rem;
+    padding-bottom: 10rem;
+}
+
+.about-ourselves-desc {
+    display: flex;
+}
+
+.about-ourselves h1 {
+    text-transform: uppercase;
+    font-size: 3.3rem;
+    color: #a51f1f;
+}
+
+.about-ourselves img {
+    border-radius: 1rem;
+    width: 30rem;
+}
+
+.about-ourselves p {
+    padding: 2rem;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #a51f1f;
+}
