@@ -11,6 +11,7 @@
 
 .clubs {
     display: flex;
+    cursor: grab;
     overflow: hidden;
 	overflow-x: scroll;
 	flex-wrap: nowrap;
@@ -34,6 +35,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 1rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .club h2 {
