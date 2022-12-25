@@ -18,15 +18,6 @@ export const clubs = [
     },
   },
   {
-    name: "Creation of Games Society",
-    getInvolved: "https://rutgers.campuslabs.com/engage/organization/cogs",
-    image: "./overwatch2-club-bg.jpg",
-    "social-media": {
-      discord: "https://discord.gg/rucogs",
-      website: "https://cogs.club",
-    },
-  },
-  {
     name: "League of Legends",
     getInvolved:
       "https://rutgers.campuslabs.com/engage/organization/leagueoflegends",
