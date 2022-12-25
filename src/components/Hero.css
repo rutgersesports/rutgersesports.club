@@ -1,11 +1,11 @@
 .hero-text {
     text-align: center;
     align-items: center;
-    padding: 15rem;
+    padding: 12rem;
     background: url('../images/hero-bg-placeholder.jpg') no-repeat;
     background-color: grey;
     background-blend-mode: multiply;
-    background-size: auto 100%;
+    background-size: 100% auto;
 }
 
 .hero-text h1 {
