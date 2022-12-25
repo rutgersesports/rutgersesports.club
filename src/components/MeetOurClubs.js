@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import React from 'react';
 import "./MeetOurClubs.css";
 import { clubs } from "./ClubsInfo";
 import discordIcon from '../icons/discord.svg';

@@ -1,3 +1,4 @@
+import React from 'react';
 import rutgersEsportsLogo from '../images/rutgersesports-logo.png'
 import './NavigationBar.css'
 

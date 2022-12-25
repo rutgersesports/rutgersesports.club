@@ -1,3 +1,4 @@
+import React from 'react';
 import './AboutOurselves.css'
 import communityImage from '../images/community-image-2048x1365.jpg'
 
