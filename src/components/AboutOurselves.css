@@ -15,11 +15,11 @@
 
 .about-ourselves img {
     border-radius: 1rem;
-    width: 30rem;
+    height: 20rem;
 }
 
 .about-ourselves p {
-    padding: 2rem;
+    padding-left: 2rem;
     text-align: left;
     font-size: 1.2rem;
     color: #a51f1f;
