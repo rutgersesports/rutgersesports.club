@@ -2,6 +2,10 @@
     background-color: #a51f1f;
     height: 15vh;
     text-transform: uppercase;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     /* border-radius: 0 0 4rem 4rem; */
 }
 
