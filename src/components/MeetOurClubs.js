@@ -1,5 +1,5 @@
 import "./MeetOurClubs.css";
-import { clubs } from "./clubs";
+import { clubs } from "./ClubsInfo";
 
 const images = require.context("../images", true);
 
