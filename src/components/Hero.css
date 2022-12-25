@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 85vh;
-    width: 100vw;
+    width: 100%;
     background: url('../images/hero-bg-placeholder.jpg') no-repeat;
     background-color: grey;
     background-blend-mode: multiply;
