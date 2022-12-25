@@ -1,16 +1,16 @@
 .nav {
     background-color: #a51f1f;
-    padding-block: 0.2rem;
+    height: 15vh;
     text-transform: uppercase;
     /* border-radius: 0 0 4rem 4rem; */
 }
 
 .esports-logo {
-    top: 0;
+    top: 20vh;
     left: 0;
     right: 0;
 }
 
 .esports-logo img {
-    height: 10rem;
+    height: 25vh;
 }
