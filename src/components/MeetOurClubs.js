@@ -13,7 +13,7 @@ function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) 
       <div className="club-contents">
         <h2>{name}</h2>
         <div id="club-links">
-          <a href={socialMedia.discord}><img src={icons("./discord.svg")} alt="discord" id="social-media-icon"/></a>
+          <a target="_blank" rel="noopener noreferrer" href={socialMedia.discord}><img src={icons("./discord.svg")} alt="discord" id="social-media-icon"/></a>
         </div>
       </div>
     </div>
