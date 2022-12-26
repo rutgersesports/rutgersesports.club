@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <div className='footer-block'>
                 <p>
-                    <h3>Rutgers Esports Social Media</h3><br/>
+                    <h3>Social Media</h3><br/>
                     <a href="https://discord.gg/rutgersesports">Discord</a><br/>
                     <a href="https://twitch.tv/rutgersesports">Twitch</a><br/>
                     <a href="https://twitter.com/RutgersEsports">Twitter</a><br/>
