@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vh;
+    text-align: left;
+    height: 10vh;
+    background-color: #7a7a7a;
+    color: white;
+}
+
+a {
+    color: white;
+}
