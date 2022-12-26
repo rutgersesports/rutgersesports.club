@@ -101,7 +101,30 @@ export const clubs = [
     image: "./genshin-impact-club-bg.jpg",
     "social-media": {
       discord: "https://discord.gg/5EbrVsBw9z",
-    image: "./overwatch2-club-bg.jpg",
+    },
+  },
+  {
+    name: "Magic the Gathering",
+    getInvolved: "https://rutgers.campuslabs.com/engage/organization/mtg",
+    image: "./genshin-impact-club-bg.jpg",
+    "social-media": {
+      discord: "https://discord.gg/uhJfjjqTGv",
+    },
+  },
+  {
+    name: "Rutgers Battle Royale Club",
+    getInvolved: "https://rutgers.campuslabs.com/engage/organization/battleroyaleclub",
+    image: "./genshin-impact-club-bg.jpg",
+    "social-media": {
+      discord: "https://discord.gg/RcWJVDk8Rd",
+    },
+  },
+  {
+    name: "Rainbow Six Siege",
+    getInvolved: "https://rutgers.campuslabs.com/engage/organization/rainbowsixsiege",
+    image: "./genshin-impact-club-bg.jpg",
+    "social-media": {
+      discord: "https://discord.com/invite/wPgemuugUN",
     },
   },
 ];
