@@ -12,7 +12,9 @@ function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) 
     <div className="club" style={{ backgroundImage: `url(${loadedImage})`, start: {x}, top: {y} }}>
       <div className="club-contents">
         <h2>{name}</h2>
-        <img src={icons("./discord.svg")} alt="discord" id="social-media-icon"/>
+        <div id="club-links">
+          <a href={socialMedia.discord}><img src={icons("./discord.svg")} alt="discord" id="social-media-icon"/></a>
+        </div>
       </div>
     </div>
   );
