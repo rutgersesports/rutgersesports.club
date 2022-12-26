@@ -4,10 +4,10 @@
 }
 
 .about-ourselves-desc {
-    margin: auto;
     display: flex;
+    margin: auto;
     align-items: center;
-    width: 100vh;
+    min-width: 70vh;
 }
 
 .about-ourselves h1 {
@@ -18,12 +18,12 @@
 
 .about-ourselves img {
     border-radius: 1vh;
-    height: 23vh;
+    height: 30vh;
 }
 
 .about-ourselves p {
     padding-left: 2vw;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #a51f1f;
 }
