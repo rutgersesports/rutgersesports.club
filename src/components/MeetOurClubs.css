@@ -16,7 +16,7 @@
 	overflow-x: scroll;
 	flex-wrap: nowrap;
 	flex-direction: row;
-    -ms-overflow-style: none;  /* Internet Explorer and Microsoft Edge */
+    -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
     scrollbar-width: none;  /* Firefox */
 }
 
@@ -32,21 +32,28 @@
     background-repeat: no-repeat;
     background-color: grey;
     background-blend-mode: multiply;
-    width: 300px;
+    width: 380px;
     height: 650px;
     border-radius: 1vw;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.club h2 {
+.club::after {
+    filter: brightness(50%);
+}
+
+.club-contents h2 {
     text-transform: uppercase;
     color: white;
-    width: 17rem;
+    width: 300px;
     font-size: 1.8rem;
+    margin-bottom: 6px;
     filter: drop-shadow(0 0.25rem 0 #a71f1f);
 }
 
-.club::after {
-    filter: brightness(50%);
+.club-contents #social-media-icon {
+    width: 1.8rem;
+    color: white;
+    filter: invert(100%) drop-shadow(0 0.25rem 0 #a71f1f);
 }

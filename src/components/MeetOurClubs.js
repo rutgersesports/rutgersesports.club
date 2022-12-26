@@ -4,12 +4,16 @@ import "./MeetOurClubs.css";
 import { clubs } from "./ClubsInfo";
 
 const images = require.context("../images", true);
+const icons = require.context("../icons", true);
 
-function buildClubWidget(name, getInvolved, backgroundImage, socialMedia) {
+function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) {
   const loadedImage = images(backgroundImage);
   return (
-    <div className="club" style={{ backgroundImage: `url(${loadedImage})` }}>
-      <h2>{name}</h2>
+    <div className="club" style={{ backgroundImage: `url(${loadedImage})`, start: {x}, top: {y} }}>
+      <div className="club-contents">
+        <h2>{name}</h2>
+        <img src={icons("./discord.svg")} alt="discord" id="social-media-icon"/>
+      </div>
     </div>
   );
 }
@@ -25,7 +29,7 @@ export default function MeetOurClubs() {
           return (
             <div key={key}>
               {buildClubWidget(data.name, data.getInvolved, data.image,
-              data.socialMedia)}
+              data.socialMedia, data.x, data.y)}
             </div>
           );
         })}

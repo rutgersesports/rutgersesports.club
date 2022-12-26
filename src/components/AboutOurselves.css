@@ -7,7 +7,7 @@
     display: flex;
     margin: auto;
     align-items: center;
-    min-width: 70vh;
+    max-width: 60vw;
 }
 
 .about-ourselves h1 {

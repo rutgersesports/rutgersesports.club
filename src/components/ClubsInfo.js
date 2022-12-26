@@ -27,7 +27,7 @@ export const clubs = [
     },
   },
   {
-    name: "WGL",
+    name: "Womens Gaming League",
     getInvolved: null,
     image: "./overwatch2-club-bg.jpg",
     "social-media": {
