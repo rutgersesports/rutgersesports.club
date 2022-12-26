@@ -8,6 +8,10 @@
     margin: auto;
     align-items: center;
     max-width: 60vw;
+    column-count: 3;
+    justify-content: space-between;
+    column-gap: 5vw;
+    align-items: flex-start;
 }
 
 .about-ourselves h1 {
@@ -16,14 +20,8 @@
     color: #a51f1f;
 }
 
-.about-ourselves img {
-    border-radius: 1vh;
-    height: 30vh;
-}
-
-.about-ourselves p {
-    padding-left: 2vw;
-    text-align: left;
-    font-size: 1.4rem;
+.about-ourselves h2 {
+    text-transform: uppercase;
+    line-height: 0;
     color: #a51f1f;
 }
