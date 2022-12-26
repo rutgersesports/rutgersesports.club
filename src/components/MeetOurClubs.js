@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollContainer from 'react-indiana-drag-scroll'
 import "./MeetOurClubs.css";
-import { clubs } from "./ClubsInfo";
+import { clubs } from "../data/ClubsInfo";
 
 const images = require.context("../images", true);
 const icons = require.context("../icons", true);
