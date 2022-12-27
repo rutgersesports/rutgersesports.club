@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/" element={<HomePage/>}/>
-          <Route path="/apply" element={<Apply/>}/>
+          <Route exact path="/" element={<HomePage/>}/>
+          <Route exact path="/apply" element={<Apply/>}/>
         </Routes>
       </BrowserRouter>
     </div>
