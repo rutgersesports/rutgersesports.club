@@ -5,7 +5,7 @@ import './NavigationBar.css'
 export default function NavigationBar() {
     return <div className='nav'>
         <div className='esports-logo'>
-            <img src={rutgersEsportsLogo} alt='Rutgers Esports Logo'/>
+            <a href="/"><img src={rutgersEsportsLogo} alt='Rutgers Esports Logo'/></a>
         </div>
     </div>
 }
