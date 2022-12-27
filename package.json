@@ -1,5 +1,6 @@
 {
   "name": "rutgersesports.com",
+  "homepage": "rutgersesports.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
