@@ -219,22 +219,4 @@ export const jobs = [
     ],
     form: "https://forms.gle/WVyjs4CQoKWYtBGY9",
   },
-  {
-    teamName: "Inactive Role",
-    roles: [
-      {
-        name: "Broadcaster",
-        specialResponsibilities: ["Capable of running a live-stream"],
-        specialPreferredQualities: [],
-      },
-      {
-        name: "Stream Producer",
-        specialResponsibilities: [
-          "Able to organize and prepare for a live-stream",
-        ],
-        specialPreferredQualities: [],
-      },
-    ],
-    form: "https://forms.gle/gKMwAqwSxq7u9Zbj8",
-  },
 ];
