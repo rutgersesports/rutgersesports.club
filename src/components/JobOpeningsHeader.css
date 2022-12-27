@@ -8,7 +8,7 @@
     background-color: grey;
     background-blend-mode: multiply;
     background-size: 100% auto;
-    background-position: 0 -800px;
+    background-position-y: center;
 }
 
 .job-openings-header h1 {
