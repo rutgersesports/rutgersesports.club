@@ -6,7 +6,7 @@ import Apply from './pages/Apply';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
           <Route path="/apply" element={<Apply/>}/>
