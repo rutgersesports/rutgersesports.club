@@ -28,6 +28,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-color: grey;
