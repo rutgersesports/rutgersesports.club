@@ -1,0 +1,54 @@
+.job-openings {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.job-openings a {
+    color: black;
+    text-decoration: underline;
+}
+
+.job-openings h2 {
+    line-height: 2px;
+}
+
+.job-openings-list {
+    border-collapse:collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.job-openings-list tr:nth-child(2n - 1) {
+    background-color: #d3d3d3;
+}
+
+.job p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: normal;
+}
+
+th {
+    height: 80px;
+    border: 0 solid;
+}
+
+.info-button {
+    display: inline-block;
+    color: white;
+    background-color: #a3031b;
+    border-radius: 10px;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.info-button:hover {
+    background-color: #750012;
+}

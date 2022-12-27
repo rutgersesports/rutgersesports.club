@@ -1,0 +1,17 @@
+.job-openings-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    background: url('../images/job-openings.jpg') no-repeat;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: 100% auto;
+    background-position: 0 -800px;
+}
+
+.job-openings-header h1 {
+    color: white;
+    font-size: 3.5rem;
+}
