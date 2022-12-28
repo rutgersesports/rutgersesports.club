@@ -26,6 +26,7 @@ export default function MeetOurClubs() {
       <h1>Meet Our Clubs</h1>
       <ScrollContainer
         className="clubs"
+        hideScrollbars={false}
       >
         {clubs.map((data, key) => {
           return (

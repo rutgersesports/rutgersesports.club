@@ -11,17 +11,21 @@
 
 .clubs {
     display: flex;
-    overflow: hidden;
-	overflow-x: scroll;
-	flex-wrap: nowrap;
-	flex-direction: row;
-    -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
-    scrollbar-width: none;  /* Firefox */
 }
 
 .clubs::-webkit-scrollbar {
-  display: none; /* Chrome, Safari and Opera */
+    height: 15px;
 }
+
+.clubs::-webkit-scrollbar-thumb {
+    background-color: #a51f1f;
+    border-radius: 10px;
+}
+
+.clubs::-webkit-scrollbar-thumb:hover {
+    background-color: #851919;
+}
+
 
 .club {
     display: flex;
