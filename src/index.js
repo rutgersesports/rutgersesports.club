@@ -7,7 +7,7 @@ import './index.css';
 import Apply from './pages/Apply';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route path="/" exact component={HomePage}/>
       <Route path="/apply" exact component={Apply}/>
