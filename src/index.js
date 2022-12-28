@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './pages/HomePage';
 import './index.css';
 import Apply from './pages/Apply';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Router basename={process.env.PUBLIC_URL}>
-    <Switch>
-      <Route path="/" exact component={HomePage}/>
-      <Route path="/apply" exact component={Apply}/>
-    </Switch>
-  </Router>
+  <React.StrictMode>
+    <HashRouter>
+      <Switch>
+        <Route path="/" exact component={HomePage}/>
+        <Route path="/apply" exact component={Apply}/>
+      </Switch>
+    </HashRouter>
+  </React.StrictMode>
 )
 
 // If you want to start measuring performance in your app, pass a function
