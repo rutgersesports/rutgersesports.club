@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 export default function Footer() {
@@ -16,7 +17,7 @@ export default function Footer() {
                     <h3>Related Links</h3><br/>
                     <a href="https://github.com/rutgersesports/rutgersverifybot">Email Verification Discord Bot</a><br/>
                     <a href="admin-login">Adminstrator Login</a><br/>
-                    <a href="apply">Job Positions</a><br/>
+                    <Link to="apply">Job Positions</Link><br/>
                 </p>
             </div>
             <div className='footer-block'>
