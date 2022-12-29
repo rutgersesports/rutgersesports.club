@@ -1,9 +1,21 @@
 import React from 'react';
-import './AboutOurselves.css'
+import './AboutOurselves.css';
+import jonnyholloway from '../images/jonnyholloway.jpg';
+import community1 from '../images/community1.jpg';
+import community2 from '../images/community2.jpg';
+import community3 from '../images/community3.jpg';
+import community4 from '../images/community4.jpg';
 
 export default function AboutOurselves() {
     return <div className='about-ourselves'>
         <h1>About Ourselves</h1>
+        <div class="community-image-grid">
+            <img className="community-img community-img--1" src={jonnyholloway} alt="community"/>
+            <img className="community-img" src={community1} alt="community"/>
+            <img className="community-img" src={community2} alt="community"/>
+            <img className="community-img" src={community3} alt="community"/>
+            <img className="community-img" src={community4} alt="community"/>
+        </div>
         <div className='about-ourselves-desc'>
             <div className='desc-col'>
                 <p>

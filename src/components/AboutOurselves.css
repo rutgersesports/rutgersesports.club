@@ -25,3 +25,24 @@
     line-height: 0;
     color: #a51f1f;
 }
+
+.community-image-grid {
+    display: grid;
+    line-height: 0;
+    padding-bottom: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+}
+
+.community-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.community-img--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
