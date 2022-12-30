@@ -21,7 +21,7 @@ function buildClubWidget(
       style={{
         backgroundImage: `url(${loadedImage})`,
         start: { x },
-        top: { y }
+        top: { y },
       }}
     >
       <div className="club-contents">
