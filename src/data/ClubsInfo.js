@@ -29,7 +29,7 @@ export const clubs = [
   {
     name: "Womens Gaming League",
     getInvolved: null,
-    image: "./overwatch2-club-bg.jpg",
+    image: "./wgl-club-bg.png",
     socialMedia: {
       discord: "https://discord.com/invite/caNGe8HG2D",
       instagram: "https://www.instagram.com/rutgerswgl/",
