@@ -9,7 +9,7 @@ export default function JobOpenings() {
       <p>
         Ready to join the Rutgers Esports Executive Board? Explore our openings
         below! To apply for a role not listed, apply{" "}
-        <a href="https://forms.gle/gKMwAqwSxq7u9Zbj8">here</a>
+        <a href="https://forms.gle/gKMwAqwSxq7u9Zbj8">here</a>.
       </p>
       <table className="job-openings-list">
         {jobs.map((data, key) =>
