@@ -13,8 +13,8 @@
 
 ## About
 We use [React](https://reactjs.org/) and [JavaScript](https://www.javascript.com/)
-to build our website, but we in the process of migrating to
-[TypeScript](https://www.typescriptlang.org/).
+to build our website, but we are planning on migrating to
+[TypeScript](https://www.typescriptlang.org/) in the near future.
 
 ## Project Structure
  - `src/components` contains all of the components used to build a website page
@@ -46,9 +46,8 @@ some limitations if you are not a core member of the development team.
 2. Install the [Git CLI](https://git-scm.com/downloads)\
 You can also install [GitHub Desktop](https://desktop.github.com/) for a user interface
 (optional)
-3. Install [TypeScript](https://www.typescriptlang.org/) by running `npm i typescript`
-4. Run `npm install` to install all dependencies
-5. Run `npm start` to create a local server to start contributing!
+3. Run `npm install` to install all dependencies
+4. Run `npm start` to create a local server to start contributing!
 
 We also use [Prettier](https://prettier.io/) for code formating so
 please run `npx prettier --write "src/**/*.js"` whenever you're creating
