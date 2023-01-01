@@ -52,3 +52,8 @@ You can also install [GitHub Desktop](https://desktop.github.com/) for a user in
 We also use [Prettier](https://prettier.io/) for code formating so
 please run `npx prettier --write "src/**/*.js"` whenever you're creating
 a pull request.
+
+### Deploying the Website via GitHub Pages
+We currently have a GitHub Actions workflow file working on that. Just push anything
+to the main branch via a direct commit or pull request and changes will be made to the
+website in a few minutes.
