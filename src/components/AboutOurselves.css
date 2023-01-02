@@ -4,11 +4,11 @@
 }
 
 .about-ourselves-desc {
+    overflow: auto;
     display: flex;
     margin: auto;
     align-items: center;
     max-width: 60vw;
-    column-count: 3;
     justify-content: space-between;
     column-gap: 5vw;
     align-items: flex-start;

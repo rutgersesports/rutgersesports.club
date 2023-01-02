@@ -5,6 +5,7 @@
     justify-content: center;
     height: 85vh;
     width: 100%;
+    overflow: hidden;
     margin-bottom: 6vh;
 }
 
