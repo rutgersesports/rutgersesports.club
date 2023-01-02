@@ -24,6 +24,12 @@ to build our website, but we are planning on migrating to
  - `src/pages` contains all of the pages that are being displayed
  - `src/videos` contains all types of videos
 
+## Deploying the Website via GitHub Pages
+We currently have a GitHub Actions workflow file working on that. Just push anything
+to the main branch via a direct commit or pull request and changes will be made to the
+website in a few minutes.
+**Do not make TypeScript or `.jsx` conversions without testing on a separate fork**
+
 ## Contributing
 Before you create a pull request, please create an issue using our
 [issue tracker](https://github.com/rutgersesports/rutgersesports.github.io/issues)
@@ -52,8 +58,3 @@ You can also install [GitHub Desktop](https://desktop.github.com/) for a user in
 We also use [Prettier](https://prettier.io/) for code formating so
 please run `npx prettier --write "src/**/*.js"` whenever you're creating
 a pull request.
-
-### Deploying the Website via GitHub Pages
-We currently have a GitHub Actions workflow file working on that. Just push anything
-to the main branch via a direct commit or pull request and changes will be made to the
-website in a few minutes.
