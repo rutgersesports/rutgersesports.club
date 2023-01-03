@@ -37,8 +37,8 @@
     background-repeat: no-repeat;
     background-color: grey;
     background-blend-mode: multiply;
-    min-width: 320px;
-    min-height: 480px;
+    width: 320px;
+    height: 480px;
     border-radius: 20px;
     margin-left: 15px;
     margin-right: 15px;
@@ -50,7 +50,7 @@
 }
 
 .club:hover {
-    width: 23vw;
+    width: 370px;
 }
 
 #club-links {
