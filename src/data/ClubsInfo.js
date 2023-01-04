@@ -42,7 +42,7 @@ export const clubs = [
     getInvolved: "https://rutgers.campuslabs.com/engage/organization/rgc",
     image: "./rgc-club-bg.jpg",
     socialMedia: {
-      discord: "https://discord.com/invite/jwuMCDp",
+      discord: "https://discord.gg/azP28Hd",
     },
   },
   {
