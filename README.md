@@ -25,10 +25,11 @@ to build our website, but we are planning on migrating to
  - `src/videos` contains all types of videos
 
 ## Deploying the Website via GitHub Pages
-We currently have a GitHub Actions workflow file working on that. Just push anything
-to the main branch via a direct commit or pull request and changes will be made to the
-website in a few minutes.
-**Do not make TypeScript or `.jsx` conversions without testing on a separate fork**
+Run `npm run deploy` in your terminal to deploy the website. You can only do this if
+you have permissions to do so.\
+Do not panick if the site goes down right after you pushed a change. It should return
+to normal in under 5 minutes. If not, panick and contact
+[Andrew Hong](https://github.com/novialriptide) (<andrew.j.hong@rutgers.edu>).
 
 ## Contributing
 Before you create a pull request, please create an issue using our
