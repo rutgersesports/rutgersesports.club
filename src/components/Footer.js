@@ -10,21 +10,14 @@ export default function Footer() {
           <p>
             <h3>Rutgers Esports</h3>
             <br />
-            Rutgers Esports is a student-run collegiate esports organization at
-            Rutgers University - New Brunswick.
-            <br />
-            We have no affiliation with the Esports Center located on Busch
-            Campus;
-            <br />
-            for all Esports Center inquiries, please visit
+            Part of{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://esports.rutgers.edu"
+              href="http://sca.rutgers.edu/"
             >
-              esports.rutgers.edu
+              Rutgers University Student Center and Activities
             </a>
-            .
             <br />
             604 Bartholomew Rd, Piscataway, New Jersey, United States, 08854
           </p>
