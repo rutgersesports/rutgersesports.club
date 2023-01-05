@@ -4,7 +4,7 @@ export const clubs = [
     getInvolved: "https://rutgers.campuslabs.com/engage/organization/smash",
     image: "./super-smash-bros-club-bg.jpg",
     socialMedia: {
-      discord: "https://discord.io/ScarletSmash",
+      discord: "https://discord.gg/8BcAwgk",
     },
   },
   {
