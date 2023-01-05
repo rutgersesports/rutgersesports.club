@@ -1,10 +1,11 @@
 export const clubs = [
   {
-    name: "Super Smash Bros.",
-    getInvolved: "https://rutgers.campuslabs.com/engage/organization/smash",
-    image: "./super-smash-bros-club-bg.jpg",
+    name: "Overwatch 2",
+    getInvolved:
+      "https://rutgers.campuslabs.com/engage/organization/ruoverwatch",
+    image: "./overwatch2-club-bg.jpg",
     socialMedia: {
-      discord: "https://discord.gg/8BcAwgk",
+      discord: "https://discord.gg/U6P3Dtp",
     },
   },
   {
@@ -53,12 +54,11 @@ export const clubs = [
     },
   },
   {
-    name: "Overwatch 2",
-    getInvolved:
-      "https://rutgers.campuslabs.com/engage/organization/ruoverwatch",
-    image: "./overwatch2-club-bg.jpg",
+    name: "Super Smash Bros.",
+    getInvolved: "https://rutgers.campuslabs.com/engage/organization/smash",
+    image: "./super-smash-bros-club-bg.jpg",
     socialMedia: {
-      discord: "https://discord.gg/U6P3Dtp",
+      discord: "https://discord.gg/8BcAwgk",
     },
   },
   {
