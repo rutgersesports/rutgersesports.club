@@ -27,7 +27,7 @@ export const clubs = [
     },
   },
   {
-    name: "Womens Gaming League",
+    name: "Women's Gaming League",
     getInvolved: null,
     image: "./wgl-club-bg.png",
     socialMedia: {
@@ -54,19 +54,19 @@ export const clubs = [
     },
   },
   {
+    name: "Super Smash Bros.",
+    getInvolved: "https://rutgers.campuslabs.com/engage/organization/smash",
+    image: "./super-smash-bros-club-bg.jpg",
+    socialMedia: {
+      discord: "https://discord.gg/8BcAwgk",
+    },
+  },
+  {
     name: "Counter-Strike",
     getInvolved: "https://rutgers.campuslabs.com/engage/organization/rutgerscs",
     image: "./cs-club-bg.jpg",
     socialMedia: {
       discord: "https://discord.gg/uJuk7ufwjw",
-    },
-  },
-  {
-    name: "Super Smash Bros",
-    getInvolved: "https://rutgers.campuslabs.com/engage/organization/smash",
-    image: "./super-smash-bros-club-bg.jpg",
-    socialMedia: {
-      discord: "https://discord.io/ScarletSmash",
     },
   },
   {
@@ -79,7 +79,7 @@ export const clubs = [
     },
   },
   {
-    name: "DotA",
+    name: "Dota 2",
     getInvolved: "https://rutgers.campuslabs.com/engage/organization/dotaclub",
     image: "./dota-club-bg.jpg",
     socialMedia: {
@@ -112,7 +112,7 @@ export const clubs = [
     },
   },
   {
-    name: "Rutgers Battle Royale Club",
+    name: "Battle Royale",
     getInvolved:
       "https://rutgers.campuslabs.com/engage/organization/battleroyaleclub",
     image: "./br-club-bg.jpg",
