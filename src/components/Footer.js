@@ -11,9 +11,11 @@ export default function Footer() {
             <h3>Rutgers Esports</h3>
             <br />
             Rutgers Esports is a student-run collegiate esports organization at
-            Rutgers University - New Brunswick. We have no affiliation with the
-            Esports Center located on Busch Campus; for all Esports Center
-            inquiries, please visit
+            Rutgers University - New Brunswick. 
+            <br />
+            We have no affiliation with the Esports Center located on Busch Campus; 
+            <br />
+            for all Esports Center inquiries, please visit
             <a
               target="_blank"
               rel="noopener noreferrer"
