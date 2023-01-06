@@ -79,3 +79,11 @@
     color: white;
     filter: invert(100%) drop-shadow(0 0.25rem 0 #a71f1f);
 }
+
+@media(min-width: 874px) {
+    .meet-our-clubs h1 {
+        text-transform: uppercase;
+        font-size: 50px;
+        color: #a51f1f;
+    }
+}
