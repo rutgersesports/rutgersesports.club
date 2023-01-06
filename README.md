@@ -28,8 +28,10 @@ to build our website, but we are planning on migrating to
 Run `npm run deploy` in your terminal to deploy the website. You can only do this if
 you have permissions to do so.\
 Do not panick if the site goes down right after you pushed a change. It should return
-to normal in under 5 minutes. If not, panick and contact
-[Andrew Hong](https://github.com/novialriptide) (<andrew.j.hong@rutgers.edu>).
+to normal in under 5 minutes. If not, try again and again. If all fails, panick and contact
+[Andrew Hong](https://github.com/novialriptide) (<andrew.j.hong@rutgers.edu>).\
+It is also noteworthy that whenever you run `npm run deploy`, it creates a static
+website based on your local repository, not whatever is on the GitHub repository.
 
 ## Contributing
 Before you create a pull request, please create an issue using our
