@@ -54,11 +54,19 @@ export const clubs = [
     },
   },
   {
-    name: "Super Smash Bros.",
+    name: "Scarlet Smash Ultimate",
     getInvolved: "https://rutgers.campuslabs.com/engage/organization/smash",
-    image: "./super-smash-bros-club-bg.jpg",
+    image: "./scarlet-smash-ultimate-club-bg.jpg",
     socialMedia: {
       discord: "https://discord.gg/8BcAwgk",
+    },
+  },
+  {
+    name: "Scarlet Smash Melee",
+    getInvolved: "https://rutgers.campuslabs.com/engage/organization/smash",
+    image: "./scarlet-smash-melee-club-bg.jpg",
+    socialMedia: {
+      discord: "https://discord.gg/SEDm5MM",
     },
   },
   {
