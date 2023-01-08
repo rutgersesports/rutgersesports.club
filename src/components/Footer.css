@@ -39,7 +39,7 @@ a:hover {
 }
 
 .socials .social-icon {
-    filter: invert(100%);
+    filter: invert(85%);
     width: 25px;
     padding: 5px;
 }
