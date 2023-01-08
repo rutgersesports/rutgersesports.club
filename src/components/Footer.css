@@ -3,6 +3,10 @@ a {
     color: #E8E8E8;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .footer {
     padding: 50px;
     color: white;
