@@ -34,6 +34,9 @@ It is also noteworthy that whenever you run `npm run deploy`, it creates a stati
 website based on your local repository, not whatever is on the GitHub repository.
 
 ## Contributing
+Pull requests from outside the core development team are welcome, check out the
+[good-first-issues](https://github.com/rutgersesports/rutgersesports.club/labels/good%20first%20issue)
+tag.\
 Before you create a pull request, please create an issue using our
 [issue tracker](https://github.com/rutgersesports/rutgersesports.github.io/issues)
 to avoid any work efforts being lost.
