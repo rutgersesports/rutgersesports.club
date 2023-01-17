@@ -18,3 +18,12 @@
 .esports-logo img {
     height: 25vh;
 }
+
+@media only screen and (max-width: 1224px) {
+    .nav{
+        height: 11vh;
+    }
+    .esports-logo img {
+        height: 21vh;
+    }
+}

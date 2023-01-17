@@ -52,3 +52,49 @@ th {
 .info-button:hover {
     background-color: #750012;
 }
+
+/* Large
+-----------------------*/
+@media only screen and (max-width: 975px) {
+    .job p {
+        margin-left: 20%;
+        margin-right: auto;
+    }
+
+    .job-openings h2 {
+        line-height: normal;
+    }
+
+    .info-button {
+        padding: 13px 16px;
+    }
+}
+
+/* Medium
+-----------------------*/
+@media only screen and (max-width: 768px) {
+    .job-openings {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .job-openings > h2, .job-openings > p{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .job-openings th {
+        padding-right: 1em;
+    }
+}
+
+/* Small
+-----------------------*/
+@media only screen and (max-width: 484px) {
+    body {
+        font-size: 90%
+    }
+
+    .info-button {
+        padding: 13px 10px;
+    }
+}
