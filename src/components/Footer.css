@@ -43,18 +43,14 @@ a:hover {
 }
 
 .socials {
-  padding: 15px 0;
+  padding-left: 0;
+  padding-bottom: 15px;
+  padding-top: 8px;
 }
 
 .socials i:hover {
   color: #fff;
 }
-
-/* .socials .social-icon {
-    filter: invert(85%);
-    width: 25px;
-    padding: 5px;
-} */
 
 .footer-end {
   padding: 10px;
