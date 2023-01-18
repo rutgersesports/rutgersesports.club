@@ -1,12 +1,4 @@
 import React from "react";
-import discordIcon from "../icons/discord.svg";
-import facebookIcon from "../icons/facebook.svg";
-import instagramIcon from "../icons/instagram.svg";
-import twitchIcon from "../icons/twitch.svg";
-import twitterIcon from "../icons/twitter.svg";
-import linkedinIcon from "../icons/linkedin.svg";
-import githubIcon from "../icons/github.svg";
-import youtubeIcon from "../icons/youtube.svg";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
