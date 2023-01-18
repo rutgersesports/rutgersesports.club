@@ -12,9 +12,12 @@
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="prs: welcome"> <img src="https://img.shields.io/github/license/rutgersesports/rutgersesports.github.io" alt="license"/> <img src="https://img.shields.io/github/actions/workflow/status/rutgersesports/rutgersesports.github.io/prettier.yml?label=lint status" alt="lint status"/> <img src="https://img.shields.io/github/deployments/rutgersesports/rutgersesports.club/github-pages?label=deployment%20status" alt="deployment status"> <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="code style: prettier"/>
 
 ## About
-We use [React](https://reactjs.org/) and [JavaScript](https://www.javascript.com/)
-to build our website, but we are planning on migrating to
-[TypeScript](https://www.typescriptlang.org/) in the near future.
+This website was designed, built, and deployed by
+[Andrew Hong](https://github.com/novialriptide) (Class of 2026) using
+[React](https://reactjs.org/) and [JavaScript](https://www.javascript.com/).
+
+The current maintainer of this website is
+[Andrew Hong](https://github.com/novialriptide).
 
 ## Project Structure
  - `src/components` contains all of the components used to build a website page
