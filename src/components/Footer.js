@@ -45,88 +45,56 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 href="https://discord.gg/rutgersesports"
               >
-                <img
-                  src={discordIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-discord social-icon fa-xl"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitter.com/RutgersEsports"
               >
-                <img
-                  src={twitterIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-twitter social-icon fa-xl"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://instagram.com/rutgersesports"
               >
-                <img
-                  src={instagramIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-instagram social-icon fa-xl"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.youtube.com/rutgersesports"
               >
-                <img
-                  src={youtubeIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-youtube social-icon fa-xl"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitch.tv/rutgersesports"
               >
-                <img
-                  src={twitchIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-twitch social-icon fa-xl"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://facebook.com/rutgersesports"
               >
-                <img
-                  src={facebookIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-facebook social-icon fa-xl"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/company/rutgers-esports"
               >
-                <img
-                  src={linkedinIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-linkedin social-icon fa-xl"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/rutgersesports"
               >
-                <img
-                  src={githubIcon}
-                  className="social-icon"
-                  alt="social-icon"
-                />
+                <i className="fab fa-github social-icon fa-xl"></i>
               </a>
             </div>
           </div>
