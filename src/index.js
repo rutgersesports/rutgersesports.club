@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/apply" exact component={Apply} />
+        <Route exact path="/" component={HomePage} />
+        <Route path="/apply" component={Apply} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>
