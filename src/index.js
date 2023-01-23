@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import HomePage from "./pages/HomePage";
 import "./index.css";
@@ -9,12 +9,12 @@ import Apply from "./pages/Apply";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter hashType="noslash">
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/apply" component={Apply} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
