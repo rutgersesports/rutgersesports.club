@@ -6,12 +6,13 @@ import HomePage from "./pages/HomePage";
 import "./index.css";
 import Apply from "./pages/Apply";
 
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/apply" exact component={Apply} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/apply" component={Apply} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>
