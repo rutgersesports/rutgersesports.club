@@ -1,32 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import HomePage from "./pages/HomePage";
 import "./index.css";
 import Apply from "./pages/Apply";
 
 
-function App() {
-  const pathname = useLocation().pathname
-
-  /*
-   * Yes, this is the most shittest way of handling multiple
-   * pages in React. Does it work? Yes it does.
-   */
-  if (pathname === "/") {
-    return <HomePage/>
-  }
-  else if (pathname === "/apply") {
-    return <Apply/>
-  }
-}
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
-        <Route component={App} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/apply" component={Apply} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>
