@@ -10,7 +10,7 @@ export default function AboutOurselves() {
   return (
     <div className="about-ourselves">
       <h1>About Ourselves</h1>
-      <div class="community-image-grid">
+      <div className="community-image-grid">
         <img
           className="community-img community-img--1"
           src={jonnyholloway}
