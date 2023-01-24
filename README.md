@@ -65,5 +65,5 @@ You can also install [GitHub Desktop](https://desktop.github.com/) for a user in
 4. Run `npm start` to create a local server to start contributing!
 
 We also use [Prettier](https://prettier.io/) for code formating so
-please run `npx prettier --write "src/**/*.js"` whenever you're creating
+please run `npx prettier --write "src/**"` whenever you're creating
 a pull request.
