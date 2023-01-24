@@ -6,7 +6,6 @@ import HomePage from "./pages/HomePage";
 import "./index.css";
 import Apply from "./pages/Apply";
 
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HashRouter hashType="noslash">

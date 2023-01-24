@@ -1,51 +1,51 @@
 .job-openings-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-    width: 100%;
-    background: url('../images/job-openings.jpg') no-repeat;
-    background-color: grey;
-    background-blend-mode: multiply;
-    background-size: 100% auto;
-    background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+  background: url("../images/job-openings.jpg") no-repeat;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: 100% auto;
+  background-position: center center;
 }
 
 .job-openings-header h1 {
-    color: white;
-    font-size: 3.5rem;
+  color: white;
+  font-size: 3.5rem;
 }
 
 @media only screen and (max-width: 1706px) {
-    .job-openings-header {
-        height: 650px;
-        background-size: 130% auto;
-    }
+  .job-openings-header {
+    height: 650px;
+    background-size: 130% auto;
   }
+}
 
 @media only screen and (max-width: 1224px) {
-    .job-openings-header {
-        height: 476px;
-        background-size: 150% auto;
-    }
+  .job-openings-header {
+    height: 476px;
+    background-size: 150% auto;
+  }
 }
 
 /* Medium
 -----------------------*/
 @media only screen and (max-width: 768px) {
-    .job-openings-header {
-        height: 300px;
-    }
+  .job-openings-header {
+    height: 300px;
+  }
 }
 
 /* Small
 -----------------------*/
 @media only screen and (max-width: 484px) {
-    .job-openings-header {
-        height: 200px;
-    }
-    .job-openings-header h1 {
-        color: white;
-        font-size: 2.5rem;
-    }
+  .job-openings-header {
+    height: 200px;
+  }
+  .job-openings-header h1 {
+    color: white;
+    font-size: 2.5rem;
+  }
 }

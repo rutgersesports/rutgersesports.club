@@ -1,100 +1,101 @@
 .job-openings {
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .job-openings a {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 .job-openings h2 {
-    line-height: 2px;
+  line-height: 2px;
 }
 
 .job-openings-list {
-    border-collapse:collapse;
-    text-align: left;
-    width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
 }
 
 .job-openings-list tr:nth-child(2n - 1) {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 .job p {
-    margin-left: 100px;
-    margin-right: 100px;
-    font-weight: normal;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-weight: normal;
 }
 
 th {
-    height: 80px;
-    border: 0 solid;
+  height: 80px;
+  border: 0 solid;
 }
 
 .info-button {
-    display: inline-block;
-    color: white;
-    background-color: #a3031b;
-    border-radius: 10px;
-    padding: 13px 32px;
-    text-align: center;
-    text-decoration: none;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+  display: inline-block;
+  color: white;
+  background-color: #a3031b;
+  border-radius: 10px;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .info-button:hover {
-    background-color: #750012;
+  background-color: #750012;
 }
 
 /* Large
 -----------------------*/
 @media only screen and (max-width: 975px) {
-    .job p {
-        margin-left: 20%;
-        margin-right: auto;
-    }
+  .job p {
+    margin-left: 20%;
+    margin-right: auto;
+  }
 
-    .job-openings h2 {
-        line-height: normal;
-    }
+  .job-openings h2 {
+    line-height: normal;
+  }
 
-    .info-button {
-        padding: 13px 16px;
-    }
+  .info-button {
+    padding: 13px 16px;
+  }
 }
 
 /* Medium
 -----------------------*/
 @media only screen and (max-width: 768px) {
-    .job-openings {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .job-openings {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    .job-openings > h2, .job-openings > p{
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-    .job-openings th {
-        padding-right: 1em;
-    }
+  .job-openings > h2,
+  .job-openings > p {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .job-openings th {
+    padding-right: 1em;
+  }
 }
 
 /* Small
 -----------------------*/
 @media only screen and (max-width: 484px) {
-    body {
-        font-size: 90%
-    }
+  body {
+    font-size: 90%;
+  }
 
-    .info-button {
-        padding: 13px 10px;
-    }
+  .info-button {
+    padding: 13px 10px;
+  }
 }
