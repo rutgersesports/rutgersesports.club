@@ -49,7 +49,11 @@ export default function MeetOurClubs() {
   return (
     <div className="meet-our-clubs">
       <h1>Meet Our Clubs</h1>
-      <ScrollContainer className="clubs" innerRef={sideScroll()} hideScrollbars={false}>
+      <ScrollContainer
+        className="clubs"
+        innerRef={sideScroll()}
+        hideScrollbars={false}
+      >
         {clubs.map((data, key) => {
           return (
             <div key={key}>
