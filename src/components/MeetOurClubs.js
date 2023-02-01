@@ -2,6 +2,7 @@ import React from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
 import "./MeetOurClubs.css";
 import { clubs } from "../data/ClubsInfo";
+import { sideScroll } from "../sideScroll";
 
 const images = require.context("../images", true);
 const icons = require.context("../icons", true);
@@ -48,7 +49,7 @@ export default function MeetOurClubs() {
   return (
     <div className="meet-our-clubs">
       <h1>Meet Our Clubs</h1>
-      <ScrollContainer className="clubs" hideScrollbars={false}>
+      <ScrollContainer className="clubs" innerRef={sideScroll()} hideScrollbars={false}>
         {clubs.map((data, key) => {
           return (
             <div key={key}>
