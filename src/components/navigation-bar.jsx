@@ -7,7 +7,7 @@ export default function NavigationBar() {
   return (
     <div className={styles['nav']}>
       <div className={styles['esports-logo']}>
-        <a href="">
+        <a href="/">
           <Image src={rutgersEsportsLogo} alt="Rutgers Esports Logo" />
         </a>
       </div>
