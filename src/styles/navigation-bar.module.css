@@ -17,6 +17,7 @@
 
 .esports-logo img {
   height: 25vh;
+  width: 25vh;
 }
 
 @media only screen and (max-width: 1224px) {
@@ -25,5 +26,6 @@
   }
   .esports-logo img {
     height: 21vh;
+    width: 21vh;
   }
 }

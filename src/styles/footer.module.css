@@ -1,9 +1,9 @@
-a {
+.footer a {
   text-decoration: none;
   color: #e8e8e8;
 }
 
-a:hover {
+.footer a:hover {
   text-decoration: underline;
 }
 
