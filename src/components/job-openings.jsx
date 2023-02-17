@@ -15,15 +15,15 @@ export default function JobOpenings() {
           data.roles.map((roleData, keyRoleData) => {
             return (
               <tr className={styles['job']} key={key}>
-                <th scope="col">
+                <th scope="col" className={styles['col']}>
                   <p>
                     <strong>{roleData.name}</strong>
                   </p>
                 </th>
-                <th scope="col">
+                <th scope="col" className={styles['col']}>
                   <p>{data.teamName}</p>
                 </th>
-                <th scope="col">
+                <th scope="col" className={styles['col']}>
                   <a href={data.form}>
                     <div className={styles['info-button']}>Learn more</div>
                   </a>

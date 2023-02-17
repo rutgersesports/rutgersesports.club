@@ -30,7 +30,7 @@
   font-weight: normal;
 }
 
-th {
+.job-openings th {
   height: 80px;
   border: 0 solid;
 }
@@ -91,7 +91,7 @@ th {
 /* Small
 -----------------------*/
 @media only screen and (max-width: 484px) {
-  body {
+  .job-openings {
     font-size: 90%;
   }
 

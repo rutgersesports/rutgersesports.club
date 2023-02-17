@@ -24,25 +24,19 @@ export default function AboutOurselves() {
       </div>
       <div className={styles['about-ourselves-desc']}>
         <div className={styles['desc-col']}>
-          <p>
-            <h2>Community</h2>
-            We pride ourselves on being an open, friendly, and diverse community. Everyone is welcome here no matter who
-            you are or where you come from.
-          </p>
+          <h2>Community</h2>
+          We pride ourselves on being an open, friendly, and diverse community. Everyone is welcome here no matter who
+          you are or where you come from.
         </div>
         <div className={styles['desc-col']}>
-          <p>
-            <h2>Casual</h2>
-            Whether you play to win or play for fun, we have a place for you with nearly a dozen clubs dedicated to the
-            most popular video games.
-          </p>
+          <h2>Casual</h2>
+          Whether you play to win or play for fun, we have a place for you with nearly a dozen clubs dedicated to the
+          most popular video games.
         </div>
         <div className={styles['desc-col']}>
-          <p>
-            <h2>Competitive</h2>
-            Our teams and players are some of the best in the nation with top placings in many of the most well-known
-            collegiate esports tournaments.
-          </p>
+          <h2>Competitive</h2>
+          Our teams and players are some of the best in the nation with top placings in many of the most well-known
+          collegiate esports tournaments.
         </div>
       </div>
     </div>

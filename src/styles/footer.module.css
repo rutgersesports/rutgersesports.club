@@ -7,6 +7,15 @@
   text-decoration: underline;
 }
 
+.footer-end a {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+
+.footer-end a:hover {
+  text-decoration: underline;
+}
+
 .footer {
   padding: 50px;
   color: white;
