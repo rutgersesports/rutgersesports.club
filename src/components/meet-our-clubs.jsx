@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) {
   return (
-    <a style={{textDecoration: 'none'}} target="_blank" rel="noopener noreferrer" href={socialMedia.discord}>
+    <a style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" href={socialMedia.discord}>
       <div
         className={styles['club']}
         style={{
