@@ -4,15 +4,15 @@ import styles from '../styles/footer.module.css'
 export default function Footer() {
   return (
     <>
-      <div className={styles["footer"]}>
-        <div className={styles["footer-row"]}>
-          <div className={styles["footer-col"]}>
+      <div className={styles['footer']}>
+        <div className={styles['footer-row']}>
+          <div className={styles['footer-col']}>
             <h3>Rutgers Esports</h3>
             Rutgers Esports is a student-run collegiate esports organization at Rutgers University - New Brunswick. We
             have no affiliation with the Esports Center located on Busch Campus; for all Esports Center inquiries,
             please visit esports.rutgers.edu.
           </div>
-          <div className={styles["footer-col"]}>
+          <div className={styles['footer-col']}>
             <h3>Relative Links</h3>
             <ul>
               <li>
@@ -25,7 +25,7 @@ export default function Footer() {
                 <a href="/apply">Volunteer Positions</a>
               </li>
             </ul>
-            <div className={styles["socials"]}>
+            <div className={styles['socials']}>
               <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/rutgersesports">
                 <i className="fab fa-discord social-icon fa-xl"></i>
               </a>
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className={styles["footer-end"]}>
+      <div className={styles['footer-end']}>
         Original Website Built & Designed by{' '}
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/novialriptide">
           Andrew Hong

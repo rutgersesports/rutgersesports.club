@@ -1,8 +1,25 @@
+import overwatch2 from '../images/overwatch2-club-bg.jpg'
+import valorant from '../images/valorant-club-bg.jpg'
+import lol from '../images/lol-club-bg.jpg'
+import wgl from '../images/wgl-club-bg.png'
+import rgc from '../images/rgc-club-bg.jpg'
+import rocketLeague from '../images/rocket-league-club-bg.jpg'
+import scarletSmashUlt from '../images/scarlet-smash-ultimate-club-bg.jpg'
+import scarletSmashMelee from '../images/scarlet-smash-melee-club-bg.jpg'
+import counterStrike from '../images/cs-club-bg.jpg'
+import pokemon from '../images/pokemon-club-bg.png'
+import dota from '../images/dota-club-bg.jpg'
+import hearthstone from '../images/hearthstone-club-bg.jpg'
+import genshin from '../images/genshin-impact-club-bg.jpg'
+import mtg from '../images/mtg-club-bg.jpg'
+import battleRoyale from '../images/br-club-bg.jpg'
+import rainbowsix from '../images/r6-club-bg.jpg'
+
 export const clubs = [
   {
     name: 'Overwatch 2',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/ruoverwatch',
-    image: './overwatch2-club-bg.jpg',
+    image: overwatch2,
     socialMedia: {
       discord: 'https://discord.gg/U6P3Dtp',
     },
@@ -10,7 +27,7 @@ export const clubs = [
   {
     name: 'Valorant',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rutgersvalorant',
-    image: './valorant-club-bg.jpg',
+    image: valorant,
     socialMedia: {
       discord: 'https://discord.gg/valowatch',
     },
@@ -18,7 +35,7 @@ export const clubs = [
   {
     name: 'League of Legends',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/leagueoflegends',
-    image: './lol-club-bg.jpg',
+    image: lol,
     socialMedia: {
       discord: 'https://discord.gg/skqkEYD',
     },
@@ -26,7 +43,7 @@ export const clubs = [
   {
     name: "Women's Gaming League",
     getInvolved: null,
-    image: './wgl-club-bg.png',
+    image: wgl,
     socialMedia: {
       discord: 'https://discord.com/invite/caNGe8HG2D',
       instagram: 'https://www.instagram.com/rutgerswgl/',
@@ -37,7 +54,7 @@ export const clubs = [
   {
     name: 'Rhythm Game Club',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rgc',
-    image: './rgc-club-bg.jpg',
+    image: rgc,
     socialMedia: {
       discord: 'https://discord.gg/azP28Hd',
     },
@@ -45,7 +62,7 @@ export const clubs = [
   {
     name: 'Rocket League',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/RURL',
-    image: './rocket-league-club-bg.jpg',
+    image: rocketLeague,
     socialMedia: {
       discord: 'https://discord.gg/fVg6EDmBNb',
     },
@@ -53,7 +70,7 @@ export const clubs = [
   {
     name: 'Scarlet Smash Ultimate',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/smash',
-    image: './scarlet-smash-ultimate-club-bg.jpg',
+    image: scarletSmashUlt,
     socialMedia: {
       discord: 'https://discord.gg/8BcAwgk',
     },
@@ -61,7 +78,7 @@ export const clubs = [
   {
     name: 'Scarlet Smash Melee',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/smash',
-    image: './scarlet-smash-melee-club-bg.jpg',
+    image: scarletSmashMelee,
     socialMedia: {
       discord: 'https://discord.gg/SEDm5MM',
     },
@@ -69,7 +86,7 @@ export const clubs = [
   {
     name: 'Counter-Strike',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rutgerscs',
-    image: './cs-club-bg.jpg',
+    image: counterStrike,
     socialMedia: {
       discord: 'https://discord.gg/uJuk7ufwjw',
     },
@@ -77,7 +94,7 @@ export const clubs = [
   {
     name: 'Pokemon',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rutgerspokemon',
-    image: './pokemon-club-bg.png',
+    image: pokemon,
     socialMedia: {
       discord: 'https://discord.gg/MMwgM9H',
     },
@@ -85,7 +102,7 @@ export const clubs = [
   {
     name: 'Dota 2',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/dotaclub',
-    image: './dota-club-bg.jpg',
+    image: dota,
     socialMedia: {
       discord: 'https://discord.gg/yFKghbJ',
     },
@@ -93,7 +110,7 @@ export const clubs = [
   {
     name: 'Hearthstone',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/hearthstone',
-    image: './hearthstone-club-bg.jpg',
+    image: hearthstone,
     socialMedia: {
       discord: 'https://discord.com/invite/b7aeQhu',
     },
@@ -101,7 +118,7 @@ export const clubs = [
   {
     name: 'Genshin Impact',
     getInvolved: null,
-    image: './genshin-impact-club-bg.jpg',
+    image: genshin,
     socialMedia: {
       discord: 'https://discord.gg/5EbrVsBw9z',
     },
@@ -109,7 +126,7 @@ export const clubs = [
   {
     name: 'Magic the Gathering',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/mtg',
-    image: './mtg-club-bg.jpg',
+    image: mtg,
     socialMedia: {
       discord: 'https://discord.gg/uhJfjjqTGv',
     },
@@ -117,7 +134,7 @@ export const clubs = [
   {
     name: 'Battle Royale',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/battleroyaleclub',
-    image: './br-club-bg.jpg',
+    image: battleRoyale,
     socialMedia: {
       discord: 'https://discord.gg/RcWJVDk8Rd',
     },
@@ -125,7 +142,7 @@ export const clubs = [
   {
     name: 'Rainbow Six Siege',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rainbowsixsiege',
-    image: './r6-club-bg.jpg',
+    image: rainbowsix,
     socialMedia: {
       discord: 'https://discord.com/invite/wPgemuugUN',
     },
