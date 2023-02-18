@@ -2,7 +2,6 @@ import React from 'react'
 import ScrollContainer from 'react-indiana-drag-scroll'
 import styles from '../styles/meet-our-clubs.module.css'
 import { clubs } from '../data/clubs-info'
-import Image from 'next/image'
 
 function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) {
   return (
