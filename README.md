@@ -1,6 +1,6 @@
 # Rutgers Esports Club Website
 
-<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="prs: welcome"> <img src="https://img.shields.io/github/license/rutgersesports/rutgersesports.github.io" alt="license"/> <img src="https://img.shields.io/github/actions/workflow/status/rutgersesports/rutgersesports.github.io/prettier.yml?label=lint status" alt="lint status"/> <img src="https://img.shields.io/github/deployments/rutgersesports/rutgersesports.club/github-pages?label=deployment%20status" alt="deployment status"> <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="code style: prettier"/>
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="prs: welcome"> <img src="https://img.shields.io/github/license/rutgersesports/rutgersesports.club" alt="license"/> <img src="https://img.shields.io/github/actions/workflow/status/rutgersesports/rutgersesports.club/prettier.yml?label=lint status" alt="lint status"/> <img src="https://img.shields.io/github/deployments/rutgersesports/rutgersesports.club/github-pages?label=deployment%20status" alt="deployment status"> <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="code style: prettier"/>
 
 ## About
 
@@ -21,7 +21,7 @@ Pull requests from outside the core development team are welcome, check out the
 [good-first-issues](https://github.com/rutgersesports/rutgersesports.club/labels/good%20first%20issue)
 tag.\
 Before you create a pull request, please create an issue using our
-[issue tracker](https://github.com/rutgersesports/rutgersesports.github.io/issues)
+[issue tracker](https://github.com/rutgersesports/rutgersesports.club/issues)
 to avoid any work efforts being lost.
 
 ### How to Write an Effective Issue
