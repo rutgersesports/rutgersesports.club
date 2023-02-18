@@ -1,5 +1,14 @@
 import React from 'react'
 import styles from '../styles/footer.module.css'
+import discordIcon from '../icons/discord.svg'
+import facebookIcon from '../icons/facebook.svg'
+import instagramIcon from '../icons/instagram.svg'
+import twitchIcon from '../icons/twitch.svg'
+import twitterIcon from '../icons/twitter.svg'
+import linkedinIcon from '../icons/linkedin.svg'
+import githubIcon from '../icons/github.svg'
+import youtubeIcon from '../icons/youtube.svg'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -10,7 +19,7 @@ export default function Footer() {
             <h3>Rutgers Esports</h3>
             Rutgers Esports is a student-run collegiate esports organization at Rutgers University - New Brunswick. We
             have no affiliation with the Esports Center located on Busch Campus; for all Esports Center inquiries,
-            please visit esports.rutgers.edu.
+            please visit <a href="https://esports.rutgers.edu">esports.rutgers.edu</a>.
           </div>
           <div className={styles['footer-col']}>
             <h3>Relative Links</h3>
@@ -25,30 +34,30 @@ export default function Footer() {
                 <a href="/apply">Volunteer Positions</a>
               </li>
             </ul>
-            <div className={styles['socials']}>
+            <div className="socials">
               <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/rutgersesports">
-                <i className="fab fa-discord social-icon fa-xl"></i>
+                <Image src={discordIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/RutgersEsports">
-                <i className="fab fa-twitter social-icon fa-xl"></i>
+                <Image src={twitterIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/rutgersesports">
-                <i className="fab fa-instagram social-icon fa-xl"></i>
+                <Image src={instagramIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/rutgersesports">
-                <i className="fab fa-youtube social-icon fa-xl"></i>
+                <Image src={youtubeIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/rutgersesports">
-                <i className="fab fa-twitch social-icon fa-xl"></i>
+                <Image src={twitchIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/rutgersesports">
-                <i className="fab fa-facebook social-icon fa-xl"></i>
+                <Image src={facebookIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/rutgers-esports">
-                <i className="fab fa-linkedin social-icon fa-xl"></i>
+                <Image src={linkedinIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/rutgersesports">
-                <i className="fab fa-github social-icon fa-xl"></i>
+                <Image src={githubIcon} className={styles['social-icon']} alt="social-icon" />
               </a>
             </div>
           </div>
