@@ -4,7 +4,7 @@
   justify-content: center;
   height: 700px;
   width: 100%;
-  background: url("../images/job-openings.jpg") no-repeat;
+  background: url('../images/job-openings.jpg') no-repeat;
   background-color: grey;
   background-blend-mode: multiply;
   background-size: 100% auto;

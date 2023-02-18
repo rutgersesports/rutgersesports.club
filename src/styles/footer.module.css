@@ -1,9 +1,18 @@
-a {
+.footer a {
   text-decoration: none;
   color: #e8e8e8;
 }
 
-a:hover {
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-end a {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+
+.footer-end a:hover {
   text-decoration: underline;
 }
 
@@ -38,18 +47,18 @@ a:hover {
   margin: 0;
 }
 
-.socials i {
-  padding: 0px 5px;
+.social-icon {
+  filter: invert(85%);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  width: 25px;
+  padding: 5px;
 }
 
-.socials {
-  padding-left: 0;
-  padding-bottom: 15px;
-  padding-top: 8px;
-}
-
-.socials i:hover {
-  color: #fff;
+.social-icon:hover {
+  filter: invert(100%);
 }
 
 .footer-end {
