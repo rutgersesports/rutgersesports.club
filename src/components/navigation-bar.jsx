@@ -11,6 +11,23 @@ export default function NavigationBar() {
           <Image src={rutgersEsportsLogo} alt="Rutgers Esports Logo" />
         </a>
       </div>
+      <ul>
+        <li>
+          <div className={styles['route']}>
+            <a href="/">Home</a>
+          </div>
+        </li>
+        <li>
+          <div className={styles['route']}>
+            <a href="/apply">Join Us</a>
+          </div>
+        </li>
+        <li>
+          <div className={styles['route']}>
+            <a href="/merch">Merch</a>
+          </div>
+        </li>
+      </ul>
     </div>
   )
 }
