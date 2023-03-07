@@ -1,11 +1,12 @@
 import React from 'react'
+import Link from 'next/link'
 import ScrollContainer from 'react-indiana-drag-scroll'
 import styles from '../styles/meet-our-clubs.module.css'
 import { clubs } from '../data/clubs-info'
 
 function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) {
   return (
-    <a style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" href={socialMedia.discord}>
+    <Link style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" href={socialMedia.discord}>
       <div
         className={styles['club']}
         style={{
@@ -18,7 +19,7 @@ function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) 
           <h2>{name}</h2>
         </div>
       </div>
-    </a>
+    </Link>
   )
 }
 

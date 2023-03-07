@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import rutgersEsportsLogo from '../images/rutgersesports-logo.png'
 import styles from '../styles/navigation-bar.module.css'
 import Image from 'next/image'
@@ -7,24 +8,24 @@ export default function NavigationBar() {
   return (
     <div className={styles['nav']}>
       <div className={styles['esports-logo']}>
-        <a href="/">
+        <Link href="/">
           <Image src={rutgersEsportsLogo} alt="Rutgers Esports Logo" />
-        </a>
+        </Link>
       </div>
       <ul>
         <li>
           <div className={styles['route']}>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </div>
         </li>
         <li>
           <div className={styles['route']}>
-            <a href="/apply">Join Us</a>
+            <Link href="/apply">Join Us</Link>
           </div>
         </li>
         <li>
           <div className={styles['route']}>
-            <a href="/merch">Merch</a>
+            <Link href="/merch">Merch</Link>
           </div>
         </li>
       </ul>

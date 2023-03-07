@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/job-openings.module.css'
 import { jobs } from '../data/jobs-info'
 
@@ -10,7 +11,7 @@ export default function JobOpenings() {
       <h2>Rutgers Esports Executive Board Officer Recruitment Portal</h2>
       <p>
         Ready to join the Rutgers Esports Executive Board? Explore our openings below! To apply for a role not listed,
-        apply <a href="https://forms.gle/gKMwAqwSxq7u9Zbj8">here</a>.
+        apply <Link href="https://forms.gle/gKMwAqwSxq7u9Zbj8">here</Link>.
       </p>
       <table className={styles['job-openings-list']}>
         <tbody>
@@ -28,9 +29,9 @@ export default function JobOpenings() {
                     <p>{data.teamName}</p>
                   </th>
                   <th scope="col" className={styles['col']}>
-                    <a href={data.form}>
+                    <Link href={data.form}>
                       <div className={styles['info-button']}>Learn more</div>
-                    </a>
+                    </Link>
                   </th>
                 </tr>
               )
