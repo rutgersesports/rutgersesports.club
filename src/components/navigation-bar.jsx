@@ -20,12 +20,7 @@ export default function NavigationBar() {
         </li>
         <li>
           <div className={styles['route']}>
-            <Link href="/apply">Join Us</Link>
-          </div>
-        </li>
-        <li>
-          <div className={styles['route']}>
-            <Link href="/merch">Merch</Link>
+            <Link href="/apply">Apply</Link>
           </div>
         </li>
       </ul>
