@@ -66,7 +66,7 @@ export default function Footer() {
       </div>
       <div className={styles['footer-end']}>
         Original Website Built & Designed by{' '}
-        <Link target="_blank" rel="noopener noreferrer" href="https://github.com/novialriptide">
+        <Link target="_blank" rel="noopener noreferrer" href="https://go.rutgers.edu/andrewhong">
           Andrew Hong
         </Link>
         <br />
