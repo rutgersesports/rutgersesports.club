@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/about-ourselves.module.css'
-import jonnyholloway from '../images/jonnyholloway.jpg'
+import theclub from '../images/the-club.jpg'
 import community1 from '../images/community1.jpg'
 import community2 from '../images/community2.jpg'
 import community3 from '../images/community3.jpg'
@@ -12,11 +12,7 @@ export default function AboutOurselves() {
     <div className={styles['about-ourselves']}>
       <h1>About Ourselves</h1>
       <div className={styles['community-image-grid']}>
-        <Image
-          className={`${styles['community-img']} ${styles['community-img--1']}`}
-          src={jonnyholloway}
-          alt="community"
-        />
+        <Image className={`${styles['community-img']} ${styles['community-img--1']}`} src={theclub} alt="community" />
         <Image className={styles['community-img']} src={community1} alt="community" />
         <Image className={styles['community-img']} src={community2} alt="community" />
         <Image className={styles['community-img']} src={community3} alt="community" />
