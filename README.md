@@ -4,10 +4,6 @@
 
 ## About
 
-This website was designed, built, and deployed by
-[Andrew Hong](https://github.com/novialriptide) (Class of 2026) using [NextJS](https://nextjs.org/)
-[ReactJS](https://reactjs.org/), [JavaScript](https://www.javascript.com/), [TypeScript](https://www.typescriptlang.org/)
-
 The current maintainer of this website is
 [Andrew Hong](https://github.com/novialriptide).
 
