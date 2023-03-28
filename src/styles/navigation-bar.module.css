@@ -1,6 +1,7 @@
 /*
 This entire file has been taken from the Pygame: Community Edition's
-website landing page. <https://github.com/pygame-community/pyga.me>
+website landing page and has been modified to fit Rutgers Esports's
+needs. <https://github.com/pygame-community/pyga.me>
 
 The code that was taken from the project was also written by the same
 code owner.
