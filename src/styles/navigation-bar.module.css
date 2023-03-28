@@ -1,13 +1,8 @@
 .nav {
   display: flex;
   background-color: #a51f1f;
-  height: 15vh;
   padding: 0 125px;
-  justify-content: space-between;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  align-items: center;
 }
 
 .nav ul {
@@ -21,10 +16,8 @@
 .nav .route a {
   font-weight: 800;
   font-size: 2.3rem;
-  font-style: italic;
   color: white;
   text-transform: uppercase;
-  filter: drop-shadow(0 0.4rem 0 #781616);
   text-decoration: none;
   display: flex;
   padding: 4px;
@@ -38,8 +31,17 @@
 }
 
 .esports-logo img {
-  height: 25vh;
-  width: 25vh;
+  height: 125px;
+  width: 125px;
+}
+
+.mobile-menu-icon {
+  filter: invert(1);
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -51,9 +53,24 @@
     display: none;
   }
 
+  .mobile-menu-icon {
+    display: block;
+    padding: 16px;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
   .nav ul {
+    padding-left: 0;
+    margin-left: 0;
     display: block;
     font-size: 0.5rem;
     list-style: none;
+  }
+
+  .menu {
+    text-align: left;
   }
 }
