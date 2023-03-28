@@ -1,76 +1,82 @@
+/*
+This entire file has been taken from the Pygame: Community Edition's
+website landing page. <https://github.com/pygame-community/pyga.me>
+
+The code that was taken from the project was also written by the same
+code owner.
+*/
+
 .nav {
   display: flex;
+  color: white;
   background-color: #a51f1f;
-  padding: 0 125px;
+  justify-content: space-between;
+  padding: 0 75px;
   align-items: center;
+}
+
+.logo {
+  width: 108px;
+  height: 108px;
+}
+
+.mobilemenuicon {
+  filter: invert(1);
+  display: none;
 }
 
 .nav ul {
+  padding-left: 0;
   display: flex;
-  font-size: 1.05rem;
+  font-weight: 800;
+  font-size: 1.5rem;
   list-style: none;
   gap: 16px;
-  align-items: center;
 }
 
-.nav .route a {
-  font-weight: 800;
-  font-size: 2.3rem;
+.nav a {
   color: white;
-  text-transform: uppercase;
   text-decoration: none;
   display: flex;
+  align-items: center;
   padding: 4px;
   opacity: 1;
   transition: 500ms;
 }
 
 .nav a:hover {
-  transform: translate3d(0px, -4px, 0px);
   color: #dedede;
 }
 
-.esports-logo img {
-  height: 125px;
-  width: 125px;
+.mobileroutes a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
 }
 
-.mobile-menu-icon {
-  filter: invert(1);
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-@media only screen and (max-width: 1000px) {
-  .nav {
-    padding: 0 50px;
-  }
-
-  .nav .esports-logo {
+/* Ultra Small
+-----------------------*/
+@media only screen and (max-width: 600px) {
+  .logo {
     display: none;
   }
 
-  .mobile-menu-icon {
+  .nav {
+    text-align: left;
     display: block;
-    padding: 16px;
+    justify-content: baseline;
+    padding: 35px 35px;
   }
 
-  .mobile-menu {
+  .nav .mobilemenuicon {
     display: block;
   }
 
   .nav ul {
-    padding-left: 0;
-    margin-left: 0;
     display: block;
-    font-size: 0.5rem;
-    list-style: none;
   }
 
-  .menu {
-    text-align: left;
+  .nav .routes {
+    display: none;
   }
 }
