@@ -2,11 +2,6 @@
 
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="prs: welcome"> <img src="https://img.shields.io/github/license/rutgersesports/rutgersesports.club" alt="license"/> <img src="https://img.shields.io/github/actions/workflow/status/rutgersesports/rutgersesports.club/prettier.yml?label=lint status" alt="lint status"/> <img src="https://img.shields.io/github/deployments/rutgersesports/rutgersesports.club/github-pages?label=deployment%20status" alt="deployment status"> <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="code style: prettier"/>
 
-## About
-
-The current maintainer of this website is
-[Andrew Hong](https://github.com/novialriptide).
-
 ## Deploying the Website via GitHub Pages
 
 There should be a GitHub Actions workflow to automate the process.
