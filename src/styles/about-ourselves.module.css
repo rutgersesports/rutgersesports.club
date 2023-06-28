@@ -54,3 +54,9 @@
     color: #a51f1f;
   }
 }
+
+@media (max-width: 874px) {
+  .about-ourselves-desc {
+    display: block;
+  }
+}
