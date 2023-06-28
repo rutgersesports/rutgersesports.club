@@ -6,6 +6,7 @@ import AboutOurselves from '../components/about-ourselves'
 import MeetOurClubs from '../components/meet-our-clubs'
 import Footer from '../components/footer'
 import Head from 'next/head'
+import ContactUs from '@/components/contact-us'
 
 export default function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default function HomePage() {
         <Hero />
         <AboutOurselves />
         <MeetOurClubs />
+        <ContactUs />
         <Footer />
       </main>
     </>
