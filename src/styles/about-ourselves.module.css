@@ -9,6 +9,7 @@
   margin: auto;
   align-items: center;
   max-width: 60vw;
+  padding: 30px;
   justify-content: space-between;
   column-gap: 5vw;
   align-items: flex-start;
@@ -28,8 +29,8 @@
 
 .community-image-grid {
   display: grid;
+  grid-template-rows: 80px 200px;
   line-height: 0;
-  padding-bottom: 30px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 2fr);
 }
