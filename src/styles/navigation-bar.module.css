@@ -17,8 +17,14 @@ code owner.
 }
 
 .logo {
-  width: 108px;
-  height: 108px;
+  width: 86px;
+  height: 86px;
+}
+
+.logo-name {
+  padding-left: 10px;
+  font-weight: 800;
+  font-size: 1.8rem;
 }
 
 .mobilemenuicon {
