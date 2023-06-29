@@ -25,14 +25,14 @@
 .desc-col {
   padding: 25px;
   width: 400px;
-  height: 230px;
+  height: 200px;
   text-align: center;
   background-color: #fafafa;
   border-radius: 10px;
 }
 
 .desc-col-content {
-  height: 120px;
+  height: 100px;
 }
 
 .info-button {
@@ -63,5 +63,16 @@
     text-transform: uppercase;
     font-size: 50px;
     color: #a51f1f;
+  }
+}
+
+@media (max-width: 950px) {
+  .contact-us-desc {
+    display: block;
+  }
+
+  .desc-col {
+    width: auto;
+    margin: 25px;
   }
 }
