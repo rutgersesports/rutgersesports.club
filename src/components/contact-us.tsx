@@ -9,17 +9,17 @@ export default function ContactUs() {
       <div className={styles['contact-us-desc']}>
         <div className={styles['desc-col']}>
           <div className={styles['desc-col-content']}>
-            <h2>Sponsors</h2>
+            <h2>Partners</h2>
             <p>Interested in sponsoring or partnering with Rutgers Esports?</p>
           </div>
           <Link href="mailto: partnerships.rutgersesports@gmail.com">
-            <div className={styles['info-button']}>Contact Sponsors</div>
+            <div className={styles['info-button']}>Contact Partnerships</div>
           </Link>
         </div>
         <div className={styles['desc-col']}>
           <div className={styles['desc-col-content']}>
             <h2>Events</h2>
-            <p>Apply to become an artist alley manager or help manage an event at Rutgers Esports.</p>
+            <p>Questions about events or artists alley at Rutgers Esports.</p>
           </div>
 
           <Link href="mailto: rutgersesports@gmail.com">
