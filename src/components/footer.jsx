@@ -9,6 +9,7 @@ import twitterIcon from '../icons/twitter.svg'
 import linkedinIcon from '../icons/linkedin.svg'
 import githubIcon from '../icons/github.svg'
 import youtubeIcon from '../icons/youtube.svg'
+import tiktokIcon from '../icons/tiktok.svg'
 import Image from 'next/image'
 
 export default function Footer() {
@@ -44,6 +45,9 @@ export default function Footer() {
               </Link>
               <Link target="_blank" rel="noopener noreferrer" href="https://instagram.com/rutgersesports">
                 <Image src={instagramIcon} className={styles['social-icon']} alt="social-icon" />
+              </Link>
+              <Link target="_blank" rel="noopener noreferrer" href="https://tiktok.com/@rutgersesports">
+                <Image src={tiktokIcon} className={styles['social-icon']} alt="social-icon" />
               </Link>
               <Link target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/rutgersesports">
                 <Image src={youtubeIcon} className={styles['social-icon']} alt="social-icon" />
