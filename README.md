@@ -6,31 +6,7 @@
 
 There should be a GitHub Actions workflow to automate the process.
 
-## Contributing
-
-Pull requests from outside the core development team are welcome, check out the
-[good-first-issues](https://github.com/rutgersesports/rutgersesports.club/labels/good%20first%20issue)
-tag.\
-Before you create a pull request, please create an issue using our
-[issue tracker](https://github.com/rutgersesports/rutgersesports.club/issues)
-to avoid any work efforts being lost.
-
-### How to Write an Effective Issue
-
-1. Use a clear and descriptive title an enhancement request
-2. Include screenshots or GIFs if your issue is related to a rendering issue
-3. Explain why your enhancement would be useful to the website itself
-
-### Limitations to Outside Contributors
-
-We welcome all outside contributors to help out on building our website, but there are
-some limitations if you are not a core member of the development team.
-
-1. Your pull request must have a low impact
-2. You cannot make a complete redesign of a website page
-3. New design choices are decided by the core development team
-
-### Instructions to Build
+## Build Instructions
 
 1. Install [NodeJS](https://nodejs.org)
 2. Install the [Git CLI](https://git-scm.com/downloads)\
