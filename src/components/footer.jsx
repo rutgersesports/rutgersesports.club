@@ -40,11 +40,11 @@ export default function Footer() {
               <Link target="_blank" rel="noopener noreferrer" href="https://discord.gg/rutgersesports">
                 <Image src={discordIcon} className={styles['social-icon']} alt="social-icon" />
               </Link>
-              <Link target="_blank" rel="noopener noreferrer" href="https://twitter.com/RutgersEsports">
-                <Image src={twitterIcon} className={styles['social-icon']} alt="social-icon" />
-              </Link>
               <Link target="_blank" rel="noopener noreferrer" href="https://instagram.com/rutgersesports">
                 <Image src={instagramIcon} className={styles['social-icon']} alt="social-icon" />
+              </Link>
+              <Link target="_blank" rel="noopener noreferrer" href="https://twitter.com/RutgersEsports">
+                <Image src={twitterIcon} className={styles['social-icon']} alt="social-icon" />
               </Link>
               <Link target="_blank" rel="noopener noreferrer" href="https://tiktok.com/@rutgersesports">
                 <Image src={tiktokIcon} className={styles['social-icon']} alt="social-icon" />
