@@ -7,14 +7,20 @@ export type Job = {
 
 export const jobs: Array<Job> = [
   {
+    teamName: 'Partnership',
+    desc: 'Network with big Esports industry members and cultivate sponsorships and partnerships',
+    form: 'https://forms.gle/iCiqTvGrmWM8hiGZ9',
+    hidden: false,
+  },
+  {
     teamName: 'Graphic Design',
-    desc: 'Create visual content for promotion and the club in general',
+    desc: 'Create visual content for social media promotions and stream layouts',
     form: 'https://forms.gle/HnptTQcEN5RP2WhQ7',
     hidden: false,
   },
   {
     teamName: 'Media Production',
-    desc: 'Capture moments at events hosted by the club',
+    desc: 'Script, film trailers and capture moments at events hosted by the club',
     form: 'https://forms.gle/8raPQ4AtPxrLfmju8',
     hidden: false,
   },
@@ -31,20 +37,14 @@ export const jobs: Array<Job> = [
     hidden: true,
   },
   {
-    teamName: 'Partnership',
-    desc: 'Help cultivate and maintain relationships between the club and partners',
-    form: 'https://forms.gle/iCiqTvGrmWM8hiGZ9',
-    hidden: false,
-  },
-  {
     teamName: 'Human Resources',
-    desc: 'Perform internal affairs such as scheduling major events',
+    desc: 'Perform internal affairs such as conducting interviews and scheduling major events',
     form: 'https://forms.gle/LRpPzXgMrT8aCZcR6',
     hidden: false,
   },
   {
     teamName: 'Social Media',
-    desc: 'Expand our brand online such as Twitter, Facebook, Discord, etc',
+    desc: 'Expand our brand online on our major platforms (Twitter, instagram, Discord, etc)',
     form: 'https://forms.gle/8TKkaTs7bNgZ8p5A8',
     hidden: false,
   },
