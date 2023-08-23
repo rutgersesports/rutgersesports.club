@@ -44,7 +44,7 @@ export const jobs: Array<Job> = [
   },
   {
     teamName: 'Social Media',
-    desc: 'Expand our brand online on our major platforms (Twitter, instagram, Discord, etc)',
+    desc: 'Expand our brand online on our major platforms (Twitter, Instagram, Discord, etc)',
     form: 'https://forms.gle/8TKkaTs7bNgZ8p5A8',
     hidden: false,
   },
