@@ -21,7 +21,7 @@ export default function Footer() {
             <h3>Rutgers Esports</h3>
             Rutgers Esports is a student-run collegiate esports organization at Rutgers University - New Brunswick. We
             have no affiliation with the Esports Center located on Busch Campus; for all Esports Center inquiries,
-            please visit <Link href="https://sca.rutgers.edu/student-centers/esports-center">esports.rutgers.edu</Link>.
+            please <Link href="https://sca.rutgers.edu/student-centers/esports-center">click here</Link>.
           </div>
           <div className={styles['footer-col']}>
             <h3>Relative Links</h3>
