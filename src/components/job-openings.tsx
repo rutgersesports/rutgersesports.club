@@ -4,17 +4,19 @@ import styles from '../styles/job-openings.module.css'
 import { Job, jobs } from '../data/jobs-info'
 
 interface IDepartmentRow {
-  teamName: string,
-  desc: string,
-  form: string,
-  row: number,
+  teamName: string
+  desc: string
+  form: string
+  row: number
 }
 
 function DepartmentRow(props: IDepartmentRow) {
   return (
     <tr className={styles['job']} key={props.row}>
       <th scope="col" className={styles['col']}>
-        <p><strong>{props.teamName}</strong></p>
+        <p>
+          <strong>{props.teamName}</strong>
+        </p>
         <p>{props.desc}</p>
       </th>
       <th scope="col" className={styles['col']}>
@@ -22,12 +24,13 @@ function DepartmentRow(props: IDepartmentRow) {
           <div className={styles['info-button']}>Apply</div>
         </Link>
       </th>
-    </tr>)
+    </tr>
+  )
 }
 
 export default function JobOpenings() {
   var row: number = 0
-  
+
   function filterHidden(value: Job) {
     return !value.hidden
   }
@@ -42,8 +45,8 @@ export default function JobOpenings() {
       <table className={styles['job-openings-list']}>
         <tbody>
           {jobs.filter(filterHidden).map((child, i) => {
-            row += 1;
-            return <DepartmentRow teamName={child.teamName} desc={child.desc} form={child.form} row={row} key={i}/>
+            row += 1
+            return <DepartmentRow teamName={child.teamName} desc={child.desc} form={child.form} row={row} key={i} />
           })}
         </tbody>
       </table>
