@@ -13,14 +13,14 @@ interface IDepartmentRow {
 function DepartmentRow(props: IDepartmentRow) {
   return (
     <tr className={styles['job']} key={props.row}>
-      <th scope="col" className={styles['col']}>
-        <p>
+      <th>
+        <p style={{marginLeft: '5vw'}}>
           <strong>{props.teamName}</strong>
         </p>
-        <p>{props.desc}</p>
+        <p style={{marginLeft: '5vw'}}>{props.desc}</p>
       </th>
-      <th scope="col" className={styles['col']}>
-        <Link href={props.form}>
+      <th>
+        <Link href={props.form} style={{marginRight: '5vw'}}>
           <div className={styles['info-button']}>Apply</div>
         </Link>
       </th>
