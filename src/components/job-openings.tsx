@@ -19,7 +19,7 @@ function DepartmentRow(props: IDepartmentRow) {
       </th>
       <th scope="col" className={styles['col']}>
         <Link href={props.form}>
-          <div className={styles['info-button']}>Learn more</div>
+          <div className={styles['info-button']}>Apply</div>
         </Link>
       </th>
     </tr>)
