@@ -8,7 +8,7 @@ export type Job = {
 export const jobs: Array<Job> = [
   {
     teamName: 'Partnership',
-    desc: 'Network with big Esports industry members and cultivate sponsorships and partnerships',
+    desc: 'Network with big esporst industry members and cultivate sponsorships and partnerships',
     form: 'https://forms.gle/iCiqTvGrmWM8hiGZ9',
     hidden: false,
   },
