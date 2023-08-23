@@ -35,7 +35,7 @@ export default function JobOpenings() {
                   </th>
                 </tr>
               )
-            })
+            }),
           )}
         </tbody>
       </table>
