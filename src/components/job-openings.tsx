@@ -3,6 +3,28 @@ import Link from 'next/link'
 import styles from '../styles/job-openings.module.css'
 import { jobs } from '../data/jobs-info'
 
+interface IDepartmentRow {
+  teamName: string,
+  form: string,
+  row: number,
+}
+
+function DepartmentRow(props: IDepartmentRow) {
+  return (
+    <tr className={styles['job']} key={props.row}>
+      <th scope="col" className={styles['col']}>
+        <p>
+          <strong>{props.teamName}</strong>
+        </p>
+      </th>
+      <th scope="col" className={styles['col']}>
+        <Link href={props.form}>
+          <div className={styles['info-button']}>Learn more</div>
+        </Link>
+      </th>
+    </tr>)
+}
+
 export default function JobOpenings() {
   var row: number = 0
 
@@ -15,28 +37,10 @@ export default function JobOpenings() {
       </p>
       <table className={styles['job-openings-list']}>
         <tbody>
-          {jobs.map((data, key) =>
-            data.roles.map((roleData, _) => {
-              row += 1
-              return (
-                <tr className={styles['job']} key={row}>
-                  <th scope="col" className={styles['col']}>
-                    <p>
-                      <strong>{roleData.name}</strong>
-                    </p>
-                  </th>
-                  <th scope="col" className={styles['col']}>
-                    <p>{data.teamName}</p>
-                  </th>
-                  <th scope="col" className={styles['col']}>
-                    <Link href={data.form}>
-                      <div className={styles['info-button']}>Learn more</div>
-                    </Link>
-                  </th>
-                </tr>
-              )
-            }),
-          )}
+          {jobs.map((child, i) => {
+            row += 1;
+            return <DepartmentRow teamName={child.teamName} form={child.form} row={row} key={i}/>
+          })}
         </tbody>
       </table>
     </div>
