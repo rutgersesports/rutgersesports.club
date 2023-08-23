@@ -14,13 +14,13 @@ function DepartmentRow(props: IDepartmentRow) {
   return (
     <tr className={styles['job']} key={props.row}>
       <th>
-        <p style={{marginLeft: '5vw', marginBottom: '2px'}}>
+        <p style={{ marginLeft: '5vw', marginBottom: '2px' }}>
           <strong>{props.teamName}</strong>
         </p>
-        <p style={{marginLeft: '5vw', marginTop: '2px'}}>{props.desc}</p>
+        <p style={{ marginLeft: '5vw', marginTop: '2px' }}>{props.desc}</p>
       </th>
       <th>
-        <Link href={props.form} style={{marginRight: '5vw'}}>
+        <Link href={props.form} style={{ marginRight: '5vw' }}>
           <div className={styles['info-button']}>Apply</div>
         </Link>
       </th>
