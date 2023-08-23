@@ -9,9 +9,7 @@ There should be a GitHub Actions workflow to automate the process.
 ## Build Instructions
 
 1. Install [NodeJS](https://nodejs.org)
-2. Install the [Git CLI](https://git-scm.com/downloads)\
-   You can also install [GitHub Desktop](https://desktop.github.com/) for a user interface
-   (optional)
+2. Install the [Git CLI](https://git-scm.com/downloads)
 3. Run `npm install` to install all dependencies
 4. Run `npm run dev` to create a local server to start contributing!
 
