@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/home-page.module.css'
+import styles from '../styles/base.module.css'
 import NavigationBar from '../components/navigation-bar'
 import Hero from '../components/hero'
 import AboutOurselves from '../components/about-ourselves'
@@ -20,7 +20,7 @@ export default function HomePage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles['HomePage']}>
+      <main className={styles['base']}>
         <NavigationBar />
         <Hero />
         <AboutOurselves />
