@@ -10,7 +10,7 @@ export default function Apply() {
         <NavigationBar />
         <div style={{ height: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <div style={{ textAlign: 'center' }}>
-            <p style={{ fontSize: '5rem', fontWeight: 'bold', margin: '0' }}>Erm.</p>
+            <p style={{ fontSize: '5rem', fontWeight: 'bold', margin: '0', color: '#a51f1f' }}>Erm.</p>
             <p style={{ margin: '0' }}>The page you&apos;re looking for is not found.</p>
           </div>
         </div>
