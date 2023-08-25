@@ -34,6 +34,12 @@ enum AcademicStudy {
   ElectricalEngineering = 'Electrical Engineering',
   ArtHistory = 'ArtHistory',
   AerospaceEngineering = 'Aerospace Engineering',
+  CommunicationsMediaStudies = 'Communication and Media Studies',
+  History = 'History',
+  PackagingEngineering = 'Packaging Engineering',
+  EngineeringPhysics = 'Engineering Physics',
+  AppliedPhysics = 'Applied Physics',
+  SupplyChainManagement = 'Supply Chain Management',
 }
 
 /*
@@ -253,6 +259,11 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.DirectorTechnology,
+        startYear: 2023,
+        endYear: 2024,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorTechnology,
         startYear: 2022,
         endYear: 2023,
       },
@@ -321,6 +332,11 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.VicePresident,
         startYear: 2020,
         endYear: 2021,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2019,
+        endYear: 2020,
       },
     ],
   },
@@ -518,6 +534,220 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.OfficerBroadcasting,
         startYear: 2022,
         endYear: 2023,
+      },
+    ],
+  },
+  {
+    firstName: 'Thomas',
+    lastName: 'Palka',
+    majors: [AcademicStudy.CommunicationsMediaStudies],
+    minors: [],
+    graduationYear: 2020,
+    positions: [
+      {
+        titleName: ClubPositionTitle.President,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.President,
+        startYear: 2019,
+        endYear: 2020,
+      },
+    ],
+  },
+  {
+    firstName: 'Kyle',
+    lastName: 'Frick',
+    majors: [AcademicStudy.ComputerScience],
+    minors: [],
+    graduationYear: 2019,
+    positions: [
+      {
+        titleName: ClubPositionTitle.VicePresident,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.VicePresident,
+        startYear: 2019,
+        endYear: 2020,
+      },
+    ],
+  },
+  {
+    firstName: 'Louie',
+    lastName: 'Zhou',
+    majors: [AcademicStudy.ComputerScience],
+    minors: [],
+    graduationYear: 2019,
+    positions: [
+      {
+        titleName: ClubPositionTitle.Treasurer,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.Treasurer,
+        startYear: 2019,
+        endYear: 2020,
+      },
+    ],
+  },
+  {
+    firstName: 'Sebastian',
+    lastName: 'Romero',
+    majors: [AcademicStudy.HumanResources],
+    minors: [AcademicStudy.Psychology, AcademicStudy.History],
+    graduationYear: 2020,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorHumanResources,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorHumanResources,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.VicePresident,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.VicePresident,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Jacob',
+    lastName: 'Moffatt',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.VicePresident,
+        startYear: 2017,
+        endYear: 2018,
+      },
+    ],
+  },
+  {
+    firstName: 'Timothy',
+    lastName: 'Waldron',
+    majors: [AcademicStudy.PackagingEngineering, AcademicStudy.Marketing],
+    minors: [],
+    graduationYear: 2020,
+    positions: [
+      {
+        titleName: ClubPositionTitle.Treasurer,
+        startYear: 2017,
+        endYear: 2018,
+      },
+    ],
+  },
+  {
+    firstName: 'Diego',
+    lastName: 'Corea',
+    majors: [AcademicStudy.ITI],
+    minors: [],
+    graduationYear: 2019,
+    positions: [
+      {
+        titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2016,
+        endYear: 2017,
+      },
+      {
+        titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2016,
+        endYear: 2017,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Alice',
+    lastName: 'Balashova',
+    majors: [],
+    minors: [],
+    graduationYear: 2019,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorSocialMedia,
+        startYear: 2017,
+        endYear: 2018,
+      },
+    ],
+  },
+  {
+    firstName: 'Aaron',
+    lastName: 'Landry',
+    majors: [AcademicStudy.EngineeringPhysics, AcademicStudy.AppliedPhysics],
+    minors: [],
+    graduationYear: 2019,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorTechnology,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.ManagerWebsite,
+        startYear: 2017,
+        endYear: 2018,
+      },
+    ],
+  },
+  {
+    firstName: 'David',
+    lastName: 'Chao',
+    majors: [AcademicStudy.SupplyChainManagement],
+    minors: [],
+    graduationYear: 2019,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorEvents,
+        startYear: 2017,
+        endYear: 2018,
+      },
+    ],
+  },
+  {
+    firstName: 'David',
+    lastName: 'Chao',
+    majors: [AcademicStudy.ElectricalEngineering, AcademicStudy.ComputerEngineering],
+    minors: [],
+    graduationYear: 2018,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2017,
+        endYear: 2018,
       },
     ],
   },
