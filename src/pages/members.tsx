@@ -97,8 +97,8 @@ export default function HomePage() {
         {Array(endYear - startYear)
           .fill('_')
           .map((_: number, i: number) => {
-            const currentYear: number = startYear + i
-            return <MemberRow startYear={currentYear} key={i} />
+            const currentYear: number = endYear - i
+            return <MemberRow startYear={currentYear - 1} key={i} />
           })}
         <Footer />
       </main>
