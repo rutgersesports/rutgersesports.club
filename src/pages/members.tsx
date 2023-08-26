@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles/base.module.css'
 import NavigationBar from '../components/navigation-bar'
 import Footer from '../components/footer'
-import defaultAvatar from '../images/members/eboard-default.jpg'
+import defaultAvatar from '../images/members/eboard-default.png'
 import { ClubPosition, ClubPositionTitle, Member, clubPositionOrder, members } from '@/data/members-info'
 import Image from 'next/image'
 
@@ -95,7 +95,7 @@ function MemberRow(props: IMemberRow) {
 
   return (
     <div>
-      <p style={{ fontSize: '2rem' }}>
+      <p style={{ fontSize: '2.15rem', fontWeight: 'bolder', textAlign: 'left', marginBottom: '0', color: '#a51f1f' }}>
         {props.startYear} - {props.startYear + 1}
       </p>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'left' }}>
@@ -115,12 +115,27 @@ export default function HomePage() {
     <>
       <main className={styles['base']}>
         <NavigationBar />
-        {Array(endYear - startYear)
-          .fill('_')
-          .map((_: number, i: number) => {
-            const currentYear: number = endYear - i
-            return <MemberRow startYear={currentYear - 1} key={i} />
-          })}
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{ width: '80%' }}>
+            <div>
+              <p style={{ fontWeight: 'bolder', fontSize: '2.6rem', marginBottom: '0', color: '#a51f1f' }}>
+                Rutgers Esports Executive Board & Alumni
+              </p>
+              <p>
+                Positions older than 2022 may not be accurate as there are no records of previous members stored other
+                than the wayback machine from the legacy website. Members might also not have correct titles due to
+                promotions or impeachment during the school year; only their final position title is shown. If you are
+                in this list and wish to be removed or edited, send us an email: ruesportshr@gmail.com
+              </p>
+              {Array(endYear - startYear)
+                .fill('_')
+                .map((_: number, i: number) => {
+                  const currentYear: number = endYear - i
+                  return <MemberRow startYear={currentYear - 1} key={i} />
+                })}
+            </div>
+          </div>
+        </div>
         <Footer />
       </main>
     </>

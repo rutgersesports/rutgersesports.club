@@ -290,12 +290,17 @@ export const members: Array<Member> = [
     lastName: 'Harper',
     majors: [AcademicStudy.Economics, AcademicStudy.ComputerScience],
     minors: [],
-    graduationYear: 2015,
+    graduationYear: 2025,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorCompetitiveManagement,
         startYear: 2022,
         endYear: 2023,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2023,
+        endYear: 2024,
       },
     ],
   },
@@ -942,6 +947,25 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.ManagerGraphics,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
+  },
+  {
+    firstName: 'Tyler',
+    lastName: 'Jackson',
+    majors: [],
+    minors: [],
+    graduationYear: 2025,
+    positions: [
+      {
+        titleName: ClubPositionTitle.ManagerPartnership,
+        startYear: 2022,
+        endYear: 2023,
+      },
+      {
+        titleName: ClubPositionTitle.ManagerPartnership,
         startYear: 2023,
         endYear: 2024,
       },
