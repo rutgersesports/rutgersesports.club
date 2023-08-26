@@ -73,6 +73,7 @@ export enum ClubPositionTitle {
   ManagerBroadcasting = 'Broadcasting Manager',
   OfficerBroadcasting = 'Broadcasting Officer',
   OfficerTechnology = 'Technology Officer',
+  OfficerSocialMedia = 'Social Media Officer',
 }
 
 export const clubPositionOrder = Object.values(ClubPositionTitle)
@@ -220,12 +221,12 @@ export const members: Array<Member> = [
     graduationYear: 2023,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorEvents,
+        titleName: ClubPositionTitle.DirectorBroadcasting,
         startYear: 2022,
         endYear: 2023,
       },
       {
-        titleName: ClubPositionTitle.DirectorBroadcasting,
+        titleName: ClubPositionTitle.DirectorEvents,
         startYear: 2021,
         endYear: 2022,
       },
@@ -872,7 +873,6 @@ export const members: Array<Member> = [
     ],
   },
   {
-    isFounder: true,
     firstName: 'Chloe',
     lastName: 'Wong',
     majors: [AcademicStudy.Marketing],
@@ -881,6 +881,67 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
+  },
+  {
+    firstName: 'Kassandra',
+    lastName: 'Martinez',
+    majors: [],
+    minors: [],
+    graduationYear: 2024,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2022,
+        endYear: 2023,
+      },
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
+  },
+  {
+    firstName: 'Riley',
+    lastName: 'Herrera',
+    majors: [],
+    minors: [],
+    graduationYear: 2024,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorHumanResources,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
+  },
+  {
+    firstName: 'Jay',
+    lastName: 'Kim',
+    majors: [],
+    minors: [],
+    graduationYear: 2022,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerSocialMedia,
+        startYear: 2022,
+        endYear: 2023,
+      },
+    ],
+  },
+  {
+    firstName: 'Byanne',
+    lastName: 'Tan',
+    majors: [],
+    minors: [],
+    graduationYear: 2025,
+    positions: [
+      {
+        titleName: ClubPositionTitle.ManagerGraphics,
         startYear: 2023,
         endYear: 2024,
       },
