@@ -2,7 +2,9 @@ import React from 'react'
 import styles from '../styles/base.module.css'
 import NavigationBar from '../components/navigation-bar'
 import Footer from '../components/footer'
+import defaultAvatar from '../images/members/eboard-default.jpg'
 import { ClubPosition, Member, members } from '@/data/members-info'
+import Image from 'next/image'
 
 type DisplayMember = {
   name: string
@@ -41,10 +43,24 @@ interface IMemberCard {
 
 function MemberCard(props: IMemberCard) {
   return (
-    <div>
-      <p>
-        {props.displayMember.name} - {props.displayMember.position}
-      </p>
+    <div
+      style={{
+        backgroundColor: '#fafafa',
+        margin: '5px',
+        padding: '10px',
+        width: '200px',
+        borderRadius: '10px',
+        height: '300px',
+      }}
+    >
+      <Image
+        src={defaultAvatar}
+        width={170}
+        alt={`Image of ${props.displayMember.name}`}
+        style={{ borderRadius: '10px' }}
+      />
+      <p style={{ marginBottom: '0', fontWeight: 'bold' }}>{props.displayMember.name}</p>
+      <p style={{ margin: '0' }}>{props.displayMember.position}</p>
     </div>
   )
 }
@@ -77,7 +93,7 @@ function MemberRow(props: IMemberRow) {
       <p style={{ fontSize: '2rem' }}>
         {props.startYear} - {props.startYear + 1}
       </p>
-      <div>
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {getMembersFromYear(props.startYear).map((displayMember: DisplayMember, i: number) => {
           return <MemberCard displayMember={displayMember} key={i} />
         })}
