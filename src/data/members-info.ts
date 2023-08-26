@@ -40,6 +40,7 @@ enum AcademicStudy {
   EngineeringPhysics = 'Engineering Physics',
   AppliedPhysics = 'Applied Physics',
   SupplyChainManagement = 'Supply Chain Management',
+  BusinessAdminManagement = 'Business Administration and Management',
 }
 
 /*
@@ -768,6 +769,20 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.OfficerTechnology,
         startYear: 2022,
         endYear: 2023,
+      },
+    ],
+  },
+  {
+    firstName: 'Jonah',
+    lastName: 'Wang',
+    majors: [AcademicStudy.BusinessAdminManagement],
+    minors: [],
+    graduationYear: 2021,
+    positions: [
+      {
+        titleName: ClubPositionTitle.President,
+        startYear: 2018,
+        endYear: 2019,
       },
     ],
   },
