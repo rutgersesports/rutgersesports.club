@@ -70,6 +70,7 @@ enum ClubPositionTitle {
   ManagerWebsite = 'Website Manager',
   ManagerBroadcasting = 'Broadcasting Manager',
   OfficerBroadcasting = 'Broadcasting Officer',
+  OfficerTechnology = 'Technology Officer',
 }
 
 export const members: Array<Member> = [
@@ -624,20 +625,6 @@ export const members: Array<Member> = [
     ],
   },
   {
-    firstName: 'Jacob',
-    lastName: 'Moffatt',
-    majors: [],
-    minors: [],
-    graduationYear: null,
-    positions: [
-      {
-        titleName: ClubPositionTitle.VicePresident,
-        startYear: 2017,
-        endYear: 2018,
-      },
-    ],
-  },
-  {
     firstName: 'Timothy',
     lastName: 'Waldron',
     majors: [AcademicStudy.PackagingEngineering, AcademicStudy.Marketing],
@@ -738,8 +725,8 @@ export const members: Array<Member> = [
     ],
   },
   {
-    firstName: 'David',
-    lastName: 'Chao',
+    firstName: 'Matthew',
+    lastName: 'Koutsoutis',
     majors: [AcademicStudy.ElectricalEngineering, AcademicStudy.ComputerEngineering],
     minors: [],
     graduationYear: 2018,
@@ -750,5 +737,56 @@ export const members: Array<Member> = [
         endYear: 2018,
       },
     ],
+  },
+  {
+    firstName: 'Daniela',
+    lastName: 'Buhain',
+    majors: [AcademicStudy.Marketing],
+    minors: [],
+    graduationYear: 2023,
+    positions: [
+      {
+        titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2021,
+        endYear: 2022,
+      },
+      {
+        titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2022,
+        endYear: 2023,
+      },
+    ],
+  },
+  {
+    firstName: 'Victoria',
+    lastName: 'Chen',
+    majors: [AcademicStudy.ComputerScience, AcademicStudy.ComputerEngineering],
+    minors: [],
+    graduationYear: 2024,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerTechnology,
+        startYear: 2022,
+        endYear: 2023,
+      },
+    ],
+  },
+  {
+    isHidden: true,
+    firstName: 'Gaurav',
+    lastName: 'Deshpande',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [],
+  },
+  {
+    isHidden: true,
+    firstName: 'Jacob',
+    lastName: 'Moffatt',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [],
   },
 ]
