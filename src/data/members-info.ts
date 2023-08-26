@@ -41,14 +41,15 @@ enum AcademicStudy {
   AppliedPhysics = 'Applied Physics',
   SupplyChainManagement = 'Supply Chain Management',
   BusinessAdminManagement = 'Business Administration and Management',
+  ExerciseScience = 'Exercise Science',
+  SportStudies = 'Sport Studies',
 }
 
 /*
 Associates are not meant to be in the timeline as their efforts were not recognized to
 become an officer or higher.
 */
-enum ClubPositionTitle {
-  Founder = 'Founder',
+export enum ClubPositionTitle {
   President = 'President',
   VicePresident = 'Vice President',
   Treasurer = 'Treasurer',
@@ -73,6 +74,8 @@ enum ClubPositionTitle {
   OfficerBroadcasting = 'Broadcasting Officer',
   OfficerTechnology = 'Technology Officer',
 }
+
+export const clubPositionOrder = Object.values(ClubPositionTitle)
 
 export const members: Array<Member> = [
   {
@@ -132,6 +135,11 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.DirectorVideoProduction,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.VicePresident,
         startYear: 2019,
         endYear: 2020,
       },
@@ -281,7 +289,7 @@ export const members: Array<Member> = [
     lastName: 'Harper',
     majors: [AcademicStudy.Economics, AcademicStudy.ComputerScience],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2015,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorCompetitiveManagement,
@@ -292,10 +300,10 @@ export const members: Array<Member> = [
   },
   {
     firstName: 'Aditya',
-    lastName: 'Grag',
+    lastName: 'Garg',
     majors: [AcademicStudy.Finance],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2023,
     positions: [
       {
         titleName: ClubPositionTitle.ManagerPartnership,
@@ -347,7 +355,7 @@ export const members: Array<Member> = [
     lastName: 'Sotimehin',
     majors: [AcademicStudy.PoliticalScience],
     minors: [AcademicStudy.CreativeWriting],
-    graduationYear: null,
+    graduationYear: 2022,
     positions: [
       {
         titleName: ClubPositionTitle.VicePresident,
@@ -361,7 +369,7 @@ export const members: Array<Member> = [
     lastName: 'Barrantes',
     majors: [AcademicStudy.ITI],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2024,
     positions: [
       {
         titleName: ClubPositionTitle.Secretary,
@@ -373,9 +381,9 @@ export const members: Array<Member> = [
   {
     firstName: 'Ahmed',
     lastName: 'Saqer',
-    majors: [],
+    majors: [AcademicStudy.ComputerScience, AcademicStudy.Economics],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2024,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorBroadcasting,
@@ -413,7 +421,7 @@ export const members: Array<Member> = [
     lastName: 'Bhatti',
     majors: [AcademicStudy.Marketing],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2024,
     positions: [
       {
         titleName: ClubPositionTitle.ManagerMediaProduction,
@@ -427,7 +435,7 @@ export const members: Array<Member> = [
     lastName: 'Wang',
     majors: [AcademicStudy.Finance],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2021,
     positions: [
       {
         titleName: ClubPositionTitle.Treasurer,
@@ -441,7 +449,7 @@ export const members: Array<Member> = [
     lastName: 'Chen',
     majors: [AcademicStudy.ComputerScience],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2021,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorGraphicDesign,
@@ -455,7 +463,7 @@ export const members: Array<Member> = [
     lastName: 'Park',
     majors: [AcademicStudy.ComputerScience, AcademicStudy.ElectricalEngineering],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2022,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorTechnology,
@@ -469,12 +477,27 @@ export const members: Array<Member> = [
     lastName: 'Lee',
     majors: [AcademicStudy.ComputerScience],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2021,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorVideoProduction,
         startYear: 2020,
         endYear: 2021,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorVideoProduction,
+        startYear: 2019,
+        endYear: 2020,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorVideoProduction,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorVideoProduction,
+        startYear: 2017,
+        endYear: 2018,
       },
     ],
   },
@@ -839,8 +862,29 @@ export const members: Array<Member> = [
     lastName: 'Baugh',
     majors: [],
     minors: [],
-    graduationYear: null,
-    positions: [],
+    graduationYear: 2017,
+    positions: [
+      {
+        titleName: ClubPositionTitle.President,
+        startYear: 2016,
+        endYear: 2017,
+      },
+    ],
+  },
+  {
+    isFounder: true,
+    firstName: 'Chloe',
+    lastName: 'Wong',
+    majors: [AcademicStudy.Marketing],
+    minors: [],
+    graduationYear: 2024,
+    positions: [
+      {
+        titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
   },
   {
     isHidden: true,
