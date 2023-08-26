@@ -3,13 +3,13 @@ import styles from '../styles/base.module.css'
 import NavigationBar from '../components/navigation-bar'
 import Footer from '../components/footer'
 import defaultAvatar from '../images/members/eboard-default.jpg'
-import { ClubPosition, Member, members } from '@/data/members-info'
+import { ClubPosition, ClubPositionTitle, Member, clubPositionOrder, members } from '@/data/members-info'
 import Image from 'next/image'
 
 type DisplayMember = {
   name: string
   graduationYear: number | null
-  position: string
+  position: ClubPositionTitle
   rawData: Member
 }
 
@@ -46,21 +46,23 @@ function MemberCard(props: IMemberCard) {
     <div
       style={{
         backgroundColor: '#fafafa',
-        margin: '5px',
+        margin: '15px',
         padding: '10px',
         width: '200px',
         borderRadius: '10px',
-        height: '300px',
       }}
     >
       <Image
         src={defaultAvatar}
         width={170}
         alt={`Image of ${props.displayMember.name}`}
-        style={{ borderRadius: '10px' }}
+        style={{ borderRadius: '10px', margin: '10px', marginBottom: '0' }}
       />
-      <p style={{ marginBottom: '0', fontWeight: 'bold' }}>{props.displayMember.name}</p>
-      <p style={{ margin: '0' }}>{props.displayMember.position}</p>
+      <div style={{ height: '65px' }}>
+        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>{props.displayMember.name}</p>
+        <p style={{ margin: '0' }}>{props.displayMember.position}</p>
+      </div>
+      <p>Class of {props.displayMember.graduationYear}</p>
     </div>
   )
 }
@@ -88,13 +90,16 @@ interface IMemberRow {
 }
 
 function MemberRow(props: IMemberRow) {
+  let members: Array<DisplayMember> = getMembersFromYear(props.startYear)
+  members = members.sort((a, b) => clubPositionOrder.indexOf(a.position) - clubPositionOrder.indexOf(b.position))
+
   return (
     <div>
       <p style={{ fontSize: '2rem' }}>
         {props.startYear} - {props.startYear + 1}
       </p>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {getMembersFromYear(props.startYear).map((displayMember: DisplayMember, i: number) => {
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'left' }}>
+        {members.map((displayMember: DisplayMember, i: number) => {
           return <MemberCard displayMember={displayMember} key={i} />
         })}
       </div>
