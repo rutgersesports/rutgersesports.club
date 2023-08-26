@@ -118,8 +118,8 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.President,
-        startYear: 2015,
-        endYear: 2016,
+        startYear: 2014,
+        endYear: 2015,
       },
     ],
   },
@@ -171,7 +171,7 @@ export const members: Array<Member> = [
     lastName: 'Chiang',
     majors: [AcademicStudy.Accounting, AcademicStudy.Marketing],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2023,
     positions: [
       {
         titleName: ClubPositionTitle.VicePresident,
@@ -257,7 +257,7 @@ export const members: Array<Member> = [
     lastName: 'Keswani',
     majors: [AcademicStudy.ComputerEngineering],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2024,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorTechnology,
@@ -309,7 +309,7 @@ export const members: Array<Member> = [
     lastName: 'Kliewer',
     majors: [AcademicStudy.ComputerScience],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2024,
     positions: [
       {
         titleName: ClubPositionTitle.ManagerMediaProduction,
@@ -323,7 +323,7 @@ export const members: Array<Member> = [
     lastName: 'Her',
     majors: [AcademicStudy.ITI],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2022,
     positions: [
       {
         titleName: ClubPositionTitle.President,
@@ -489,6 +489,11 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.ManagerWebsite,
         startYear: 2023,
         endYear: 2024,
+      },
+      {
+        titleName: ClubPositionTitle.ManagerWebsite,
+        startYear: 2022,
+        endYear: 2023,
       },
     ],
   },
@@ -785,6 +790,57 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+  },
+  {
+    isFounder: true,
+    firstName: 'Malav',
+    lastName: 'Patel',
+    majors: [AcademicStudy.ITI],
+    minors: [],
+    graduationYear: 2017,
+    positions: [
+      {
+        titleName: ClubPositionTitle.President,
+        startYear: 2015,
+        endYear: 2016,
+      },
+    ],
+  },
+  {
+    isFounder: true,
+    firstName: 'Alex',
+    lastName: 'Um',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [],
+  },
+  {
+    isFounder: true,
+    firstName: 'Zaid',
+    lastName: 'Qmei',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [],
+  },
+  {
+    isFounder: true,
+    firstName: 'Sam',
+    lastName: 'Gluzberg',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [],
+  },
+  {
+    isFounder: true,
+    firstName: 'Adam',
+    lastName: 'Baugh',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [],
   },
   {
     isHidden: true,
