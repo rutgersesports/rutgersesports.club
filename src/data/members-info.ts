@@ -927,7 +927,7 @@ export const members: Array<Member> = [
     lastName: 'Herrera',
     majors: [],
     minors: [],
-    graduationYear: 2024,
+    graduationYear: 2025,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorHumanResources,
