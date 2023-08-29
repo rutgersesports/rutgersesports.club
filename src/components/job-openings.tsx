@@ -32,7 +32,7 @@ export default function JobOpenings() {
   var row: number = 0
 
   function filterHidden(value: Job) {
-    return !value.hidden
+    return !value.isHidden
   }
 
   return (
