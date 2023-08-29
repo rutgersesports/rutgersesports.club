@@ -15,7 +15,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function NavigationBar() {
-  const [isOpen, setOpen] = useState(true)
+  const [isOpen, setOpen] = useState<boolean>(true)
 
   function handleMenuClick() {
     setOpen(!isOpen)

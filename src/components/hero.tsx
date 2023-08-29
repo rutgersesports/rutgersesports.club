@@ -4,7 +4,7 @@ import styles from '../styles/hero.module.css'
 export default function Hero() {
   return (
     <div className={styles['hero']}>
-      <video className={styles['hero-video']} playsInline="playsInline" autoPlay="autoPlay" muted="muted" loop="loop">
+      <video className={styles['hero-video']} playsInline autoPlay muted loop>
         <source src="/videos/hero-background.mp4" type="video/mp4" />
       </video>
       <div className={styles['hero-text']}>
