@@ -20,7 +20,7 @@ function DepartmentRow(props: IDepartmentRow) {
         <p style={{ marginLeft: '5vw', marginTop: '2px' }}>{props.desc}</p>
       </th>
       <th>
-        <Link href={props.form} style={{ marginRight: '5vw' }}>
+        <Link href={props.form} rel="noopener noreferrer" target="_blank" style={{ marginRight: '5vw' }}>
           <div className={styles['info-button']}>Apply</div>
         </Link>
       </th>
