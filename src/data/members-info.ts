@@ -177,11 +177,6 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
       {
-        titleName: ClubPositionTitle.VicePresident,
-        startYear: 2019,
-        endYear: 2020,
-      },
-      {
         titleName: ClubPositionTitle.President,
         startYear: 2020,
         endYear: 2021,
