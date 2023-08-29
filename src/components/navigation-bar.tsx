@@ -20,31 +20,33 @@ export default function NavigationBar() {
   function handleMenuClick() {
     setOpen(!isOpen)
   }
-
   return (
-    <div className={styles.nav}>
-      <Link href="/">
-        <Image className={styles.logo} src={rutgersEsportsLogo} alt="logo" />
-      </Link>
-      <div className={styles.mobilemenuicon} onClick={handleMenuClick}>
-        <Image src={menuIcon} alt="menu" />
+    <>
+      <img src={'https://shrunk.rutgers.edu/twvgd6ry'} width={1} height={1} style={{ display: 'none' }} alt={''} />
+      <div className={styles.nav}>
+        <Link href="/">
+          <Image className={styles.logo} src={rutgersEsportsLogo} alt="logo" />
+        </Link>
+        <div className={styles.mobilemenuicon} onClick={handleMenuClick}>
+          <Image src={menuIcon} alt="menu" />
+        </div>
+        <div className={isOpen ? styles.routes : styles.mobileroutes}>
+          <ul>
+            <li>
+              <Link href="https://linktr.ee/rutgersesports">Events</Link>
+            </li>
+            <li>
+              <Link href="members">Members</Link>
+            </li>
+            <li>
+              <Link href="apply">Recruitment</Link>
+            </li>
+            <li>
+              <Link href="https://sca.rutgers.edu/student-centers/esports-center">Esports Center</Link>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className={isOpen ? styles.routes : styles.mobileroutes}>
-        <ul>
-          <li>
-            <Link href="https://linktr.ee/rutgersesports">Events</Link>
-          </li>
-          <li>
-            <Link href="members">Members</Link>
-          </li>
-          <li>
-            <Link href="apply">Recruitment</Link>
-          </li>
-          <li>
-            <Link href="https://sca.rutgers.edu/student-centers/esports-center">Esports Center</Link>
-          </li>
-        </ul>
-      </div>
-    </div>
+    </>
   )
 }
