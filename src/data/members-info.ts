@@ -1,3 +1,15 @@
+import { StaticImageData } from 'next/image'
+import aedanDispenza2016 from '../images/members/aedan-dispenza.jpg'
+import alexHer2022 from '../images/members/alex-her.jpg'
+import andrewHong2026 from '../images/members/andrew-hong.jpg'
+import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
+import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
+import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
+import julianLee2021 from '../images/members/julian-lee.jpg'
+import lunaLee2024 from '../images/members/luna-lee.jpg'
+import sethSantos2021 from '../images/members/seth-santos.jpg'
+import rileyHerrera2025 from '../images/members/riley-herrera.jpg'
+
 export type ClubPosition = {
   titleName: ClubPositionTitle
   startYear: number
@@ -12,6 +24,7 @@ export type Member = {
   graduationYear: number | null
   positions: Array<ClubPosition>
 
+  image?: StaticImageData
   isFounder?: boolean
   isHidden?: boolean
 }
@@ -94,6 +107,7 @@ export const members: Array<Member> = [
         endYear: 2024,
       },
     ],
+    image: anthonyZhang2025,
   },
   {
     firstName: 'Jonathan',
@@ -133,6 +147,7 @@ export const members: Array<Member> = [
         endYear: 2015,
       },
     ],
+    image: aedanDispenza2016,
   },
   {
     firstName: 'Seth',
@@ -157,6 +172,7 @@ export const members: Array<Member> = [
         endYear: 2021,
       },
     ],
+    image: sethSantos2021,
   },
   {
     firstName: 'Vincenzo',
@@ -267,6 +283,7 @@ export const members: Array<Member> = [
         endYear: 2024,
       },
     ],
+    image: lunaLee2024,
   },
   {
     firstName: 'Ishaan',
@@ -291,6 +308,7 @@ export const members: Array<Member> = [
         endYear: 2022,
       },
     ],
+    image: ishaanKeswani2024,
   },
   {
     firstName: 'Andrew',
@@ -338,6 +356,7 @@ export const members: Array<Member> = [
         endYear: 2023,
       },
     ],
+    image: finnKliewer2024,
   },
   {
     firstName: 'Alex',
@@ -367,6 +386,7 @@ export const members: Array<Member> = [
         endYear: 2022,
       },
     ],
+    image: alexHer2022,
   },
   {
     firstName: 'David',
@@ -518,6 +538,7 @@ export const members: Array<Member> = [
         endYear: 2018,
       },
     ],
+    image: julianLee2021,
   },
   {
     firstName: 'Andrew',
@@ -537,6 +558,7 @@ export const members: Array<Member> = [
         endYear: 2023,
       },
     ],
+    image: andrewHong2026,
   },
   {
     firstName: 'Kyle',
@@ -935,6 +957,7 @@ export const members: Array<Member> = [
         endYear: 2024,
       },
     ],
+    image: rileyHerrera2025,
   },
   {
     firstName: 'Jay',

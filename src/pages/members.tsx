@@ -2,14 +2,14 @@ import React from 'react'
 import styles from '../styles/base.module.css'
 import NavigationBar from '../components/navigation-bar'
 import Footer from '../components/footer'
-import defaultAvatar from '../images/members/eboard-default.png'
 import { ClubPosition, ClubPositionTitle, Member, clubPositionOrder, members } from '@/data/members-info'
 import Image from 'next/image'
+import defaultAvatar from '../images/members/eboard-default.png'
 
 type DisplayMember = {
   name: string
   graduationYear: number | null
-  position: ClubPositionTitle
+  position: string
   rawData: Member
 }
 
@@ -53,8 +53,9 @@ function MemberCard(props: IMemberCard) {
       }}
     >
       <Image
-        src={defaultAvatar}
+        src={props.displayMember.rawData.image == null ? defaultAvatar : props.displayMember.rawData.image.src}
         width={170}
+        height={170}
         alt={`Image of ${props.displayMember.name}`}
         style={{ borderRadius: '10px', margin: '10px', marginBottom: '0' }}
       />
