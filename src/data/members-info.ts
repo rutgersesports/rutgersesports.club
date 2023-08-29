@@ -2,12 +2,15 @@ import { StaticImageData } from 'next/image'
 import adamBaugh2017 from '../images/members/adam-baugh.png'
 import aedanDispenza2016 from '../images/members/aedan-dispenza.jpg'
 import alexHer2022 from '../images/members/alex-her.jpg'
+import aliceBalashova2019 from '../images/members/alice-balashova.jpg'
 import alisonLiu2024 from '../images/members/alison-liu.jpg'
+import andrewHarUNKNOWNGRAD from '../images/members/andrew-har.png'
 import andrewHarper2025 from '../images/members/andrew-harper.jpg'
 import andrewHong2026 from '../images/members/andrew-hong.jpg'
 import andrewPark2022 from '../images/members/andrew-park.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
 import byanneTan2025 from '../images/members/byanne-tan.jpg'
+import daleBabeyUNKNOWNGRAD from '../images/members/dale-babey.png'
 import eanneChang2023 from '../images/members/eanne-chiang.jpg'
 import ericYao2023 from '../images/members/eric-yao.jpg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
@@ -18,7 +21,9 @@ import julieNghiem2023 from '../images/members/julie-nghiem.jpg'
 import kylePerry2025 from '../images/members/kyle-perry.jpg'
 import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpg'
+import scottZackman2019 from '../images/members/scott-zackman.png'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
+import thomasPalka2020 from '../images/members/thomas-palka.png'
 import tiffanyChen2021 from '../images/members/tiffany-chen.jpg'
 import rileyHerrera2025 from '../images/members/riley-herrera.png'
 import victoriaChen2024 from '../images/members/victoria-chen.jpg'
@@ -93,6 +98,9 @@ enum AcademicStudy {
  *    (source: Multiple people from the Rutgers Esports Alumni)
  * 2. Director, Manager, Officer, & Associate positions were created during the 2018-2019 era.
  *    (source: Scott Zackma)
+ * 3. If you look up someone's LinkedIn profile who had a Director or Manager title before
+ *    2018, please do not edit their title in this datasheet as their title was not official
+ *    and could conflict with another person.
  */
 export enum ClubPositionTitle {
   President = 'President',
@@ -391,6 +399,11 @@ export const members: Array<Member> = [
         startYear: 2022,
         endYear: 2023,
       },
+      {
+        titleName: ClubPositionTitle.ManagerMediaProduction,
+        startYear: 2023,
+        endYear: 2024,
+      },
     ],
     image: finnKliewer2024,
   },
@@ -572,7 +585,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
       {
-        titleName: ClubPositionTitle.DirectorVideoProduction,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -655,6 +668,11 @@ export const members: Array<Member> = [
     graduationYear: 2020,
     positions: [
       {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
         titleName: ClubPositionTitle.President,
         startYear: 2018,
         endYear: 2019,
@@ -670,6 +688,7 @@ export const members: Array<Member> = [
         endYear: 2020,
       },
     ],
+    image: thomasPalka2020,
   },
   {
     firstName: 'Kyle',
@@ -678,6 +697,11 @@ export const members: Array<Member> = [
     minors: [],
     graduationYear: 2019,
     positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2017,
+        endYear: 2018,
+      },
       {
         titleName: ClubPositionTitle.VicePresident,
         startYear: 2018,
@@ -722,7 +746,12 @@ export const members: Array<Member> = [
     graduationYear: 2020,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorHumanResources,
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -732,7 +761,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
       {
-        titleName: ClubPositionTitle.VicePresident,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -770,12 +799,12 @@ export const members: Array<Member> = [
     graduationYear: 2019,
     positions: [
       {
-        titleName: ClubPositionTitle.ManagerSocialMedia,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2016,
         endYear: 2017,
       },
       {
-        titleName: ClubPositionTitle.ManagerSocialMedia,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -799,7 +828,12 @@ export const members: Array<Member> = [
     graduationYear: 2019,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorSocialMedia,
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -809,6 +843,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+    image: aliceBalashova2019,
   },
   {
     firstName: 'Aaron',
@@ -818,12 +853,12 @@ export const members: Array<Member> = [
     graduationYear: 2019,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorTechnology,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
       {
-        titleName: ClubPositionTitle.ManagerWebsite,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -837,7 +872,7 @@ export const members: Array<Member> = [
     graduationYear: 2019,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorEvents,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -851,7 +886,7 @@ export const members: Array<Member> = [
     graduationYear: 2018,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
       },
@@ -927,7 +962,13 @@ export const members: Array<Member> = [
     majors: [],
     minors: [],
     graduationYear: null,
-    positions: [],
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+    ],
   },
   {
     isFounder: true,
@@ -1067,7 +1108,7 @@ export const members: Array<Member> = [
     graduationYear: 2017,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorGraphicDesign,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2016,
         endYear: 2017,
       },
@@ -1164,6 +1205,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+    image: daleBabeyUNKNOWNGRAD,
   },
   {
     firstName: 'Scott',
@@ -1202,13 +1244,14 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+    image: andrewHarUNKNOWNGRAD,
   },
   {
     firstName: 'Scott',
     lastName: 'Zackman',
     majors: [],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2019,
     positions: [
       {
         titleName: ClubPositionTitle.DirectorCompetitiveManagement,
@@ -1216,6 +1259,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+    image: scottZackman2019,
   },
   {
     firstName: 'Alan',
@@ -1394,6 +1438,11 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2018,
         endYear: 2019,
       },
@@ -1464,6 +1513,11 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2018,
         endYear: 2019,
       },
@@ -1494,6 +1548,90 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.EBoardMember,
         startYear: 2018,
         endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Faizan',
+    lastName: 'Ilyas',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+    ],
+  },
+  {
+    firstName: 'Zachary',
+    lastName: 'Sinkiewicz',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+    ],
+  },
+  {
+    firstName: 'Jacob',
+    lastName: 'Kupferberg',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.Treasurer,
+        startYear: 2016,
+        endYear: 2017,
+      },
+    ],
+  },
+  {
+    firstName: 'John',
+    lastName: 'Macone',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+    ],
+  },
+  {
+    firstName: 'Albert',
+    lastName: 'Stein',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+    ],
+  },
+  {
+    firstName: 'David',
+    lastName: 'Parlej',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2017,
+        endYear: 2018,
       },
     ],
   },
