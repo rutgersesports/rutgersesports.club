@@ -9,7 +9,7 @@ import defaultAvatar from '../images/members/eboard-default.png'
 type DisplayMember = {
   name: string
   graduationYear: number | null
-  position: string
+  position: ClubPositionTitle
   rawData: Member
 }
 
