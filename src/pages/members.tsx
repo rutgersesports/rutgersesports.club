@@ -63,7 +63,11 @@ function MemberCard(props: IMemberCard) {
         <p style={{ marginBottom: '0', fontWeight: 'bold' }}>{props.displayMember.name}</p>
         <p style={{ margin: '0' }}>{props.displayMember.position}</p>
       </div>
-      <p>Class of {props.displayMember.graduationYear}</p>
+      {props.displayMember.graduationYear != null ? (
+        <p>Class of {props.displayMember.graduationYear}</p>
+      ) : (
+        <p>(not found)</p>
+      )}
     </div>
   )
 }
