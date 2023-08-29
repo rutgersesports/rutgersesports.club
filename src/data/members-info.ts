@@ -15,6 +15,7 @@ import eanneChang2023 from '../images/members/eanne-chiang.jpg'
 import ericYao2023 from '../images/members/eric-yao.jpg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
+import jackieChen2017 from '../images/members/jackie-chen.jpg'
 import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
 import julieNghiem2023 from '../images/members/julie-nghiem.jpg'
@@ -1113,6 +1114,7 @@ export const members: Array<Member> = [
         endYear: 2017,
       },
     ],
+    image: jackieChen2017,
   },
   {
     firstName: 'Eric',
