@@ -9,6 +9,7 @@ import andrewPark2022 from '../images/members/andrew-park.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
 import byanneTan2025 from '../images/members/byanne-tan.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.jpg'
+import ericYao2023 from '../images/members/eric-yao.jpg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
 import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
@@ -73,9 +74,26 @@ enum AcademicStudy {
 }
 
 /*
-Associates are not meant to be in the timeline as their efforts were not recognized to
-become an officer or higher.
-*/
+ * Hello, if you're reading this you're probably a stalker or the new Website Manager! Welcome!
+ * There are a couple of notes from the creator of this website before you should get started
+ * when adding/removing/editing people from this website.
+ *
+ * There are some requirements that need to be filled to prevent adding too many people who did
+ * not do anything to support or help the club.
+ *
+ * 1. Associates are not meant to be in the timeline as their efforts were not recognized to
+ *    become an officer or higher.
+ * 2.
+ *
+ *
+ * Some notable things to also be mentioned.
+ *
+ * 1. People with the `isHidden` keyvalue are people that are **NOT** considered appropriate to
+ *    be on the website. Please leave them untouched.
+ *    (source: Multiple people from the Rutgers Esports Alumni)
+ * 2. Director, Manager, Officer, & Associate positions were created during the 2018-2019 era.
+ *    (source: Scott Zackma)
+ */
 export enum ClubPositionTitle {
   President = 'President',
   VicePresident = 'Vice President',
@@ -103,6 +121,9 @@ export enum ClubPositionTitle {
   OfficerTechnology = 'Technology Officer',
   OfficerSocialMedia = 'Social Media Officer',
   OfficerGraphicDesign = 'Graphic Design Officer',
+
+  /* Do not give this to people during and after 2018-2019 */
+  EBoardMember = 'Executive Board Member',
 }
 
 export const clubPositionOrder = Object.values(ClubPositionTitle)
@@ -639,6 +660,11 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
       {
+        titleName: ClubPositionTitle.DirectorEvents,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
         titleName: ClubPositionTitle.President,
         startYear: 2019,
         endYear: 2020,
@@ -654,6 +680,11 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.VicePresident,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorTechnology,
         startYear: 2018,
         endYear: 2019,
       },
@@ -724,6 +755,11 @@ export const members: Array<Member> = [
         startYear: 2017,
         endYear: 2018,
       },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
     ],
   },
   {
@@ -750,16 +786,6 @@ export const members: Array<Member> = [
       },
       {
         titleName: ClubPositionTitle.DirectorCompetitiveManagement,
-        startYear: 2016,
-        endYear: 2017,
-      },
-      {
-        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
-        startYear: 2017,
-        endYear: 2018,
-      },
-      {
-        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
         startYear: 2018,
         endYear: 2019,
       },
@@ -776,6 +802,11 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.DirectorSocialMedia,
         startYear: 2017,
         endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorVideoProduction,
+        startYear: 2018,
+        endYear: 2019,
       },
     ],
   },
@@ -1055,6 +1086,7 @@ export const members: Array<Member> = [
         endYear: 2023,
       },
     ],
+    image: ericYao2023,
   },
   {
     firstName: 'Kier',
@@ -1103,7 +1135,7 @@ export const members: Array<Member> = [
     graduationYear: 2021,
     positions: [
       {
-        titleName: ClubPositionTitle.DirectorEvents,
+        titleName: ClubPositionTitle.EBoardMember,
         startYear: 2018,
         endYear: 2019,
       },
@@ -1116,6 +1148,352 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.DirectorTechnology,
         startYear: 2020,
         endYear: 2021,
+      },
+    ],
+  },
+  {
+    firstName: 'Dale',
+    lastName: 'Babey',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorSocialMedia,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Scott',
+    lastName: 'Zackma',
+    majors: [],
+    minors: [],
+    graduationYear: 2019,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2017,
+        endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Andrew',
+    lastName: 'Har',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorPartnership,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Scott',
+    lastName: 'Zackman',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Alan',
+    lastName: 'Yu',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Alex',
+    lastName: 'Riveron',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'AJ',
+    lastName: 'Grosso',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Arjun',
+    lastName: 'Srivastav',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Connor',
+    lastName: 'Callahan',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Elijah',
+    lastName: 'Ongoco',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Henry',
+    lastName: 'Fowler',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Jeffrey',
+    lastName: 'Zhang',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Jeese',
+    lastName: 'Lin',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Jia Hang',
+    lastName: 'Zhang',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Justin',
+    lastName: 'Winfrey',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Kaitlin',
+    lastName: 'Fermalino',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Kyle',
+    lastName: 'Elbaum',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Kyle',
+    lastName: 'Rabe',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Mathew',
+    lastName: 'Calugay',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Max',
+    lastName: 'Broggi-Sumner',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Michael',
+    lastName: 'McGillicuddy',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Sage',
+    lastName: 'Datuin',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Vivian',
+    lastName: 'Trieu',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
+      },
+    ],
+  },
+  {
+    firstName: 'Yeon Jin',
+    lastName: 'Shin',
+    majors: [],
+    minors: [],
+    graduationYear: null,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2018,
+        endYear: 2019,
       },
     ],
   },
