@@ -1,10 +1,12 @@
 import { StaticImageData } from 'next/image'
+import adamBaugh2017 from '../images/members/adam-baugh.png'
 import aedanDispenza2016 from '../images/members/aedan-dispenza.jpg'
 import alexHer2022 from '../images/members/alex-her.jpg'
 import andrewHong2026 from '../images/members/andrew-hong.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
+import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpg'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
@@ -132,6 +134,7 @@ export const members: Array<Member> = [
         endYear: 2022,
       },
     ],
+    image: jonathanJackson2022,
   },
   {
     isFounder: true,
@@ -910,6 +913,7 @@ export const members: Array<Member> = [
         endYear: 2017,
       },
     ],
+    image: adamBaugh2017,
   },
   {
     firstName: 'Chloe',
