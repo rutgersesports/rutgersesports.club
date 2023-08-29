@@ -10,7 +10,7 @@ import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpg'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
-import rileyHerrera2025 from '../images/members/riley-herrera.jpg'
+import rileyHerrera2025 from '../images/members/riley-herrera.png'
 
 export type ClubPosition = {
   titleName: ClubPositionTitle
