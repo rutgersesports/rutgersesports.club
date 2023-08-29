@@ -40,6 +40,9 @@ export default function NavigationBar() {
           <li>
             <Link href="apply">Recruitment</Link>
           </li>
+          <li>
+            <Link href="https://sca.rutgers.edu/student-centers/esports-center">Esports Center</Link>
+          </li>
         </ul>
       </div>
     </div>
