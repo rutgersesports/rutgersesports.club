@@ -20,21 +20,21 @@ export default function AboutOurselves() {
       </div>
       <div className={styles['about-ourselves-desc']}>
         <div className={styles['desc-col']}>
-          <h2>Community</h2>
+          <h2>We are a Community</h2>
           <p>
             We pride ourselves on being an open, friendly, and diverse community. Everyone is welcome here no matter who
             you are or where you come from.
           </p>
         </div>
         <div className={styles['desc-col']}>
-          <h2>Casual</h2>
+          <h2>We are Casual</h2>
           <p>
             Whether you play to win or play for fun, we have a place for you with nearly a dozen clubs dedicated to the
             most popular video games.
           </p>
         </div>
         <div className={styles['desc-col']}>
-          <h2>Competitive</h2>
+          <h2>We are Competitive</h2>
           <p>
             Our teams and players are some of the best in the nation with top placings in many of the most well-known
             collegiate esports tournaments.
