@@ -2,12 +2,17 @@ import { StaticImageData } from 'next/image'
 import adamBaugh2017 from '../images/members/adam-baugh.png'
 import aedanDispenza2016 from '../images/members/aedan-dispenza.jpg'
 import alexHer2022 from '../images/members/alex-her.jpg'
+import andrewHarper2025 from '../images/members/andrew-harper.jpg'
 import andrewHong2026 from '../images/members/andrew-hong.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
+import byanneTan2025 from '../images/members/byanne-tan.jpg'
+import eanneChang2023 from '../images/members/eanne-chiang.jpg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
 import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
+import julieNghiem2023 from '../images/members/julie-nghiem.jpg'
+import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpg'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
 import rileyHerrera2025 from '../images/members/riley-herrera.png'
@@ -219,6 +224,7 @@ export const members: Array<Member> = [
         endYear: 2022,
       },
     ],
+    image: eanneChang2023,
   },
   {
     firstName: 'Julie',
@@ -238,6 +244,7 @@ export const members: Array<Member> = [
         endYear: 2022,
       },
     ],
+    image: julieNghiem2023,
   },
   {
     firstName: 'Kamal',
@@ -262,6 +269,7 @@ export const members: Array<Member> = [
         endYear: 2021,
       },
     ],
+    image: kamalPaspuleti,
   },
   {
     firstName: 'Luna',
@@ -331,6 +339,7 @@ export const members: Array<Member> = [
         endYear: 2024,
       },
     ],
+    image: andrewHarper2025,
   },
   {
     firstName: 'Aditya',
@@ -990,6 +999,7 @@ export const members: Array<Member> = [
         endYear: 2024,
       },
     ],
+    image: byanneTan2025,
   },
   {
     firstName: 'Tyler',
@@ -1073,6 +1083,30 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.OfficerGraphicDesign,
         startYear: 2023,
         endYear: 2024,
+      },
+    ],
+  },
+  {
+    firstName: 'Ansh',
+    lastName: 'Gambhir',
+    majors: [AcademicStudy.ComputerEngineering, AcademicStudy.ComputerScience],
+    minors: [],
+    graduationYear: 2021,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorEvents,
+        startYear: 2018,
+        endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorCompetitiveManagement,
+        startYear: 2019,
+        endYear: 2020,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorTechnology,
+        startYear: 2020,
+        endYear: 2021,
       },
     ],
   },
