@@ -12,6 +12,8 @@ import arjunSrivastav2021 from '../images/members/arjun-srivastav.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
 import byanneTan2025 from '../images/members/byanne-tan.jpg'
 import daleBabeyUNKNOWNGRAD from '../images/members/dale-babey.png'
+import davidSotimehin2022 from '../images/members/david-sotimehin.jpg'
+import diegoCorea2019 from '../images/members/diego-corea.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.jpg'
 import ericYao2023 from '../images/members/eric-yao.jpg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
@@ -21,14 +23,19 @@ import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import jonahWang2021 from '../images/members/jonah-wang.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
 import julieNghiem2023 from '../images/members/julie-nghiem.jpg'
+import kyleElbaum2019 from '../images/members/kyle-elbaum.jpg'
 import kylePerry2025 from '../images/members/kyle-perry.jpg'
 import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpg'
+import malavPatel2017 from '../images/members/malav-patel.jpg'
 import scottZackman2019 from '../images/members/scott-zackman.png'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
+import sebastianRomero2020 from '../images/members/sebastian-romero.jpg'
 import thomasPalka2020 from '../images/members/thomas-palka.png'
 import tiffanyChen2021 from '../images/members/tiffany-chen.jpg'
+import timothyWaldron2020 from '../images/members/timothy-waldron.jpg'
 import rileyHerrera2025 from '../images/members/riley-herrera.png'
+import ronaldBarrantes2024 from '../images/members/ronald-barrantes.jpg'
 import victoriaChen2024 from '../images/members/victoria-chen.jpg'
 import victorOkoye2023 from '../images/members/victor-okoye.jpg'
 import vincenzoDiMatteo2022 from '../images/members/vincenzo-diMatteo.jpg'
@@ -453,6 +460,7 @@ export const members: Array<Member> = [
         endYear: 2022,
       },
     ],
+    image: davidSotimehin2022,
   },
   {
     firstName: 'Ronald',
@@ -467,6 +475,7 @@ export const members: Array<Member> = [
         endYear: 2022,
       },
     ],
+    image: ronaldBarrantes2024,
   },
   {
     firstName: 'Ahmed',
@@ -764,16 +773,12 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
       {
-        titleName: ClubPositionTitle.EBoardMember,
-        startYear: 2017,
-        endYear: 2018,
-      },
-      {
         titleName: ClubPositionTitle.VicePresident,
         startYear: 2018,
         endYear: 2019,
       },
     ],
+    image: sebastianRomero2020,
   },
   {
     firstName: 'Timothy',
@@ -793,6 +798,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+    image: timothyWaldron2020,
   },
   {
     firstName: 'Diego',
@@ -822,6 +828,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+    image: diegoCorea2019,
   },
   {
     firstName: 'Alice',
@@ -855,11 +862,6 @@ export const members: Array<Member> = [
     minors: [],
     graduationYear: 2019,
     positions: [
-      {
-        titleName: ClubPositionTitle.EBoardMember,
-        startYear: 2017,
-        endYear: 2018,
-      },
       {
         titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
@@ -958,6 +960,7 @@ export const members: Array<Member> = [
         endYear: 2016,
       },
     ],
+    image: malavPatel2017,
   },
   {
     isFounder: true,
@@ -1440,7 +1443,7 @@ export const members: Array<Member> = [
     lastName: 'Elbaum',
     majors: [],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2019,
     positions: [
       {
         titleName: ClubPositionTitle.EBoardMember,
@@ -1453,6 +1456,7 @@ export const members: Array<Member> = [
         endYear: 2019,
       },
     ],
+    image: kyleElbaum2019,
   },
   {
     firstName: 'Kyle',
