@@ -124,9 +124,10 @@ export default function HomePage() {
               </p>
               <p>
                 Positions older than 2022 may not be accurate as there are no records of previous members stored other
-                than the wayback machine from the legacy website. Members might also not have correct titles due to
-                promotions or impeachment during the school year; only their final position title is shown. If you are
-                in this list and wish to be removed or edited, send us an email: ruesportshr@gmail.com
+                than the wayback machine from the legacy website and reaching out to alumni to recall their memories.
+                Members might also not have correct titles due to promotions or impeachments during the school year;
+                only their final position title is shown. If you are in this list and wish to be removed or edited, send
+                us an email: ruesportshr@gmail.com
               </p>
               {Array(endYear - startYear)
                 .fill('_')
