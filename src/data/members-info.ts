@@ -46,6 +46,18 @@ export type ClubPosition = {
   endYear: number
 }
 
+export type SocialMediaData = {
+  facebook?: string
+  github?: string
+  instagram?: string
+  linkedin?: string
+  reddit?: string
+  tiktok?: string
+  twitch?: string
+  twitter?: string // "X" more like i never asked
+  youtube?: string
+}
+
 export type Member = {
   firstName: string
   lastName: string
@@ -54,6 +66,7 @@ export type Member = {
   graduationYear: number | null
   positions: Array<ClubPosition>
 
+  socialMedia?: SocialMediaData
   image?: StaticImageData
   isFounder?: boolean
   isHidden?: boolean
@@ -267,6 +280,9 @@ export const members: Array<Member> = [
       },
     ],
     image: eanneChang2023,
+    socialMedia: {
+      instagram: 'lost_goldefish',
+    },
   },
   {
     firstName: 'Julie',
@@ -603,6 +619,10 @@ export const members: Array<Member> = [
       },
     ],
     image: julianLee2021,
+    socialMedia: {
+      instagram: 'julianhlee',
+      twitter: 'jeseuto',
+    },
   },
   {
     firstName: 'Andrew',
@@ -623,6 +643,9 @@ export const members: Array<Member> = [
       },
     ],
     image: andrewHong2026,
+    socialMedia: {
+      github: 'novialriptide',
+    },
   },
   {
     firstName: 'Kyle',
@@ -1268,6 +1291,9 @@ export const members: Array<Member> = [
       },
     ],
     image: scottZackman2019,
+    socialMedia: {
+      linkedin: 'scottzackman',
+    },
   },
   {
     firstName: 'Alan',
