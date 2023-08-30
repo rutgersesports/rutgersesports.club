@@ -17,6 +17,7 @@ import diegoCorea2019 from '../images/members/diego-corea.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.png'
 import ericYao2023 from '../images/members/eric-yao.jpg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
+import handellQuiros2024 from '../images/members/handell-quiros.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
 import jackieChen2017 from '../images/members/jackie-chen.jpg'
 import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
@@ -1656,6 +1657,34 @@ export const members: Array<Member> = [
         endYear: 2018,
       },
     ],
+  },
+  {
+    firstName: 'Handell',
+    lastName: 'Quiros',
+    majors: [AcademicStudy.AerospaceEngineering],
+    minors: [],
+    graduationYear: 2024,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2021,
+        endYear: 2022,
+      },
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2022,
+        endYear: 2023,
+      },
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
+    image: handellQuiros2024,
+    socialMedia: {
+      instagram: 'handell_q',
+    },
   },
   {
     isHidden: true,
