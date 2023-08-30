@@ -120,7 +120,7 @@ enum AcademicStudy {
  *    be on the website. Please leave them untouched.
  *    (source: Multiple people from the Rutgers Esports Alumni)
  * 2. Director, Manager, Officer, & Associate positions were created during the 2018-2019 era.
- *    (source: Scott Zackma)
+ *    (source: Scott Zackman)
  * 3. If you look up someone's LinkedIn profile who had a Director or Manager title before
  *    2018, please do not edit their title in this datasheet as their title was not official
  *    and could conflict with another person.
@@ -1239,30 +1239,6 @@ export const members: Array<Member> = [
     image: daleBabeyUNKNOWNGRAD,
   },
   {
-    firstName: 'Scott',
-    lastName: 'Zackma',
-    majors: [],
-    minors: [],
-    graduationYear: 2019,
-    positions: [
-      {
-        titleName: ClubPositionTitle.EBoardMember,
-        startYear: 2016,
-        endYear: 2017,
-      },
-      {
-        titleName: ClubPositionTitle.EBoardMember,
-        startYear: 2017,
-        endYear: 2018,
-      },
-      {
-        titleName: ClubPositionTitle.EBoardMember,
-        startYear: 2018,
-        endYear: 2019,
-      },
-    ],
-  },
-  {
     firstName: 'Andrew',
     lastName: 'Har',
     majors: [],
@@ -1288,6 +1264,16 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.DirectorCompetitiveManagement,
         startYear: 2018,
         endYear: 2019,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2016,
+        endYear: 2017,
+      },
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2017,
+        endYear: 2018,
       },
     ],
     image: scottZackman2019,
