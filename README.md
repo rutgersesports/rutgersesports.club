@@ -13,7 +13,7 @@ There should be a GitHub Actions workflow to automate the process.
 3. Run `npm install` to install all dependencies
 4. Run `npm run dev` to create a local server to view your changes
 
-We also use [Prettier](https://prettier.io/) for code formating so
+We also use [Prettier](https://prettier.io/) for code formatting so
 please run `npx prettier --write .` whenever you're creating
 a pull request. If you're using Visual Studio Code, it should
 automate the process for you.
