@@ -3,20 +3,25 @@ import Link from 'next/link'
 import ScrollContainer from 'react-indiana-drag-scroll'
 import styles from '../styles/meet-our-clubs.module.css'
 import { clubs } from '../data/clubs-info'
+import { StaticImageData } from 'next/image'
 
-function buildClubWidget(name, getInvolved, backgroundImage, socialMedia, x, y) {
+interface IClub {
+  name: string
+  backgroundImage: StaticImageData
+  socialMedia: any
+}
+
+function Club(props: IClub) {
   return (
-    <Link style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" href={socialMedia.discord}>
+    <Link style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" href={props.socialMedia.discord}>
       <div
         className={styles['club']}
         style={{
-          backgroundImage: `url(${backgroundImage.src})`,
-          start: { x },
-          top: { y },
+          backgroundImage: `url(${props.backgroundImage.src})`,
         }}
       >
         <div className={styles['club-contents']}>
-          <h2>{name}</h2>
+          <h2>{props.name}</h2>
         </div>
       </div>
     </Link>
@@ -29,11 +34,7 @@ export default function MeetOurClubs() {
       <h1>Meet Our Clubs</h1>
       <ScrollContainer className={styles['clubs']} hideScrollbars={false}>
         {clubs.map((data, key) => {
-          return (
-            <div key={key}>
-              {buildClubWidget(data.name, data.getInvolved, data.image, data.socialMedia, data.x, data.y)}
-            </div>
-          )
+          return <Club key={key} name={data.name} backgroundImage={data.image} socialMedia={data.socialMedia} />
         })}
       </ScrollContainer>
     </div>
