@@ -117,12 +117,9 @@ enum AcademicStudy {
  *
  * Some notable things to also be mentioned.
  *
- * 1. People with the `isHidden` keyvalue are people that are **NOT** considered appropriate to
- *    be on the website. Please leave them untouched.
- *    (source: Multiple people from the Rutgers Esports Alumni)
- * 2. Director, Manager, Officer, & Associate positions were created during the 2018-2019 era.
+ * 1. Director, Manager, Officer, & Associate positions were created during the 2018-2019 era.
  *    (source: Scott Zackman)
- * 3. If you look up someone's LinkedIn profile who had a Director or Manager title before
+ * 2. If you look up someone's LinkedIn profile who had a Director or Manager title before
  *    2018, please do not edit their title in this datasheet as their title was not official
  *    and could conflict with another person.
  */
@@ -1685,23 +1682,5 @@ export const members: Array<Member> = [
     socialMedia: {
       instagram: 'handell_q',
     },
-  },
-  {
-    isHidden: true,
-    firstName: 'Gaurav',
-    lastName: 'Deshpande',
-    majors: [],
-    minors: [],
-    graduationYear: null,
-    positions: [],
-  },
-  {
-    isHidden: true,
-    firstName: 'Jacob',
-    lastName: 'Moffatt',
-    majors: [],
-    minors: [],
-    graduationYear: null,
-    positions: [],
   },
 ]
