@@ -32,6 +32,10 @@ code owner.
   display: none;
 }
 
+.mobileHome {
+  display: none;
+}
+
 .nav ul {
   padding-left: 0;
   display: flex;
@@ -85,5 +89,9 @@ code owner.
 
   .nav .routes {
     display: none;
+  }
+
+  .mobileHome {
+    display: block;
   }
 }

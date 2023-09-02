@@ -32,6 +32,9 @@ export default function NavigationBar() {
         </div>
         <div className={isOpen ? styles.routes : styles.mobileroutes}>
           <ul>
+            <li className={styles.mobileHome}>
+              <Link href="/">Home</Link>
+            </li>
             <li>
               <Link href="https://linktr.ee/rutgersesports">Events</Link>
             </li>
