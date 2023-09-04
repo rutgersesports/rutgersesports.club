@@ -27,7 +27,7 @@ export default function Footer() {
             <h3>Relative Links</h3>
             <ul>
               <li>
-                <Link href="/apply">Recruitment Portal</Link>
+                <Link href="https://newbrunswick.rutgers.edu/">Rutgers University</Link>
               </li>
               <li>
                 <Link href="https://sca.rutgers.edu/student-centers/esports-center">Esports Center</Link>
