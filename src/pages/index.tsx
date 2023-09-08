@@ -7,6 +7,8 @@ import MeetOurClubs from '../components/meet-our-clubs'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import ContactUs from '@/components/contact-us'
+import AlertBanner from '@/components/banner-alert'
+import { alertMessage } from '@/data/misc-info'
 
 export default function HomePage() {
   return (
@@ -21,6 +23,7 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles['base']}>
+        {alertMessage != '' ? <AlertBanner msg={alertMessage} /> : <></>}
         <NavigationBar />
         <Hero />
         <AboutOurselves />
