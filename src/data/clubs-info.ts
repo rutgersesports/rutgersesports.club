@@ -1,5 +1,5 @@
 import overwatch2 from '../images/overwatch2-club-bg.jpg'
-import valorant from '../images/valorant-club-bg.jpg'
+import valorant from '../images/valorant-club-bg.png'
 import lol from '../images/lol-club-bg.jpg'
 import wgl from '../images/wgl-club-bg.png'
 import rgc from '../images/rgc-club-bg.jpg'
