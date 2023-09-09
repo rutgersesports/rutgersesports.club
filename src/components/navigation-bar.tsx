@@ -36,7 +36,7 @@ export default function NavigationBar() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="https://linktr.ee/rutgersesports">Events</Link>
+              <Link href="events">Events</Link>
             </li>
             <li>
               <Link href="members">Members</Link>
