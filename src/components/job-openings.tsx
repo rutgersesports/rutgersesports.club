@@ -4,7 +4,7 @@ import styles from '../styles/job-openings.module.css'
 import { Job, jobs } from '../data/jobs-info'
 
 interface IDepartmentRow {
-  teamName: string
+  departmentName: string
   desc: string
   form: string
   row: number
@@ -15,7 +15,7 @@ function DepartmentRow(props: IDepartmentRow) {
     <tr className={styles['job']} key={props.row}>
       <th>
         <p style={{ marginLeft: '5vw', marginBottom: '2px' }}>
-          <strong>{props.teamName}</strong>
+          <strong>{props.departmentName}</strong>
         </p>
         <p style={{ marginLeft: '5vw', marginTop: '2px' }}>{props.desc}</p>
       </th>
@@ -46,7 +46,15 @@ export default function JobOpenings() {
         <tbody>
           {jobs.filter(filterHidden).map((child, i) => {
             row += 1
-            return <DepartmentRow teamName={child.teamName} desc={child.desc} form={child.form} row={row} key={i} />
+            return (
+              <DepartmentRow
+                departmentName={child.departmentName}
+                desc={child.desc}
+                form={child.form}
+                row={row}
+                key={i}
+              />
+            )
           })}
         </tbody>
       </table>
