@@ -14,6 +14,18 @@ import styles from '../styles/navigation-bar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
+/*
+ * This tracking pixel service is provided by Rutgers University, only Rutgers faculty or student workers at Rutgers Open System Solutions
+ * are able to view the data. See https://oss.rutgers.edu/ if something goes wrong.
+ *
+ * NOTE: This tracking pixel is a beta feature maintained by Rutgers Open System Solutions, "shrunk.rutgers.edu" is a domain
+ * name used to deploy services by the organization to test their product.
+ */
+function TrackingPixel() {
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src={'https://shrunk.rutgers.edu/twvgd6ry'} width={1} height={1} style={{ display: 'none' }} alt={''} />
+}
+
 export default function NavigationBar() {
   const [isOpen, setOpen] = useState<boolean>(true)
 
@@ -22,7 +34,7 @@ export default function NavigationBar() {
   }
   return (
     <>
-      <img src={'https://shrunk.rutgers.edu/twvgd6ry'} width={1} height={1} style={{ display: 'none' }} alt={''} />
+      <TrackingPixel />
       <div className={styles.nav}>
         <Link href="/">
           <Image className={styles.logo} src={rutgersEsportsLogo} alt="logo" />
