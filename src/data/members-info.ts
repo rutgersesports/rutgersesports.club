@@ -21,6 +21,7 @@ import handellQuiros2024 from '../images/members/handell-quiros.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
 import jackieChen2017 from '../images/members/jackie-chen.jpg'
 import jacobKupferberg2017 from '../images/members/jacob-kupferberg.jpg'
+import johnMacone2017 from '../images/members/john-macone.jpg'
 import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import jonahWang2021 from '../images/members/jonah-wang.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
@@ -1703,5 +1704,20 @@ export const members: Array<Member> = [
       },
     ],
     image: jacobKupferberg2017,
+  },
+  {
+    firstName: 'John',
+    lastName: 'Macone',
+    majors: [],
+    minors: [],
+    graduationYear: 2017,
+    positions: [
+      {
+        titleName: ClubPositionTitle.EBoardMember,
+        startYear: 2017,
+        endYear: 2018,
+      },
+    ],
+    image: johnMacone2017,
   },
 ]
