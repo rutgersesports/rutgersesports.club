@@ -20,6 +20,7 @@ import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
 import handellQuiros2024 from '../images/members/handell-quiros.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
 import jackieChen2017 from '../images/members/jackie-chen.jpg'
+import jacobKupferberg2017 from '../images/members/jacob-kupferberg.jpg'
 import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import jonahWang2021 from '../images/members/jonah-wang.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
@@ -1682,5 +1683,25 @@ export const members: Array<Member> = [
     socialMedia: {
       instagram: 'handell_q',
     },
+  },
+  {
+    firstName: 'Jacob',
+    lastName: 'Kupferberg',
+    majors: [],
+    minors: [],
+    graduationYear: 2017,
+    positions: [
+      {
+        titleName: ClubPositionTitle.Treasurer,
+        startYear: 2012,
+        endYear: 2013,
+      },
+      {
+        titleName: ClubPositionTitle.President,
+        startYear: 2013,
+        endYear: 2014,
+      },
+    ],
+    image: jacobKupferberg2017,
   },
 ]
