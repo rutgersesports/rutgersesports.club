@@ -1694,13 +1694,8 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.Treasurer,
-        startYear: 2012,
-        endYear: 2013,
-      },
-      {
-        titleName: ClubPositionTitle.President,
-        startYear: 2013,
-        endYear: 2014,
+        startYear: 2016,
+        endYear: 2017,
       },
     ],
     image: jacobKupferberg2017,
