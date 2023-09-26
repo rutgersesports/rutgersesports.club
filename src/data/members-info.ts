@@ -144,7 +144,6 @@ export enum ClubPositionTitle {
   ManagerMediaProduction = 'Media Production Manager', // alias: 'Video Production Manager'
   ManagerGraphics = 'Graphics Manager',
   ManagerSocialMedia = 'Social Media Manager',
-  ManagerRecruitment = 'Recruitment Manager',
   ManagerWebsite = 'Website Manager',
   ManagerBroadcasting = 'Broadcasting Manager',
   OfficerBroadcasting = 'Broadcasting Officer',
@@ -336,11 +335,6 @@ export const members: Array<Member> = [
     minors: [],
     graduationYear: 2024,
     positions: [
-      {
-        titleName: ClubPositionTitle.ManagerRecruitment,
-        startYear: 2022,
-        endYear: 2023,
-      },
       {
         titleName: ClubPositionTitle.DirectorHumanResources,
         startYear: 2022,
