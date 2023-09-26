@@ -30,7 +30,7 @@ export default function ContactUs() {
       <div className={styles['contact-us-desc']}>
         <ContactCard
           title="Partners"
-          description="If you or your organization would like to do a collaboration through sponsorship or partnership, we encourage you to reach out to us."
+          description="If you or your organization would like to do a collaboration through sponsorship or partnership, we encourage you to reach out."
           link="mailto: partnerships.rutgersesports@gmail.com"
           linkTitle="Contact Partnerships"
         />
@@ -44,7 +44,7 @@ export default function ContactUs() {
 
         <ContactCard
           title="Applications"
-          description="If you happen to have any inquiries related to your application, we are here and more than willing to provide you with the necessary guidance."
+          description="If you happen to have any inquiries related to your application, we are here willing to provide you with the necessary guidance."
           link="mailto: ruesportshr@gmail.com"
           linkTitle="Contact Human Resources"
         />
