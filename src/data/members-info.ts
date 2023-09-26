@@ -12,6 +12,7 @@ import arjunSrivastav2021 from '../images/members/arjun-srivastav.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
 import byanneTan2025 from '../images/members/byanne-tan.jpg'
 import daleBabeyUNKNOWNGRAD from '../images/members/dale-babey.png'
+import danielaBuhain2023 from '../images/members/daniela-buhain.jpeg'
 import davidSotimehin2022 from '../images/members/david-sotimehin.jpg'
 import diegoCorea2019 from '../images/members/diego-corea.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.png'
@@ -932,6 +933,7 @@ export const members: Array<Member> = [
         endYear: 2023,
       },
     ],
+    image: danielaBuhain2023,
   },
   {
     firstName: 'Victoria',
