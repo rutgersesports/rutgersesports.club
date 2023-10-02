@@ -1,4 +1,4 @@
-.job-openings-header {
+.image-header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,20 +10,20 @@
   background-position: center center;
 }
 
-.job-openings-header h1 {
+.image-header h1 {
   color: white;
   font-size: 3.5rem;
 }
 
 @media only screen and (max-width: 1706px) {
-  .job-openings-header {
+  .image-header {
     height: 650px;
     background-size: 130% auto;
   }
 }
 
 @media only screen and (max-width: 1224px) {
-  .job-openings-header {
+  .image-header {
     height: 476px;
     background-size: 150% auto;
   }
@@ -32,7 +32,7 @@
 /* Medium
 -----------------------*/
 @media only screen and (max-width: 768px) {
-  .job-openings-header {
+  .image-header {
     height: 300px;
   }
 }
@@ -40,10 +40,10 @@
 /* Small
 -----------------------*/
 @media only screen and (max-width: 484px) {
-  .job-openings-header {
+  .image-header {
     height: 200px;
   }
-  .job-openings-header h1 {
+  .image-header h1 {
     color: white;
     font-size: 2.5rem;
   }
