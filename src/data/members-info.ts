@@ -12,6 +12,7 @@ import arjunSrivastav2021 from '../images/members/arjun-srivastav.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
 import byanneTan2025 from '../images/members/byanne-tan.jpg'
 import daleBabeyUNKNOWNGRAD from '../images/members/dale-babey.png'
+import danielaBuhain2023 from '../images/members/daniela-buhain.jpeg'
 import davidSotimehin2022 from '../images/members/david-sotimehin.jpg'
 import diegoCorea2019 from '../images/members/diego-corea.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.png'
@@ -144,7 +145,6 @@ export enum ClubPositionTitle {
   ManagerMediaProduction = 'Media Production Manager', // alias: 'Video Production Manager'
   ManagerGraphics = 'Graphics Manager',
   ManagerSocialMedia = 'Social Media Manager',
-  ManagerRecruitment = 'Recruitment Manager',
   ManagerWebsite = 'Website Manager',
   ManagerBroadcasting = 'Broadcasting Manager',
   OfficerBroadcasting = 'Broadcasting Officer',
@@ -336,11 +336,6 @@ export const members: Array<Member> = [
     minors: [],
     graduationYear: 2024,
     positions: [
-      {
-        titleName: ClubPositionTitle.ManagerRecruitment,
-        startYear: 2022,
-        endYear: 2023,
-      },
       {
         titleName: ClubPositionTitle.DirectorHumanResources,
         startYear: 2022,
@@ -938,6 +933,7 @@ export const members: Array<Member> = [
         endYear: 2023,
       },
     ],
+    image: danielaBuhain2023,
   },
   {
     firstName: 'Victoria',
@@ -1694,13 +1690,8 @@ export const members: Array<Member> = [
     positions: [
       {
         titleName: ClubPositionTitle.Treasurer,
-        startYear: 2012,
-        endYear: 2013,
-      },
-      {
-        titleName: ClubPositionTitle.President,
-        startYear: 2013,
-        endYear: 2014,
+        startYear: 2016,
+        endYear: 2017,
       },
     ],
     image: jacobKupferberg2017,
