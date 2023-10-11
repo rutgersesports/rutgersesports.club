@@ -4,6 +4,7 @@ import { StaticImageData } from 'next/image'
 
 interface IImageHeader {
   title: string
+  subtitle?: string
   backgroundImage: StaticImageData
 }
 
@@ -13,7 +14,10 @@ export default function ImageHeader(props: IImageHeader) {
       className={styles['image-header']}
       style={{ backgroundImage: `url(${props.backgroundImage.src})`, backgroundRepeat: 'no-repeat' }}
     >
-      <h1>{props.title}</h1>
+      <div>
+        <h1>{props.title}</h1>
+        {props.subtitle != null ? <h2>{props.subtitle}</h2> : <></>}
+      </div>
     </div>
   )
 }
