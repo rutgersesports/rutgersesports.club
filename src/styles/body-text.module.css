@@ -1,0 +1,10 @@
+.body-text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.body-content {
+  text-align: left;
+  width: 700px;
+}
