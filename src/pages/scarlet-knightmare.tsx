@@ -3,28 +3,52 @@ import styles from '../styles/base.module.css'
 import NavigationBar from '../components/navigation-bar'
 import Footer from '../components/footer'
 import ImageHeader from '@/components/image-header'
-import eventsImage from '../images/anthpo.jpg'
+import eventsImage from '../images/scarletknightmare-2022-1.jpg'
+import bodyImage1 from '../images/scarletknightmare-2022-3.jpg'
+import bodyImage2 from '../images/artist-alley-2023-4.jpg'
 import BodyText from '@/components/body-text'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Events() {
   return (
     <div className={styles['base']}>
       <NavigationBar />
       <ImageHeader
-        title="Scarlet Knightmare"
+        title="Scarlet Knightmare 2023"
         subtitle="Halloween-themed event hosted by Rutgers Esports"
         backgroundImage={eventsImage}
       />
       <BodyText>
-        <h1>What is Lorem Ipsum?</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
-        </p>
+        <div style={{ display: 'flex', marginTop: '50px', marginBottom: '50px', justifyContent: 'space-between' }}>
+          <Image src={bodyImage1} alt="Woman playing Valorant." width={500} style={{ marginRight: '50px' }} />
+          <div>
+            <h1>What is Scarlet Knightmare?</h1>
+            <p>
+              An event hosted by Rutgers Esports run by students. We typically hold friendly competitions such as a
+              costume contest, rock paper scissor competition, partner with other gaming-related clubs, and much more.
+              During the event, we host giveaways, free-to-use gaming PCs, and allow artists to showcase their art at
+              Artist Alley!
+            </p>
+          </div>
+        </div>
+        <div style={{ display: 'flex', marginTop: '50px', marginBottom: '50px', justifyContent: 'space-between' }}>
+          <div>
+            <h1>What is Artist Alley?</h1>
+            <p>
+              Artist Alley is an event where artists can advertise and sell their work to the Rutgers community. You can
+              sign up to become a vendor <Link href={'apply'}>here</Link>. Different types of art ranging from keychains
+              to posters from popular franchises have been sold such as Genshin Impact, League of Legends, Valorant, and
+              more.
+            </p>
+          </div>
+          <Image
+            src={bodyImage2}
+            alt="Two women and one man sitting next to each other surrounded by their work."
+            width={500}
+            style={{ marginLeft: '50px' }}
+          />
+        </div>
       </BodyText>
       <Footer />
     </div>
