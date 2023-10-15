@@ -13,6 +13,12 @@ export const jobs: Array<Job> = [
     isHidden: false,
   },
   {
+    departmentName: 'Events Volunteer',
+    desc: 'Volunteer to manage Scarlet Knightmare 2023',
+    form: 'https://docs.google.com/forms/d/e/1FAIpQLSfPbVU4wr7nHq-ploW88A4CXkfVYiVbv2KrNGJEW_7lOicKOw/viewform?usp=sf_link',
+    isHidden: false,
+  },
+  {
     departmentName: 'Partnership',
     desc: 'Network with big esports industry members while cultivating sponsorships and partnerships',
     form: 'https://forms.gle/iCiqTvGrmWM8hiGZ9',
