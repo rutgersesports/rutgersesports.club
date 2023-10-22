@@ -13,30 +13,9 @@ interface IScheduleRow {
 }
 
 function ScheduleRow(props: IScheduleRow) {
-  let startHour = props.event.startTime?.getHours()
-  const startMinutes = props.event.startTime?.getMinutes().toString().padStart(2, '0')
-  let endHour = props.event.endTime?.getHours()
-  const endMinutes = props.event.endTime?.getMinutes().toString().padStart(2, '0')
-
-  let startSuffix = 'AM'
-  let endSuffix = 'AM'
-
-  if (startHour != undefined && endHour != undefined) {
-    if (startHour >= 12) {
-      startSuffix = 'PM'
-    }
-    if (startHour > 12) {
-      startHour -= 12
-    }
-    if (endHour >= 12) {
-      endSuffix = 'PM'
-    }
-    if (endHour > 12) {
-      endHour -= 12
-    }
-  }
-
-  const displayTime = `${startHour}:${startMinutes}${startSuffix} - ${endHour}:${endMinutes}${endSuffix}`
+  const startMinutes = props.event.startTime?.getMinutes()
+  const endMinutes = props.event.endTime?.getMinutes()
+  const displayTime = `${props.event.startTime?.getHours()}:${startMinutes} - ${props.event.endTime?.getHours()}:${endMinutes}`
 
   return (
     <tr>
