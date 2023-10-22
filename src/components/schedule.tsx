@@ -16,9 +16,8 @@ function ScheduleRow(props: IScheduleRow) {
   let displayTime = 'All Day'
 
   if (props.event.startTime) {
-    const timeFormat = { hour: 'numeric', hour12: true }
-    const startTime = props.event.startTime.toLocaleTimeString('en-US', timeFormat)
-    const endTime = props.event.endTime?.toLocaleTimeString('en-US', timeFormat)
+    const startTime = props.event.startTime.toLocaleTimeString('en-US', { hour: 'numeric', hour12: true })
+    const endTime = props.event.endTime?.toLocaleTimeString('en-US', { hour: 'numeric', hour12: true })
     displayTime = `${startTime} - ${endTime}`
   } else if (props.event.isHourly) {
     displayTime = 'Hourly'
@@ -27,13 +26,13 @@ function ScheduleRow(props: IScheduleRow) {
   return (
     <tr>
       <th>
-        <p style={{ fontWeight: 'bold' }}>
-          {startMinutes != undefined ? (
+        <div style={{ fontWeight: 'bold' }}>
+          {props.event.startTime != undefined ? (
             <p style={{ margin: 0 }}>{displayTime}</p>
           ) : (
             <p style={{ margin: 0 }}>All Day</p>
           )}
-        </p>
+        </div>
       </th>
       <th>
         <div style={{ marginTop: '10px', marginBottom: '10px' }}>
