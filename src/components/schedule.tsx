@@ -1,3 +1,5 @@
+import styles from '../styles/schedule.module.css'
+
 export type ScheduleEvent = {
   name: string
   location: string
@@ -24,12 +26,20 @@ function ScheduleRow(props: IScheduleRow) {
 
   return (
     <tr>
-      <th style={{ paddingRight: '50px' }}>
-        <p>{displayTime}</p>
+      <th>
+        <p style={{ fontWeight: 'bold' }}>
+          {startMinutes != undefined ? (
+            <p style={{ margin: 0 }}>{displayTime}</p>
+          ) : (
+            <p style={{ margin: 0 }}>All Day</p>
+          )}
+        </p>
       </th>
       <th>
-        <strong>{props.event.name}</strong>
-        <p>{props.event.location}</p>
+        <div style={{ marginTop: '10px', marginBottom: '10px' }}>
+          <p style={{ margin: 0, fontWeight: 'bold' }}>{props.event.name}</p>
+          <p style={{ margin: 0 }}>{props.event.location}</p>
+        </div>
       </th>
     </tr>
   )
@@ -44,9 +54,13 @@ export default function Schedule(props: ISchedule) {
   return (
     <div>
       <h1>{props.title}</h1>
-      {props.events.map((data, key) => {
-        return <ScheduleRow key={key} event={data} />
-      })}
+      <table className={styles['schedule']}>
+        <tbody>
+          {props.events.map((data, key) => {
+            return <ScheduleRow key={key} event={data} />
+          })}
+        </tbody>
+      </table>
     </div>
   )
 }
