@@ -9,54 +9,66 @@ import bodyImage2 from '../images/artist-alley-2023-4.jpg'
 import BodyText from '@/components/body-text'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ScheduleEvent } from '@/components/schedule'
+import Schedule, { ScheduleEvent } from '@/components/schedule'
 
 const events: Array<ScheduleEvent> = [
   {
     name: 'Bandai Namco Card Game',
+    location: 'Multi-Purpose Room',
   },
   {
     name: 'Rhythm Games Club',
+    location: 'Multi-Purpose Room',
   },
   {
     name: 'Smash Melee',
+    location: 'Multi-Purpose Room',
   },
   {
     name: 'Smash Ultimate',
+    location: 'Center Hall',
   },
   {
     name: 'Fighting Games Club',
+    location: 'Center Hall',
   },
   {
     name: 'Artists Alley',
+    location: 'International & Fireside Lounge',
   },
   {
     name: 'Chess Club',
     startTime: new Date(2023, 10, 28, 12, 0),
     endTime: new Date(2023, 10, 28, 16, 0),
+    location: 'The Cove',
   },
   {
     name: 'RU Unplugged',
     startTime: new Date(2023, 10, 28, 16, 0),
     endTime: new Date(2023, 10, 28, 22, 0),
+    location: 'The Cove',
   },
   {
     name: 'Trivia',
     startTime: new Date(2023, 10, 28, 15, 0),
     endTime: new Date(2023, 10, 28, 17, 0),
+    location: 'The Cove',
   },
   {
     name: 'Costume Contest',
     startTime: new Date(2023, 10, 28, 17, 0),
     endTime: new Date(2023, 10, 28, 20, 0),
+    location: 'The Cove',
   },
   {
     name: 'Genshin Contest',
     startTime: new Date(2023, 10, 28, 20, 0),
     endTime: new Date(2023, 10, 28, 23, 0),
+    location: 'The Cove',
   },
   {
     name: 'Instant Raffle Giveaway',
+    location: 'Multi-Purpose Room',
     isHourly: true,
   },
 ]
@@ -100,6 +112,7 @@ export default function Events() {
             style={{ marginLeft: '50px' }}
           />
         </div>
+        <Schedule title="Event Schedule" events={events} />
       </BodyText>
       <Footer />
     </div>
