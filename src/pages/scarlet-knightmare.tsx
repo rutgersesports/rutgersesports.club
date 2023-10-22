@@ -9,6 +9,57 @@ import bodyImage2 from '../images/artist-alley-2023-4.jpg'
 import BodyText from '@/components/body-text'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ScheduleEvent } from '@/components/schedule'
+
+const events: Array<ScheduleEvent> = [
+  {
+    name: 'Bandai Namco Card Game',
+  },
+  {
+    name: 'Rhythm Games Club',
+  },
+  {
+    name: 'Smash Melee',
+  },
+  {
+    name: 'Smash Ultimate',
+  },
+  {
+    name: 'Fighting Games Club',
+  },
+  {
+    name: 'Artists Alley',
+  },
+  {
+    name: 'Chess Club',
+    startTime: new Date(2023, 10, 28, 12, 0),
+    endTime: new Date(2023, 10, 28, 16, 0),
+  },
+  {
+    name: 'RU Unplugged',
+    startTime: new Date(2023, 10, 28, 16, 0),
+    endTime: new Date(2023, 10, 28, 22, 0),
+  },
+  {
+    name: 'Trivia',
+    startTime: new Date(2023, 10, 28, 15, 0),
+    endTime: new Date(2023, 10, 28, 17, 0),
+  },
+  {
+    name: 'Costume Contest',
+    startTime: new Date(2023, 10, 28, 17, 0),
+    endTime: new Date(2023, 10, 28, 20, 0),
+  },
+  {
+    name: 'Genshin Contest',
+    startTime: new Date(2023, 10, 28, 20, 0),
+    endTime: new Date(2023, 10, 28, 23, 0),
+  },
+  {
+    name: 'Instant Raffle Giveaway',
+    isHourly: true,
+  },
+]
 
 export default function Events() {
   return (
