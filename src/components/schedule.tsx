@@ -11,13 +11,20 @@ interface IScheduleRow {
 }
 
 function ScheduleRow(props: IScheduleRow) {
-  const startMinutes = props.event.startTime?.getMinutes()
-  const endMinutes = props.event.endTime?.getMinutes()
-  const displayTime = `${props.event.startTime?.getHours()}:${startMinutes} - ${props.event.endTime?.getHours()}:${endMinutes}`
+  let displayTime = 'All Day'
+
+  if (props.event.startTime) {
+    const timeFormat = { hour: 'numeric', hour12: true }
+    const startTime = props.event.startTime.toLocaleTimeString('en-US', timeFormat)
+    const endTime = props.event.endTime?.toLocaleTimeString('en-US', timeFormat)
+    displayTime = `${startTime} - ${endTime}`
+  } else if (props.event.isHourly) {
+    displayTime = 'Hourly'
+  }
 
   return (
     <tr>
-      <th>
+      <th style={{ paddingRight: '50px' }}>
         <p>{displayTime}</p>
       </th>
       <th>
