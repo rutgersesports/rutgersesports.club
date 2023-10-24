@@ -12,13 +12,13 @@
 
 .image-header h1 {
   color: white;
-  font-size: 3.5rem;
+  font-size: 70px;
   margin: 0;
 }
 
 .image-header h2 {
   color: white;
-  font-size: 1.5rem;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -26,6 +26,18 @@
   .image-header {
     height: 650px;
     background-size: 130% auto;
+  }
+
+  .image-header h1 {
+    color: white;
+    font-size: 6vw;
+    margin: 0;
+  }
+
+  .image-header h2 {
+    color: white;
+    font-size: 2.5vw;
+    margin: 0;
   }
 }
 

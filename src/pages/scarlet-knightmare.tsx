@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/base.module.css'
+import pageStyles from '../styles/scarlet-knight.module.css'
 import NavigationBar from '../components/navigation-bar'
 import Footer from '../components/footer'
 import ImageHeader from '@/components/image-header'
@@ -84,8 +85,13 @@ export default function Events() {
       />
       <BodyText>
         <div style={{ display: 'flex', marginTop: '50px', marginBottom: '50px', justifyContent: 'space-between' }}>
-          <Image src={bodyImage1} alt="Woman playing Valorant." width={500} style={{ marginRight: '50px' }} />
-          <div>
+          <Image
+            className={styles['hide-if-mobile']}
+            src={bodyImage1}
+            alt="Woman playing Valorant."
+            style={{ marginRight: '50px', objectFit: 'contain', minWidth: '200px', height: 'auto' }}
+          />
+          <div style={{ minWidth: '350px' }}>
             <h1>What is Scarlet Knightmare?</h1>
             <p>
               An event hosted by Rutgers Esports run by students. We typically hold friendly competitions such as a
@@ -95,8 +101,15 @@ export default function Events() {
             </p>
           </div>
         </div>
-        <div style={{ display: 'flex', marginTop: '50px', marginBottom: '50px', justifyContent: 'space-between' }}>
-          <div>
+        <div
+          style={{
+            display: 'flex',
+            marginTop: '50px',
+            marginBottom: '50px',
+            justifyContent: 'space-between',
+          }}
+        >
+          <div style={{ minWidth: '350px' }}>
             <h1>What is Artist Alley?</h1>
             <p>
               Artist Alley is an event where artists can advertise and sell their work to the Rutgers community. You can
@@ -106,13 +119,15 @@ export default function Events() {
             </p>
           </div>
           <Image
+            className={styles['hide-if-mobile']}
             src={bodyImage2}
             alt="Two women and one man sitting next to each other surrounded by their work."
-            width={500}
-            style={{ marginLeft: '50px' }}
+            style={{ minWidth: '200px', marginLeft: '50px', height: 'auto', objectFit: 'contain' }}
           />
         </div>
-        <Schedule title="Event Schedule" events={events} />
+        <div style={{ marginBottom: '50px' }}>
+          <Schedule title="Event Schedule" events={events} />
+        </div>
       </BodyText>
       <Footer />
     </div>

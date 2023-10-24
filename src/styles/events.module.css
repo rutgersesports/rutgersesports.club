@@ -1,0 +1,5 @@
+.body-image {
+  object-fit: 'contain';
+  min-width: '300px';
+  height: 'auto';
+}
