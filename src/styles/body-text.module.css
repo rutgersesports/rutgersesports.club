@@ -9,3 +9,9 @@
   min-width: 500px;
   width: 60%;
 }
+
+@media (max-width: 1100px) {
+  .body-content {
+    width: 80%;
+  }
+}

@@ -89,9 +89,9 @@ export default function Events() {
             className={styles['hide-if-mobile']}
             src={bodyImage1}
             alt="Woman playing Valorant."
-            style={{ marginRight: '50px', objectFit: 'contain', minWidth: '200px', height: 'auto' }}
+            style={{ marginRight: '50px', objectFit: 'contain', minWidth: '400px', width: 'auto', height: 'auto' }}
           />
-          <div style={{ minWidth: '350px' }}>
+          <div>
             <h1>What is Scarlet Knightmare?</h1>
             <p>
               An event hosted by Rutgers Esports run by students. We typically hold friendly competitions such as a
@@ -109,7 +109,7 @@ export default function Events() {
             justifyContent: 'space-between',
           }}
         >
-          <div style={{ minWidth: '350px' }}>
+          <div>
             <h1>What is Artist Alley?</h1>
             <p>
               Artist Alley is an event where artists can advertise and sell their work to the Rutgers community. You can
@@ -122,7 +122,7 @@ export default function Events() {
             className={styles['hide-if-mobile']}
             src={bodyImage2}
             alt="Two women and one man sitting next to each other surrounded by their work."
-            style={{ minWidth: '200px', marginLeft: '50px', height: 'auto', objectFit: 'contain' }}
+            style={{ minWidth: '400px', width: 'auto', marginLeft: '50px', height: 'auto', objectFit: 'contain' }}
           />
         </div>
         <div style={{ marginBottom: '50px' }}>
