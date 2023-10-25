@@ -52,19 +52,19 @@ const events: Array<ScheduleEvent> = [
   {
     name: 'Trivia',
     startTime: new Date(2023, 10, 28, 15, 0),
-    endTime: new Date(2023, 10, 28, 17, 0),
+    endTime: new Date(2023, 10, 28, 16, 0),
     location: 'The Cove',
   },
   {
     name: 'Costume Contest',
     startTime: new Date(2023, 10, 28, 17, 0),
-    endTime: new Date(2023, 10, 28, 20, 0),
+    endTime: new Date(2023, 10, 28, 18, 0),
     location: 'The Cove',
   },
   {
     name: 'Genshin Contest',
     startTime: new Date(2023, 10, 28, 20, 0),
-    endTime: new Date(2023, 10, 28, 23, 0),
+    endTime: new Date(2023, 10, 28, 21, 0),
     location: 'The Cove',
   },
   {
