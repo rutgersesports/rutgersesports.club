@@ -48,9 +48,6 @@ export default function NavigationBar() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="scarlet-knightmare">Scarlet Knightmare</Link>
-            </li>
-            <li>
               <Link href="members">Members</Link>
             </li>
             <li>

@@ -10,13 +10,13 @@ export const jobs: Array<Job> = [
     departmentName: "Artist's Alley",
     desc: "Register to become part of Artist's alley during Scarlet Knightmare (10/28)",
     form: 'https://forms.gle/LfGH6peTC4FojPYb8',
-    isHidden: false,
+    isHidden: true,
   },
   {
     departmentName: 'Events Volunteer',
     desc: 'Volunteer to manage Scarlet Knightmare 2023',
     form: 'https://docs.google.com/forms/d/e/1FAIpQLSfPbVU4wr7nHq-ploW88A4CXkfVYiVbv2KrNGJEW_7lOicKOw/viewform?usp=sf_link',
-    isHidden: false,
+    isHidden: true,
   },
   {
     departmentName: 'Partnership',
