@@ -12,11 +12,19 @@ export default function AboutOurselves() {
     <div className={styles['about-ourselves']}>
       <h1>About Ourselves</h1>
       <div className={styles['community-image-grid']}>
-        <Image className={`${styles['community-img']} ${styles['community-img--1']}`} src={theclub} alt="community" />
-        <Image className={styles['community-img']} src={community1} alt="community" />
-        <Image className={styles['community-img']} src={community2} alt="community" />
-        <Image className={styles['community-img']} src={community3} alt="community" />
-        <Image className={styles['community-img']} src={community4} alt="community" />
+        <Image
+          className={`${styles['community-img']} ${styles['community-img--1']}`}
+          src={theclub}
+          alt="A group photo of Rutgers Esports 2022 members."
+        />
+        <Image className={styles['community-img']} src={community1} alt="A man in a tan shirt playing VALORANT." />
+        <Image className={styles['community-img']} src={community2} alt="A woman preparing for Artist Alley." />
+        <Image className={styles['community-img']} src={community3} alt="A group of four people playing chess." />
+        <Image
+          className={styles['community-img']}
+          src={community4}
+          alt="A group of women playing Mario Kart 8 Deluxe."
+        />
       </div>
       <div className={styles['about-ourselves-desc']}>
         <div className={styles['desc-col']}>
