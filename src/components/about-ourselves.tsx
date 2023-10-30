@@ -3,7 +3,7 @@ import styles from '../styles/about-ourselves.module.css'
 import theclub from '../images/the-club.jpg'
 import community1 from '../images/community1.jpg'
 import community2 from '../images/community2.jpg'
-import community3 from '../images/community3.jpg'
+import community3 from '../images/community3.png'
 import community4 from '../images/community4.jpg'
 import Image from 'next/image'
 
