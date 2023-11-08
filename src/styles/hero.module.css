@@ -25,3 +25,14 @@
   line-height: 4vw;
   filter: drop-shadow(0 0.4rem 0 #a71f1f);
 }
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-text h1 {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+}

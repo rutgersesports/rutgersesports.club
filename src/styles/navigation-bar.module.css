@@ -76,7 +76,7 @@ code owner.
     text-align: left;
     display: block;
     justify-content: baseline;
-    padding: 35px 35px;
+    padding: 1vh;
   }
 
   .nav .mobilemenuicon {

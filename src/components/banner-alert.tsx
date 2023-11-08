@@ -16,10 +16,7 @@ export default function AlertBanner(props: IAlertBanner) {
     <div
       style={{
         backgroundColor: '#d62929',
-        paddingLeft: '20px',
-        paddingRight: '20px',
-        paddingBottom: '25px',
-        paddingTop: '25px',
+        padding: '3vh',
         color: 'white',
         borderColor: 'white',
         borderStyle: 'solid',
@@ -28,13 +25,12 @@ export default function AlertBanner(props: IAlertBanner) {
         borderTop: 0,
         borderWidth: '1px',
         display: `${isHidden ? 'none' : 'flex'}`,
-        justifyContent: 'center',
-        alignContent: 'center',
-        position: 'relative',
+        alignItems: 'center',
+        justifyContent: 'space-between', // Add this line
       }}
     >
-      <p style={{ margin: 0 }}>{props.msg}</p>
-      <div onClick={changeVisibility} style={{ position: 'absolute', right: 0, paddingRight: '20px' }}>
+      <p style={{ margin: 0, flex: 1 }}>{props.msg}</p>
+      <div onClick={changeVisibility}>
         <XMarkIcon style={{ width: '25px', height: '25px' }} />
       </div>
     </div>
