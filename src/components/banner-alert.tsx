@@ -26,7 +26,7 @@ export default function AlertBanner(props: IAlertBanner) {
         borderWidth: '1px',
         display: `${isHidden ? 'none' : 'flex'}`,
         alignItems: 'center',
-        justifyContent: 'space-between', // Add this line
+        justifyContent: 'space-between',
       }}
     >
       <p style={{ margin: 0, flex: 1 }}>{props.msg}</p>
