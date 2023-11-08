@@ -39,7 +39,6 @@ import thomasPalka2020 from '../images/members/thomas-palka.png'
 import tiffanyChen2021 from '../images/members/tiffany-chen.jpg'
 import timothyWaldron2020 from '../images/members/timothy-waldron.jpg'
 import rileyHerrera2025 from '../images/members/riley-herrera.png'
-import ronaldBarrantes2024 from '../images/members/ronald-barrantes.jpg'
 import victoriaChen2024 from '../images/members/victoria-chen.jpg'
 import victorOkoye2023 from '../images/members/victor-okoye.jpg'
 import vincenzoDiMatteo2022 from '../images/members/vincenzo-diMatteo.jpg'
@@ -472,21 +471,6 @@ export const members: Array<Member> = [
       },
     ],
     image: davidSotimehin2022,
-  },
-  {
-    firstName: 'Ronald',
-    lastName: 'Barrantes',
-    majors: [AcademicStudy.ITI],
-    minors: [],
-    graduationYear: 2024,
-    positions: [
-      {
-        titleName: ClubPositionTitle.Secretary,
-        startYear: 2021,
-        endYear: 2022,
-      },
-    ],
-    image: ronaldBarrantes2024,
   },
   {
     firstName: 'Ahmed',
