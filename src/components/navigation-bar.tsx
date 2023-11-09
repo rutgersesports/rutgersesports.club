@@ -36,9 +36,7 @@ export default function NavigationBar() {
     <>
       <TrackingPixel />
       <div className={styles.nav}>
-        <Link href="/">
-          <Image className={styles.logo} src={rutgersEsportsLogo} alt="Rutgers Esports" />
-        </Link>
+        <Image className={styles.logo} src={rutgersEsportsLogo} alt="Rutgers Esports" />
         <div className={styles.mobilemenuicon} onClick={handleMenuClick}>
           <Image src={menuIcon} alt="Open routes" />
         </div>
