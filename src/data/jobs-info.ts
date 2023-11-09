@@ -8,8 +8,8 @@ export type Job = {
 export const jobs: Array<Job> = [
   {
     departmentName: "Artist's Alley",
-    desc: "Register to become part of Artist's alley during Scarlet Knightmare (10/28)",
-    form: 'https://forms.gle/LfGH6peTC4FojPYb8',
+    desc: "Register to become part of Artist's alley during Fireside Open (12/2)",
+    form: 'https://forms.gle/pvzY2v5FzssT4HW78',
     isHidden: true,
   },
   {
