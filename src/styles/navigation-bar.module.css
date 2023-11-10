@@ -68,7 +68,7 @@ code owner.
 /* Ultra Small
 -----------------------*/
 @media only screen and (max-width: 1000px) {
-  .logo {
+  .redirect {
     display: none;
   }
 
@@ -76,7 +76,7 @@ code owner.
     text-align: left;
     display: block;
     justify-content: baseline;
-    padding: 35px 35px;
+    padding: 2vh;
   }
 
   .nav .mobilemenuicon {
