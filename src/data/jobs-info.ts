@@ -14,9 +14,9 @@ export const jobs: Array<Job> = [
   },
   {
     departmentName: 'Events Volunteer',
-    desc: 'Volunteer to manage Scarlet Knightmare 2023',
-    form: 'https://docs.google.com/forms/d/e/1FAIpQLSfPbVU4wr7nHq-ploW88A4CXkfVYiVbv2KrNGJEW_7lOicKOw/viewform?usp=sf_link',
-    isHidden: true,
+    desc: 'Volunteer to manage Fireside Open 2023',
+    form: 'https://docs.google.com/forms/d/e/1FAIpQLSefkKuxKEpxl2tp6aHKJtnUGASlS5TtiNP0EkWcUbdCpeMuUA/viewform',
+    isHidden: false,
   },
   {
     departmentName: 'Partnership',
