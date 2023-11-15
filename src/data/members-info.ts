@@ -11,8 +11,10 @@ import andrewPark2022 from '../images/members/andrew-park.jpg'
 import arjunSrivastav2021 from '../images/members/arjun-srivastav.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
 import byanneTan2025 from '../images/members/byanne-tan.jpg'
+import codyTomchak2023 from '../images/members/cody-tomchak.jpg'
 import daleBabeyUNKNOWNGRAD from '../images/members/dale-babey.png'
 import danielaBuhain2023 from '../images/members/daniela-buhain.jpeg'
+import dannyOnuorah2023 from '../images/members/danny-onuorah.jpg'
 import davidSotimehin2022 from '../images/members/david-sotimehin.jpg'
 import diegoCorea2019 from '../images/members/diego-corea.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.png'
@@ -151,6 +153,7 @@ export enum ClubPositionTitle {
   OfficerTechnology = 'Technology Officer',
   OfficerSocialMedia = 'Social Media Officer',
   OfficerGraphicDesign = 'Graphic Design Officer',
+  NewsAnchorMediaProduction = 'The REN Guy',
 
   /* Do not give this to people during and after 2018-2019 */
   EBoardMember = 'Executive Board Member',
@@ -1152,11 +1155,6 @@ export const members: Array<Member> = [
         startYear: 2022,
         endYear: 2023,
       },
-      {
-        titleName: ClubPositionTitle.OfficerHumanResources,
-        startYear: 2023,
-        endYear: 2024,
-      },
     ],
   },
   {
@@ -1694,5 +1692,35 @@ export const members: Array<Member> = [
       },
     ],
     image: johnMacone2017,
+  },
+  {
+    firstName: 'Cody',
+    lastName: 'Tomchak',
+    majors: [],
+    minors: [],
+    graduationYear: 2024,
+    positions: [
+      {
+        titleName: ClubPositionTitle.NewsAnchorMediaProduction,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
+    image: codyTomchak2023,
+  },
+  {
+    firstName: 'Danny',
+    lastName: 'Onuorah',
+    majors: [],
+    minors: [],
+    graduationYear: 2025,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerTechnology,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
+    image: dannyOnuorah2023,
   },
 ]
