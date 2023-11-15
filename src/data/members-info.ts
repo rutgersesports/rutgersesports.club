@@ -148,12 +148,12 @@ export enum ClubPositionTitle {
   ManagerSocialMedia = 'Social Media Manager',
   ManagerWebsite = 'Website Manager',
   ManagerBroadcasting = 'Broadcasting Manager',
+  NewsAnchorMediaProduction = 'The REN Guy',
   OfficerBroadcasting = 'Broadcasting Officer',
   OfficerHumanResources = 'Human Resources Officer',
   OfficerTechnology = 'Technology Officer',
   OfficerSocialMedia = 'Social Media Officer',
   OfficerGraphicDesign = 'Graphic Design Officer',
-  NewsAnchorMediaProduction = 'The REN Guy',
 
   /* Do not give this to people during and after 2018-2019 */
   EBoardMember = 'Executive Board Member',
