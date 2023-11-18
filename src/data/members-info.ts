@@ -6,7 +6,6 @@ import aliceBalashova2019 from '../images/members/alice-balashova.jpg'
 import alisonLiu2024 from '../images/members/alison-liu.jpg'
 import andrewHarUNKNOWNGRAD from '../images/members/andrew-har.png'
 import andrewHarper2025 from '../images/members/andrew-harper.jpg'
-import andrewHong2026 from '../images/members/andrew-hong.jpg'
 import andrewPark2022 from '../images/members/andrew-park.jpg'
 import arjunSrivastav2021 from '../images/members/arjun-srivastav.jpg'
 import anthonyZhang2025 from '../images/members/anthony-zhang.jpeg'
@@ -624,7 +623,6 @@ export const members: Array<Member> = [
         endYear: 2023,
       },
     ],
-    image: andrewHong2026,
     socialMedia: {
       github: 'novialriptide',
     },
