@@ -77,6 +77,10 @@ export default function Footer() {
         >
           Rutgers Esports Website Team
         </Link>
+        , created by{' '}
+        <Link target="_blank" rel="noopener noreferrer" href="https://go.rutgers.edu/andrewhong">
+          Andrew Hong
+        </Link>
         <br />
       </div>
     </>
