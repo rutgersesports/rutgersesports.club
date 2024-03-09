@@ -8,14 +8,8 @@ export type Job = {
 export const jobs: Array<Job> = [
   {
     departmentName: "Artist's Alley",
-    desc: "Register to become part of Artist's alley during Fireside Open (12/2)",
-    form: 'https://forms.gle/pvzY2v5FzssT4HW78',
-    isHidden: false,
-  },
-  {
-    departmentName: 'Events Volunteer',
-    desc: 'Volunteer to manage Fireside Open 2023',
-    form: 'https://docs.google.com/forms/d/e/1FAIpQLSefkKuxKEpxl2tp6aHKJtnUGASlS5TtiNP0EkWcUbdCpeMuUA/viewform',
+    desc: "Register to become part of Artist's alley during Scarlet Classic IX 2024",
+    form: 'https://forms.gle/DV1DMgrVsk41ZK1V8',
     isHidden: false,
   },
   {
