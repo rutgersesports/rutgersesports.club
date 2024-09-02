@@ -10,13 +10,13 @@ export const jobs: Array<Job> = [
     departmentName: 'Scarlet Classic IX Volunteer',
     desc: 'Volunteer to become staff at Scarlet Classic IX 2024',
     form: 'https://docs.google.com/forms/d/e/1FAIpQLSdYTugqYWeRMD3GPPbYUA6ftUyULN4xpIg-IntUCsmNziFh2Q/viewform?usp=sf_link',
-    isHidden: false,
+    isHidden: true,
   },
   {
     departmentName: "Artist's Alley",
     desc: "Register to become part of Artist's alley during Scarlet Classic IX 2024",
     form: 'https://forms.gle/DV1DMgrVsk41ZK1V8',
-    isHidden: false,
+    isHidden: true,
   },
   {
     departmentName: 'Partnership',
