@@ -24,6 +24,7 @@ import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
 import jackieChen2017 from '../images/members/jackie-chen.jpg'
 import jacobKupferberg2017 from '../images/members/jacob-kupferberg.jpg'
 import johnMacone2017 from '../images/members/john-macone.jpg'
+import johnTran2026 from '../images/members/john-tran.png'
 import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import jonahWang2021 from '../images/members/jonah-wang.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
@@ -33,6 +34,7 @@ import kylePerry2025 from '../images/members/kyle-perry.jpg'
 import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpeg'
 import malavPatel2017 from '../images/members/malav-patel.jpg'
+import patrickMasuda2026 from '../images/members/patrick-masuda.png'
 import scottZackman2019 from '../images/members/scott-zackman.png'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
 import sebastianRomero2020 from '../images/members/sebastian-romero.jpg'
@@ -172,6 +174,11 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.Treasurer,
         startYear: 2023,
         endYear: 2024,
+      },
+      {
+        titleName: ClubPositionTitle.Treasurer,
+        startYear: 2024,
+        endYear: 2025,
       },
     ],
     image: anthonyZhang2025,
@@ -1089,6 +1096,11 @@ export const members: Array<Member> = [
         startYear: 2023,
         endYear: 2024,
       },
+      {
+        titleName: ClubPositionTitle.VicePresident,
+        startYear: 2024,
+        endYear: 2025,
+      },
     ],
     image: byanneTan2025,
   },
@@ -1720,5 +1732,40 @@ export const members: Array<Member> = [
       },
     ],
     image: dannyOnuorah2023,
+  },
+  {
+    firstName: 'Patrick',
+    lastName: 'Masuda',
+    majors: [],
+    minors: [],
+    graduationYear: 2026,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2023,
+        endYear: 2024,
+      },
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2024,
+        endYear: 2025,
+      },
+    ],
+    image: patrickMasuda2026,
+  },
+  {
+    firstName: 'John',
+    lastName: 'Tran',
+    majors: [],
+    minors: [],
+    graduationYear: 2026,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerBroadcasting,
+        startYear: 2024,
+        endYear: 2025,
+      },
+    ],
+    image: johnTran2026,
   },
 ]
