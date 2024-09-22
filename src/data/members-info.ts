@@ -40,6 +40,7 @@ import patrickMasuda2026 from '../images/members/patrick-masuda.png'
 import scottZackman2019 from '../images/members/scott-zackman.png'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
 import sebastianRomero2020 from '../images/members/sebastian-romero.jpg'
+import sophiaYeh2026 from '../images/members/sophia-yeh.png'
 import thomasPalka2020 from '../images/members/thomas-palka.png'
 import tiffanyChen2021 from '../images/members/tiffany-chen.jpg'
 import timothyWaldron2020 from '../images/members/timothy-waldron.jpg'
@@ -1829,5 +1830,6 @@ export const members: Array<Member> = [
         endYear: 2024,
       },
     ],
+    image: sophiaYeh2026,
   },
 ]
