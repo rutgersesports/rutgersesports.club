@@ -124,7 +124,7 @@ export default function HomePage() {
           <div style={{ width: '80%' }}>
             <div>
               <p style={{ fontWeight: 'bolder', fontSize: '2.6rem', marginBottom: '0', color: '#a51f1f' }}>
-                Rutgers Esports Executive Board & Alumni
+                Executive Board & Alumni
               </p>
               {Array(endYear - startYear)
                 .fill('_')

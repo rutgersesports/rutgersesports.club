@@ -19,6 +19,7 @@ import diegoCorea2019 from '../images/members/diego-corea.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.png'
 import ericYao2023 from '../images/members/eric-yao.jpg'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
+import giaSimone from '../images/members/gianna-simone.png'
 import handellQuiros2024 from '../images/members/handell-quiros.jpeg'
 import ishaanKeswani2024 from '../images/members/ishaan-keswani.jpg'
 import jackieChen2017 from '../images/members/jackie-chen.jpg'
@@ -29,6 +30,7 @@ import jonathanJackson2022 from '../images/members/jonathan-jackson.jpg'
 import jonahWang2021 from '../images/members/jonah-wang.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
 import julieNghiem2023 from '../images/members/julie-nghiem.jpg'
+import katZhao2026 from '../images/members/katherine-zhao.png'
 import kyleElbaum2019 from '../images/members/kyle-elbaum.jpg'
 import kylePerry2025 from '../images/members/kyle-perry.jpg'
 import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
@@ -144,6 +146,7 @@ export enum ClubPositionTitle {
   DirectorGraphicDesign = 'Director of Graphic Design',
   DirectorSocialMedia = 'Director of Social Media',
   ManagerPartnership = 'Partnership Manager',
+  ManagerRecruitment = 'Recruitment Manager',
   ManagerMediaProduction = 'Media Production Manager', // alias: 'Video Production Manager'
   ManagerGraphics = 'Graphics Manager',
   ManagerSocialMedia = 'Social Media Manager',
@@ -628,6 +631,11 @@ export const members: Array<Member> = [
         titleName: ClubPositionTitle.ManagerWebsite,
         startYear: 2022,
         endYear: 2023,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorTechnology,
+        startYear: 2024,
+        endYear: 2025,
       },
     ],
     socialMedia: {
@@ -1715,6 +1723,11 @@ export const members: Array<Member> = [
         startYear: 2023,
         endYear: 2024,
       },
+      {
+        titleName: ClubPositionTitle.DirectorMarketing,
+        startYear: 2024,
+        endYear: 2025,
+      },
     ],
     image: codyTomchak2023,
   },
@@ -1767,5 +1780,54 @@ export const members: Array<Member> = [
       },
     ],
     image: johnTran2026,
+  },
+  {
+    firstName: 'Katherine',
+    lastName: 'Zhao',
+    majors: [],
+    minors: [],
+    graduationYear: 2026,
+    positions: [
+      {
+        titleName: ClubPositionTitle.ManagerRecruitment,
+        startYear: 2024,
+        endYear: 2025,
+      },
+    ],
+    image: katZhao2026,
+  },
+  {
+    firstName: 'Gia',
+    lastName: 'Simone',
+    majors: [],
+    minors: [],
+    graduationYear: 2025,
+    positions: [
+      {
+        titleName: ClubPositionTitle.ManagerSocialMedia,
+        startYear: 2024,
+        endYear: 2025,
+      },
+    ],
+    image: giaSimone,
+  },
+  {
+    firstName: 'Sophia',
+    lastName: 'Yeh',
+    majors: [],
+    minors: [],
+    graduationYear: 2026,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorHumanResources,
+        startYear: 2024,
+        endYear: 2025,
+      },
+      {
+        titleName: ClubPositionTitle.ManagerRecruitment,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
   },
 ]
