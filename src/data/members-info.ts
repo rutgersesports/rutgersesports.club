@@ -18,6 +18,7 @@ import davidSotimehin2022 from '../images/members/david-sotimehin.jpg'
 import diegoCorea2019 from '../images/members/diego-corea.jpg'
 import eanneChang2023 from '../images/members/eanne-chiang.png'
 import ericYao2023 from '../images/members/eric-yao.jpg'
+import emmaLockburner2025 from '../images/members/emma-lockburner2025.png'
 import finnKliewer2024 from '../images/members/finn-kliewer.jpeg'
 import giaSimone from '../images/members/gianna-simone.png'
 import handellQuiros2024 from '../images/members/handell-quiros.jpeg'
@@ -31,6 +32,7 @@ import jonahWang2021 from '../images/members/jonah-wang.jpg'
 import julianLee2021 from '../images/members/julian-lee.jpg'
 import julieNghiem2023 from '../images/members/julie-nghiem.jpg'
 import katZhao2026 from '../images/members/katherine-zhao.png'
+import kilalaYamamoto2027 from '../images/members/kilala-yamamoto.png'
 import kyleElbaum2019 from '../images/members/kyle-elbaum.jpg'
 import kylePerry2025 from '../images/members/kyle-perry.jpg'
 import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
@@ -655,6 +657,11 @@ export const members: Array<Member> = [
         startYear: 2023,
         endYear: 2024,
       },
+      {
+        titleName: ClubPositionTitle.President,
+        startYear: 2024,
+        endYear: 2025,
+      },
     ],
     image: kylePerry2025,
   },
@@ -670,7 +677,13 @@ export const members: Array<Member> = [
         startYear: 2023,
         endYear: 2024,
       },
+      {
+        titleName: ClubPositionTitle.ManagerBroadcasting,
+        startYear: 2024,
+        endYear: 2025,
+      },
     ],
+    image: emmaLockburner2025,
   },
   {
     firstName: 'Trigun',
@@ -1831,5 +1844,39 @@ export const members: Array<Member> = [
       },
     ],
     image: sophiaYeh2026,
+  },
+  {
+    firstName: 'Kilala',
+    lastName: 'Yamamoto',
+    majors: [],
+    minors: [],
+    graduationYear: 2027,
+    positions: [
+      {
+        titleName: ClubPositionTitle.DirectorVideoProduction,
+        startYear: 2024,
+        endYear: 2025,
+      },
+    ],
+    image: kilalaYamamoto2027,
+  },
+  {
+    firstName: 'Malik',
+    lastName: 'Lekmine',
+    majors: [],
+    minors: [],
+    graduationYear: 2024,
+    positions: [
+      {
+        titleName: ClubPositionTitle.OfficerHumanResources,
+        startYear: 2022,
+        endYear: 2023,
+      },
+      {
+        titleName: ClubPositionTitle.OfficerHumanResources,
+        startYear: 2023,
+        endYear: 2024,
+      },
+    ],
   },
 ]
