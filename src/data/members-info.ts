@@ -38,6 +38,7 @@ import kylePerry2025 from '../images/members/kyle-perry.jpg'
 import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpeg'
 import malavPatel2017 from '../images/members/malav-patel.jpg'
+import malikLekmine2024 from '../images/members/malik-lekmine.png'
 import patrickMasuda2026 from '../images/members/patrick-masuda.png'
 import scottZackman2019 from '../images/members/scott-zackman.png'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
@@ -1878,5 +1879,6 @@ export const members: Array<Member> = [
         endYear: 2024,
       },
     ],
+    image: malikLekmine2024,
   },
 ]
