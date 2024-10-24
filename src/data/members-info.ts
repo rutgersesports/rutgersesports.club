@@ -1090,6 +1090,11 @@ export const members: Array<Member> = [
         startYear: 2023,
         endYear: 2024,
       },
+      {
+        titleName: ClubPositionTitle.DirectorEvents,
+        startYear: 2024,
+        endYear: 2025,
+      },
     ],
     image: rileyHerrera2025,
   },
