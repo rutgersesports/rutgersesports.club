@@ -42,7 +42,6 @@ import malikLekmine2024 from '../images/members/malik-lekmine.png'
 import patrickMasuda2026 from '../images/members/patrick-masuda.png'
 import scottZackman2019 from '../images/members/scott-zackman.png'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
-import sebastianRomero2020 from '../images/members/sebastian-romero.jpg'
 import sophiaYeh2026 from '../images/members/sophia-yeh.png'
 import thomasPalka2020 from '../images/members/thomas-palka.png'
 import tiffanyChen2021 from '../images/members/tiffany-chen.jpg'
@@ -782,36 +781,6 @@ export const members: Array<Member> = [
         endYear: 2020,
       },
     ],
-  },
-  {
-    firstName: 'Sebastian',
-    lastName: 'Romero',
-    majors: [AcademicStudy.HumanResources],
-    minors: [AcademicStudy.Psychology, AcademicStudy.History],
-    graduationYear: 2020,
-    positions: [
-      {
-        titleName: ClubPositionTitle.EBoardMember,
-        startYear: 2016,
-        endYear: 2017,
-      },
-      {
-        titleName: ClubPositionTitle.EBoardMember,
-        startYear: 2017,
-        endYear: 2018,
-      },
-      {
-        titleName: ClubPositionTitle.DirectorHumanResources,
-        startYear: 2018,
-        endYear: 2019,
-      },
-      {
-        titleName: ClubPositionTitle.VicePresident,
-        startYear: 2018,
-        endYear: 2019,
-      },
-    ],
-    image: sebastianRomero2020,
   },
   {
     firstName: 'Timothy',
