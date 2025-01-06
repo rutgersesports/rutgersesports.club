@@ -139,6 +139,7 @@ export enum ClubPositionTitle {
   Treasurer = 'Treasurer',
   Secretary = 'Secretary',
   DirectorCompetitiveManagement = 'Director of Competitive Management',
+  DirectorCommunityManagement = 'Director of Community Management',
   DirectorVideoProduction = 'Director of Video Production',
   DirectorMarketing = 'Director of Marketing',
   DirectorEvents = 'Director of Events',
@@ -1629,16 +1630,21 @@ export const members: Array<Member> = [
     ],
   },
   {
-    firstName: 'David',
+    firstName: 'Sofia',
     lastName: 'Parlej',
     majors: [],
     minors: [],
-    graduationYear: null,
+    graduationYear: 2022,
     positions: [
       {
         titleName: ClubPositionTitle.EBoardMember,
         startYear: 2017,
         endYear: 2018,
+      },
+      {
+        titleName: ClubPositionTitle.DirectorCommunityManagement,
+        startYear: 2018,
+        endYear: 2019,
       },
     ],
   },
