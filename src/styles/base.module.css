@@ -1,0 +1,9 @@
+.base {
+  text-align: center;
+}
+
+@media (max-width: 874px) {
+  .hide-if-mobile {
+    display: none;
+  }
+}

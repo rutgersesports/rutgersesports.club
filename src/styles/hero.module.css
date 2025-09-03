@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 6vh;
+}
+
+.hero-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+
+.hero-text h1 {
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 4vw;
+  line-height: 4vw;
+  filter: drop-shadow(0 0.4rem 0 #a71f1f);
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-text h1 {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+}

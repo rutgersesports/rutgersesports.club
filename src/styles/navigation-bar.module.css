@@ -1,0 +1,97 @@
+/*
+This entire file has been taken from the Pygame: Community Edition's
+website landing page and has been modified to fit Rutgers Esports's
+needs. <https://github.com/pygame-community/pyga.me>
+
+The code that was taken from the project was also written by the same
+code owner.
+*/
+
+.nav {
+  display: flex;
+  color: white;
+  background-color: #a51f1f;
+  justify-content: space-between;
+  padding: 0 75px;
+  align-items: center;
+}
+
+.logo {
+  width: 86px;
+  height: 86px;
+}
+
+.logo-name {
+  padding-left: 10px;
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.mobilemenuicon {
+  filter: invert(1);
+  display: none;
+}
+
+.mobileHome {
+  display: none;
+}
+
+.nav ul {
+  padding-left: 0;
+  display: flex;
+  font-weight: 800;
+  font-size: 1.5rem;
+  list-style: none;
+  gap: 16px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  opacity: 1;
+  transition: 500ms;
+}
+
+.nav a:hover {
+  color: #dedede;
+}
+
+.mobileroutes a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+/* Ultra Small
+-----------------------*/
+@media only screen and (max-width: 1000px) {
+  .redirect {
+    display: none;
+  }
+
+  .nav {
+    text-align: left;
+    display: block;
+    justify-content: baseline;
+    padding: 2vh;
+  }
+
+  .nav .mobilemenuicon {
+    display: block;
+  }
+
+  .nav ul {
+    display: block;
+  }
+
+  .nav .routes {
+    display: none;
+  }
+
+  .mobileHome {
+    display: block;
+  }
+}
