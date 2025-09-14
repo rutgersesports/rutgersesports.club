@@ -45,7 +45,7 @@ export const clubs = [
     getInvolved: null,
     image: wgl,
     socialMedia: {
-      discord: 'https://discord.com/invite/caNGe8HG2D',
+      discord: 'https://discord.com/invite/GbJAhteGSs',
       instagram: 'https://www.instagram.com/rutgerswgl/',
       facebook: 'https://www.facebook.com/groups/rutgerswgl/',
       twitch: 'https://www.twitch.tv/rutgerswgl',
@@ -97,14 +97,6 @@ export const clubs = [
     image: pokemon,
     socialMedia: {
       discord: 'https://discord.gg/MMwgM9H',
-    },
-  },
-  {
-    name: 'Dota 2',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/dotaclub',
-    image: dota,
-    socialMedia: {
-      discord: 'https://discord.gg/yFKghbJ',
     },
   },
   {

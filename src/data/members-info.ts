@@ -14,6 +14,7 @@ import ashleyLin2027 from '../images/members/ashley-lin.jpg'
 import bilalSiddiqi2027 from '../images/members/bilal-siddiqi.jpg'
 import brandonBachleda2026 from '../images/members/brandon-bachleda.jpg'
 import byanneTan2025 from '../images/members/byanne-tan.jpg'
+import claudiaLee2027 from '../images/members/claudia-lee.png'
 import codyTomchak2023 from '../images/members/cody-tomchak.jpg'
 import daleBabeyUNKNOWNGRAD from '../images/members/dale-babey.png'
 import danielaBuhain2023 from '../images/members/daniela-buhain.jpeg'
@@ -48,8 +49,9 @@ import kamalPaspuleti from '../images/members/kamal-paspuleti.jpg'
 import lunaLee2024 from '../images/members/luna-lee.jpeg'
 import malavPatel2017 from '../images/members/malav-patel.jpg'
 import malikLekmine2024 from '../images/members/malik-lekmine.png'
-import mollyGarvin2027 from '../images/members/eboard-default.png'
+import mollyGarvin2027 from '../images/members/molly.jpg'
 import patrickMasuda2026 from '../images/members/patrick-masuda.png'
+import premtonSyla2027 from '../images/members/premton-syla.jpg'
 import scottZackman2019 from '../images/members/scott-zackman.png'
 import sethSantos2021 from '../images/members/seth-santos.jpg'
 import sophiaYeh2026 from '../images/members/sophia-yeh.png'
@@ -61,6 +63,9 @@ import rileyHerrera2025 from '../images/members/riley-herrera.png'
 import victoriaChen2024 from '../images/members/victoria-chen.jpg'
 import victorOkoye2023 from '../images/members/victor-okoye.jpg'
 import vincenzoDiMatteo2022 from '../images/members/vincenzo-diMatteo.jpg'
+import yoshiAligina2026 from '../images/members/yoshi.png'
+import veronicaDomazs2027 from '../images/members/veronica.jpg'
+import rohanMasamsetty2028 from '../images/members/rohan-masamsetty.jpg'
 
 export type ClubPosition = {
   titleName: ClubPositionTitle
@@ -160,6 +165,7 @@ export enum ClubPositionTitle {
   DirectorBroadcasting = 'Director of Broadcasting',
   DirectorGraphicDesign = 'Director of Graphic Design',
   DirectorSocialMedia = 'Director of Social Media',
+  DirectorMediaProduction = 'Director of Media Production',
   ManagerPartnership = 'Partnership Manager',
   ManagerRecruitment = 'Recruitment Manager',
   ManagerMediaProduction = 'Media Production Manager', // alias: 'Video Production Manager'
@@ -169,12 +175,17 @@ export enum ClubPositionTitle {
   ManagerBroadcasting = 'Broadcasting Manager',
   NewsAnchorMediaProduction = 'The REN Guy',
   OfficerBroadcasting = 'Broadcasting Officer',
+  JohnTran = 'Broadcasting Officer and Game Rep',
   OfficerHumanResources = 'Human Resources Officer',
   OfficerTechnology = 'Technology Officer',
   OfficerSocialMedia = 'Social Media Officer',
   OfficerGraphicDesign = 'Graphic Design Officer',
   AshleyCombo = 'Director of Human Resources and Marketing',
   Ian = 'Broadcasting Associate',
+  AssociateSocialMedia = 'Social Media Associate',
+  AssociateGraphicDesign = 'Graphic Design Associate',
+  AssociatePartnership = 'Partnership Associate',
+  AssociateMedia = 'Media Production Associate',
 
   /* Do not give this to people during and after 2018-2019 */
   EBoardMember = 'Executive Board Member',
@@ -1792,7 +1803,7 @@ export const members: Array<Member> = [
         endYear: 2025,
       },
       {
-        titleName: ClubPositionTitle.OfficerBroadcasting,
+        titleName: ClubPositionTitle.JohnTran,
         startYear: 2025,
         endYear: 2026,
       },
@@ -2034,7 +2045,7 @@ export const members: Array<Member> = [
     graduationYear: 2026,
     positions: [
       {
-        titleName: ClubPositionTitle.ManagerMediaProduction,
+        titleName: ClubPositionTitle.DirectorMediaProduction,
         startYear: 2025,
         endYear: 2026,
       },
@@ -2056,5 +2067,85 @@ export const members: Array<Member> = [
       },
     ],
     image: bilalSiddiqi2027,
+  },
+
+  {
+    firstName: 'Yoshi',
+    lastName: 'Aligina',
+    majors: [],
+    minors: [],
+    graduationYear: 2026,
+    positions: [
+      {
+        titleName: ClubPositionTitle.Ian,
+        startYear: 2025,
+        endYear: 2026,
+      },
+    ],
+    image: yoshiAligina2026,
+  },
+
+  {
+    firstName: 'Claudia',
+    lastName: 'Lee',
+    majors: [],
+    minors: [],
+    graduationYear: 2027,
+    positions: [
+      {
+        titleName: ClubPositionTitle.AssociateSocialMedia,
+        startYear: 2025,
+        endYear: 2026,
+      },
+    ],
+    image: claudiaLee2027,
+  },
+
+  {
+    firstName: 'Veronica',
+    lastName: 'Domaszot',
+    majors: [],
+    minors: [],
+    graduationYear: 2027,
+    positions: [
+      {
+        titleName: ClubPositionTitle.AssociateGraphicDesign,
+        startYear: 2025,
+        endYear: 2026,
+      },
+    ],
+    image: veronicaDomazs2027,
+  },
+
+  {
+    firstName: 'Rohan',
+    lastName: 'Masamsetty',
+    majors: [],
+    minors: [],
+    graduationYear: 2028,
+    positions: [
+      {
+        titleName: ClubPositionTitle.AssociatePartnership,
+        startYear: 2025,
+        endYear: 2026,
+      },
+    ],
+    image: rohanMasamsetty2028,
+  },
+
+  {
+    firstName: 'Premton',
+    lastName: 'Syla',
+    majors: [],
+    minors: [],
+    graduationYear: 2027,
+    positions: [
+      {
+        titleName: ClubPositionTitle.AssociateMedia,
+        startYear: 2025,
+        endYear: 2026,
+      },
+    ],
+    image: premtonSyla2027,
   },
 ]
