@@ -2109,7 +2109,7 @@ export const members: Array<Member> = [
     graduationYear: 2027,
     positions: [
       {
-        titleName: ClubPositionTitle.AssociateGraphicDesign,
+        titleName: ClubPositionTitle.OfficerGraphicDesign,
         startYear: 2025,
         endYear: 2026,
       },
