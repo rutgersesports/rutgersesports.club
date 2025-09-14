@@ -45,7 +45,7 @@ export const clubs = [
     getInvolved: null,
     image: wgl,
     socialMedia: {
-      discord: 'https://discord.com/invite/caNGe8HG2D',
+      discord: 'https://discord.com/invite/6vYJfMcbrj',
       instagram: 'https://www.instagram.com/rutgerswgl/',
       facebook: 'https://www.facebook.com/groups/rutgerswgl/',
       twitch: 'https://www.twitch.tv/rutgerswgl',
@@ -100,14 +100,6 @@ export const clubs = [
     },
   },
   {
-    name: 'Dota 2',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/dotaclub',
-    image: dota,
-    socialMedia: {
-      discord: 'https://discord.gg/yFKghbJ',
-    },
-  },
-  {
     name: 'Hearthstone',
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/hearthstone',
     image: hearthstone,
@@ -129,14 +121,6 @@ export const clubs = [
     image: mtg,
     socialMedia: {
       discord: 'https://discord.gg/uhJfjjqTGv',
-    },
-  },
-  {
-    name: 'Battle Royale',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/battleroyaleclub',
-    image: battleRoyale,
-    socialMedia: {
-      discord: 'https://discord.gg/RcWJVDk8Rd',
     },
   },
   {
