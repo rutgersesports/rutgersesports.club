@@ -77,10 +77,7 @@ export default function Footer() {
         >
           Rutgers Esports Website Team
         </Link>
-        , created by{' '}
-        <Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bilal-siddiqi-31a11b268/">
-          Bilal Siddiqi
-        </Link>
+        .
         <br />
       </div>
     </>

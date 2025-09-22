@@ -29,7 +29,7 @@ export const clubs = [
     getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rutgersvalorant',
     image: valorant,
     socialMedia: {
-      discord: 'https://discord.gg/valowatch',
+      discord: 'https://discord.gg/4ANw8bye',
     },
   },
   {
