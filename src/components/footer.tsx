@@ -69,13 +69,13 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles['footer-end']}>
-        Maintained by the{' '}
+        Maintained by {' '}
         <Link
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/rutgersesports/rutgersesports.club/graphs/contributors"
+          href="https://github.com/bilalsiddiqi629"
         >
-          Rutgers Esports Website Team
+          Bilal Siddiqi
         </Link>
         .
         <br />
