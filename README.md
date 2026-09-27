@@ -17,3 +17,6 @@ We also use [Prettier](https://prettier.io/) for code formatting so
 please run `npx prettier --write .` whenever you're creating
 a pull request. If you're using Visual Studio Code, it should
 automate the process for you.
+
+Roadmap:
+* Mobile nav bar animation

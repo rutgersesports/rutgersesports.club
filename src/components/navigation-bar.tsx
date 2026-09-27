@@ -46,7 +46,7 @@ export default function NavigationBar() {
         </div>
         <div className={isOpen ? styles.routes : styles.mobileroutes}>
           <ul>
-            <li className={styles.mobileHome}>
+            <li>
               <Link href="/">Home</Link>
             </li>
             <li>

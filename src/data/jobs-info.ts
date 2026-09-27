@@ -69,8 +69,8 @@ export const jobs: Array<Job> = [
 
   {
     departmentName: 'General Application',
-    desc: 'Positions for all departments are available for the 2025-2026 school year.',
-    form: 'https://forms.gle/4uQhth3D2gdP7EPe9',
+    desc: 'Positions for all departments are available for the 2026-2027 school year.',
+    form: 'https://forms.gle/bjrtBSGJCBwfFFhz9',
     isHidden: false,
   },
 ]

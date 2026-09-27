@@ -40,7 +40,7 @@ export default function JobOpenings() {
       <h2>Rutgers Esports Executive Board Officer Recruitment Portal</h2>
       <p>
         Ready to join the Rutgers Esports Executive Board? Explore our openings below! To apply for a role not listed,
-        apply <Link href="https://forms.gle/gKMwAqwSxq7u9Zbj8">here</Link>.
+        apply <Link href="https://forms.gle/bjrtBSGJCBwfFFhz9">here</Link>.
       </p>
       <table className={styles['job-openings-list']}>
         <tbody>

@@ -73,9 +73,9 @@ export default function Footer() {
         <Link
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/bilalsiddiqi629"
+          href="https://github.com/alanlai1234"
         >
-          Bilal Siddiqi
+          Alan Lai
         </Link>
         .
         <br />
