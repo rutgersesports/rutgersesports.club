@@ -10,10 +10,11 @@ code owner.
 .nav {
   display: flex;
   color: white;
-  background-color: #a51f1f;
+  background-color: #1d1e1f;
   justify-content: space-between;
   padding: 0 75px;
   align-items: center;
+  /* border-bottom: 2px solid #a71f1f; */
 }
 
 .logo {
@@ -21,10 +22,10 @@ code owner.
   height: 86px;
 }
 
-.logo-name {
-  padding-left: 10px;
-  font-weight: 800;
-  font-size: 1.8rem;
+.logo_name {
+	font-weight: 700;
+	filter: drop-shadow(0 0.2rem 0 #a71f1f);
+	font-size: 1.1rem
 }
 
 .mobilemenuicon {
@@ -40,7 +41,7 @@ code owner.
   padding-left: 0;
   display: flex;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   list-style: none;
   gap: 16px;
 }

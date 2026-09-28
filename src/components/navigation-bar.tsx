@@ -39,6 +39,7 @@ export default function NavigationBar() {
         <div className={styles.redirect}>
           <Link href="/">
             <Image className={styles.logo} src={rutgersEsportsLogo} alt="Rutgers Esports" />
+			<span className={styles.logo_name}>RUTGERS ESPORTS</span>
           </Link>
         </div>
         <div className={styles.mobilemenuicon} onClick={handleMenuClick}>
