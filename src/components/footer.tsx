@@ -37,7 +37,7 @@ export default function Footer() {
               </li>
             </ul>
             <div className="socials">
-              <Link target="_blank" rel="noopener noreferrer" href="https://discord.gg/rutgersesports">
+              <Link target="_blank" rel="noopener noreferrer" href="https://discord.gg/rutgers-esports-143013824679641088">
                 <Image src={discordIcon} className={styles['social-icon']} alt="social-icon" />
               </Link>
               <Link target="_blank" rel="noopener noreferrer" href="https://instagram.com/rutgersesports">
