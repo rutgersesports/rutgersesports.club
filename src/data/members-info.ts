@@ -1,4 +1,5 @@
 import { StaticImageData } from 'next/image'
+import noImage from '../images/members/eboard-default.png'
 import adamBaugh2017 from '../images/members/adam-baugh.png'
 import aedanDispenza2016 from '../images/members/aedan-dispenza.jpg'
 import alexHer2022 from '../images/members/alex-her.jpg'
@@ -71,12 +72,11 @@ import alanLai from '../images/members/alan-lai.jpg'
 import katelynSham from '../images/members/katelyn-Sham.jpg'
 import marcusArias from '../images/members/marcus-arias.jpg'
 import jawadMahmud from '../images/members/jawad-mahmud.jpg'
-import laraHumaErdogan from '../images/members/lara-huma-erdogan.jpg'
+import laraErdogan from '../images/members/lara-erdogan.jpg'
 import minaAzab from '../images/members/mina-azab.jpg'
 import amandaNiola from '../images/members/amanda-niola.jpg'
 import lukeCozzi from '../images/members/luke-cozzi.jpg'
-import thomasTran from '../images/members/thomas-tran.jpg'
-import michealJimenz from '../images/members/micheal-jimenz.jpg'
+import michealJimenz from '../images/members/michael-jimenz.jpg'
 import kayleyPhan from '../images/members/kayley-phan.jpg'
 import chaseGallagher from '../images/members/chase-gallagher.jpg'
 import kieraLau from '../images/members/kiera-lau.jpg'
@@ -2281,7 +2281,7 @@ export const members: Array<Member> = [
   },
 
     {
-    firstName: 'Lara Huma',
+    firstName: 'Lara',
     lastName: 'Erdogan',
     majors: [],
     minors: [],
@@ -2293,7 +2293,7 @@ export const members: Array<Member> = [
         endYear: 2027,
       },
     ],
-    image: laraHumaErdogan,
+    image: laraErdogan,
   },
 
     {
@@ -2357,7 +2357,7 @@ export const members: Array<Member> = [
         endYear: 2027,
       },
     ],
-    image: thomasTran,
+    image: noImage,
   },
       {
     firstName: 'Michael Jimenz',
