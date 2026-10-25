@@ -27,7 +27,7 @@ function TrackingPixel() {
 }
 
 export default function NavigationBar() {
-  const [isOpen, setOpen] = useState<boolean>(true)
+  const [isOpen, setOpen] = useState<boolean>(false)
 
   function handleMenuClick() {
     setOpen(!isOpen)
@@ -42,10 +42,13 @@ export default function NavigationBar() {
 			<span className={styles.logo_name}>RUTGERS ESPORTS</span>
           </Link>
         </div>
-        <div className={styles.mobilemenuicon} onClick={handleMenuClick}>
-          <Image src={menuIcon} alt="Open routes" />
+        <div className={styles.mobilemenuicon} >
+          <Link href="/">
+            <Image className={styles.logo} src={rutgersEsportsLogo} alt="Rutgers Esports" />
+          </Link>
+          <Image className={styles.mobileHandle} src={menuIcon} alt="Open routes" onClick={handleMenuClick}/>
         </div>
-        <div className={isOpen ? styles.routes : styles.mobileroutes}>
+        <div className={`${styles.routes} ${isOpen ? styles.open : ''}`}>
           <ul>
             <li>
               <Link href="/">Home</Link>

@@ -18,14 +18,14 @@ code owner.
 }
 
 .logo {
-  width: 86px;
-  height: 86px;
+  width: 80px;
+  height: 80px;
 }
 
 .logo_name {
-	font-weight: 700;
-	filter: drop-shadow(0 0.2rem 0 #a71f1f);
-	font-size: 1.1rem
+  font-weight: 700;
+  filter: drop-shadow(0 0.2rem 0 #a71f1f);
+  font-size: 1.1rem;
 }
 
 .mobilemenuicon {
@@ -60,10 +60,11 @@ code owner.
   color: #dedede;
 }
 
-.mobileroutes a {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  text-align: left;
+.routes {
+  max-height: none;
+  overflow: visible;
+  opacity: 1;
+  transition: none;
 }
 
 /* Ultra Small
@@ -73,26 +74,57 @@ code owner.
     display: none;
   }
 
+  .logo {
+    width: 57px;
+    height: 57px;
+    filter: invert(1);
+  }
+
   .nav {
-    text-align: left;
     display: block;
     justify-content: baseline;
     padding: 2vh;
   }
 
   .nav .mobilemenuicon {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobileHandle {
+    padding: 10px;
+    transition: opacity 200ms ease;
+  }
+
+  .mobileHandle:active {
+    opacity: 0.5;
   }
 
   .nav ul {
     display: block;
   }
 
-  .nav .routes {
-    display: none;
-  }
-
   .mobileHome {
     display: block;
+  }
+
+  .routes {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition:
+    max-height 300ms ease,
+    opacity 300ms ease;
+  }
+
+  .routes.open {
+    max-height: 300px;
+    opacity: 1;
+  }
+
+  .routes a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
   }
 }

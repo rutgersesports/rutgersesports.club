@@ -19,10 +19,7 @@ a pull request. If you're using Visual Studio Code, it should
 automate the process for you.
 
 Roadmap:
-- [] update members
-- [] game club section update(with discord+social)
-- [] update photos
-- [] Mobile nav bar animation
-- [] Mobile nav bar logo
-- [] navbar redesign
-- [] replace instagram link list(put important links at easily accessable place)
+- game club section update(with discord+social)
+- update photos
+- navbar redesign
+- replace instagram link list(put important links at easily accessable place)
