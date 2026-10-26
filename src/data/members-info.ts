@@ -1954,7 +1954,7 @@ export const members: Array<Member> = [
         endYear: 2026,
       },
       {
-        titleName: ClubPositionTitle.OfficerHumanResources,
+        titleName: ClubPositionTitle.Treasurer,
         startYear: 2026,
         endYear: 2027,
       },
@@ -2199,8 +2199,8 @@ export const members: Array<Member> = [
     ],
     image: premtonSyla2027,
   },
-  
-    {
+
+  {
     firstName: 'Ace',
     lastName: 'Devine',
     majors: [],
@@ -2240,7 +2240,7 @@ export const members: Array<Member> = [
     graduationYear: 2027,
     positions: [
       {
-        titleName: ClubPositionTitle.Treasurer,
+        titleName: ClubPositionTitle.DirectorHumanResources,
         startYear: 2026,
         endYear: 2027,
       },
@@ -2248,7 +2248,7 @@ export const members: Array<Member> = [
     image: katelynSham,
   },
 
-    {
+  {
     firstName: 'Marcus',
     lastName: 'Arias',
     majors: [],
@@ -2264,7 +2264,7 @@ export const members: Array<Member> = [
     image: marcusArias,
   },
 
-    {
+  {
     firstName: 'Jawad',
     lastName: 'Mahmud',
     majors: [],
@@ -2280,7 +2280,7 @@ export const members: Array<Member> = [
     image: jawadMahmud,
   },
 
-    {
+  {
     firstName: 'Lara',
     lastName: 'Erdogan',
     majors: [],
@@ -2296,7 +2296,7 @@ export const members: Array<Member> = [
     image: laraErdogan,
   },
 
-    {
+  {
     firstName: 'Mina',
     lastName: 'Azab',
     majors: [],
@@ -2311,8 +2311,8 @@ export const members: Array<Member> = [
     ],
     image: minaAzab,
   },
-  
-    {
+
+  {
     firstName: 'Amanda',
     lastName: 'Niola',
     majors: [],
@@ -2327,8 +2327,8 @@ export const members: Array<Member> = [
     ],
     image: amandaNiola,
   },
-  
-    {
+
+  {
     firstName: 'Luke',
     lastName: 'Cozzi',
     majors: [],
@@ -2343,8 +2343,8 @@ export const members: Array<Member> = [
     ],
     image: lukeCozzi,
   },
-  
-    {
+
+  {
     firstName: 'Thomas',
     lastName: 'Tran',
     majors: [],
@@ -2359,7 +2359,7 @@ export const members: Array<Member> = [
     ],
     image: noImage,
   },
-      {
+  {
     firstName: 'Michael Jimenz',
     lastName: '',
     majors: [],
@@ -2374,7 +2374,7 @@ export const members: Array<Member> = [
     ],
     image: michealJimenz,
   },
-      {
+  {
     firstName: 'Kayley',
     lastName: 'Phan',
     majors: [],
@@ -2389,7 +2389,7 @@ export const members: Array<Member> = [
     ],
     image: kayleyPhan,
   },
-      {
+  {
     firstName: 'Chase',
     lastName: 'Gallagher',
     majors: [],
@@ -2404,7 +2404,7 @@ export const members: Array<Member> = [
     ],
     image: chaseGallagher,
   },
-      {
+  {
     firstName: 'Kiera',
     lastName: 'Lau',
     majors: [],

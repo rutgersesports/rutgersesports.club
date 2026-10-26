@@ -113,8 +113,8 @@ code owner.
     overflow: hidden;
     opacity: 0;
     transition:
-    max-height 300ms ease,
-    opacity 300ms ease;
+      max-height 300ms ease,
+      opacity 300ms ease;
   }
 
   .routes.open {

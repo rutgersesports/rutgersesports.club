@@ -39,14 +39,14 @@ export default function NavigationBar() {
         <div className={styles.redirect}>
           <Link href="/">
             <Image className={styles.logo} src={rutgersEsportsLogo} alt="Rutgers Esports" />
-			<span className={styles.logo_name}>RUTGERS ESPORTS</span>
+            <span className={styles.logo_name}>RUTGERS ESPORTS</span>
           </Link>
         </div>
-        <div className={styles.mobilemenuicon} >
+        <div className={styles.mobilemenuicon}>
           <Link href="/">
             <Image className={styles.logo} src={rutgersEsportsLogo} alt="Rutgers Esports" />
           </Link>
-          <Image className={styles.mobileHandle} src={menuIcon} alt="Open routes" onClick={handleMenuClick}/>
+          <Image className={styles.mobileHandle} src={menuIcon} alt="Open routes" onClick={handleMenuClick} />
         </div>
         <div className={`${styles.routes} ${isOpen ? styles.open : ''}`}>
           <ul>

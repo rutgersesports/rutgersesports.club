@@ -19,6 +19,7 @@ a pull request. If you're using Visual Studio Code, it should
 automate the process for you.
 
 Roadmap:
+
 - game club section update(with discord+social)
 - update photos
 - navbar redesign
