@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from '../styles/about-ourselves.module.css'
-import theclub from '../images/the-club.jpg'
+import theclub from '../images/sk2.jpeg'
 import community1 from '../images/community1.jpg'
-import community2 from '../images/community2.jpg'
-import community3 from '../images/community3.png'
-import community4 from '../images/community4.jpg'
+import community2 from '../images/community2.jpeg'
+import community3 from '../images/sk1.jpeg'
+import community4 from '../images/community4.jpeg'
 import Image from 'next/image'
 
 export default function AboutOurselves() {

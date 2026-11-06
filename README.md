@@ -21,6 +21,5 @@ automate the process for you.
 Roadmap:
 
 - game club section update(with discord+social)
-- update photos
 - navbar redesign
 - replace instagram link list(put important links at easily accessable place)
