@@ -1,24 +1,49 @@
+import { StaticImageData } from 'next/image'
 import overwatch2 from '../images/overwatch2-club-bg.jpg'
 import valorant from '../images/valorant-club-bg.png'
 import lol from '../images/lol-club-bg.jpg'
 import wgl from '../images/wgl-club-bg.png'
 import rgc from '../images/rgc-club-bg.jpg'
 import rocketLeague from '../images/rocket-league-club-bg.jpg'
-import scarletSmashUlt from '../images/scarlet-smash-ultimate-club-bg.jpg'
+import scarletSmash from '../images/scarlet-smash-ultimate-club-bg.jpg'
 import scarletSmashMelee from '../images/scarlet-smash-melee-club-bg.jpg'
 import counterStrike from '../images/cs-club-bg.jpg'
 import pokemon from '../images/pokemon-club-bg.png'
-import dota from '../images/dota-club-bg.jpg'
 import hearthstone from '../images/hearthstone-club-bg.jpg'
 import genshin from '../images/genshin-impact-club-bg.jpg'
 import mtg from '../images/mtg-club-bg.jpg'
-import battleRoyale from '../images/br-club-bg.jpg'
 import rainbowsix from '../images/r6-club-bg.jpg'
+import minecraft from '../images/minecraft-club-bg.png'
 
-export const clubs = [
+export type ClubSocialMedia = {
+  discord?: string
+  instagram?: string
+  twitter?: string
+}
+
+export type Club = {
+  name: string
+  image?: StaticImageData
+  socialMedia: ClubSocialMedia
+}
+
+/** Clubs with a banner image come first; relative order within each group is preserved. */
+export function orderClubsByBanner<T extends { image?: StaticImageData }>(clubList: T[]): T[] {
+  const withBanner: T[] = []
+  const withoutBanner: T[] = []
+  for (const club of clubList) {
+    if (club.image) {
+      withBanner.push(club)
+    } else {
+      withoutBanner.push(club)
+    }
+  }
+  return [...withBanner, ...withoutBanner]
+}
+
+export const clubs: Club[] = [
   {
     name: 'Overwatch 2',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/ruoverwatch',
     image: overwatch2,
     socialMedia: {
       discord: 'https://discord.gg/U6P3Dtp',
@@ -26,7 +51,6 @@ export const clubs = [
   },
   {
     name: 'Valorant',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rutgersvalorant',
     image: valorant,
     socialMedia: {
       discord: 'https://discord.gg/4ANw8bye',
@@ -34,74 +58,69 @@ export const clubs = [
   },
   {
     name: 'League of Legends',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/leagueoflegends',
     image: lol,
     socialMedia: {
-      discord: 'https://discord.gg/skqkEYD',
+      discord: 'https://discord.gg/FmtaJc9tuf',
     },
   },
   {
     name: "Women's Gaming League",
-    getInvolved: null,
     image: wgl,
     socialMedia: {
-      discord: 'https://discord.com/invite/6vYJfMcbrj',
+      discord: 'https://discord.gg/RvBjAfWf7g',
       instagram: 'https://www.instagram.com/rutgerswgl/',
-      facebook: 'https://www.facebook.com/groups/rutgerswgl/',
-      twitch: 'https://www.twitch.tv/rutgerswgl',
     },
   },
   {
     name: 'Rhythm Game Club',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rgc',
     image: rgc,
     socialMedia: {
       discord: 'https://discord.gg/azP28Hd',
+      instagram: 'https://www.instagram.com/rutgersrgc/',
     },
   },
   {
     name: 'Rocket League',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/RURL',
     image: rocketLeague,
     socialMedia: {
       discord: 'https://discord.gg/fVg6EDmBNb',
     },
   },
   {
-    name: 'Scarlet Smash Ultimate',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/smash',
-    image: scarletSmashUlt,
+    name: 'Scarlet Smash',
+    image: scarletSmash,
     socialMedia: {
-      discord: 'https://discord.gg/8BcAwgk',
+      discord: 'https://discord.gg/NTfeCsnpQK',
+      instagram: 'https://www.instagram.com/scarletsmash/',
     },
   },
   {
     name: 'Scarlet Smash Melee',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/smash',
     image: scarletSmashMelee,
     socialMedia: {
       discord: 'https://discord.gg/SEDm5MM',
+      instagram: 'https://www.instagram.com/rutgersmelee/',
+      twitter: 'https://x.com/RutgersMelee',
     },
   },
   {
     name: 'Counter-Strike',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rutgerscs',
     image: counterStrike,
     socialMedia: {
-      discord: 'https://discord.gg/uJuk7ufwjw',
+      discord: 'https://discord.gg/w8xWN6a7jP',
+      instagram: 'https://www.instagram.com/rutgerscs2/',
     },
   },
   {
     name: 'Pokemon',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rutgerspokemon',
     image: pokemon,
     socialMedia: {
-      discord: 'https://discord.gg/MMwgM9H',
+      discord: 'https://discord.gg/D2VemsvdQY',
+      instagram: 'https://www.instagram.com/rutgerspokemon/',
     },
   },
   {
     name: 'Hearthstone',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/hearthstone',
     image: hearthstone,
     socialMedia: {
       discord: 'https://discord.com/invite/b7aeQhu',
@@ -109,7 +128,6 @@ export const clubs = [
   },
   {
     name: 'Genshin Impact',
-    getInvolved: null,
     image: genshin,
     socialMedia: {
       discord: 'https://discord.gg/5EbrVsBw9z',
@@ -117,7 +135,6 @@ export const clubs = [
   },
   {
     name: 'Magic the Gathering',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/mtg',
     image: mtg,
     socialMedia: {
       discord: 'https://discord.gg/uhJfjjqTGv',
@@ -125,10 +142,45 @@ export const clubs = [
   },
   {
     name: 'Rainbow Six Siege',
-    getInvolved: 'https://rutgers.campuslabs.com/engage/organization/rainbowsixsiege',
     image: rainbowsix,
     socialMedia: {
       discord: 'https://discord.com/invite/wPgemuugUN',
+    },
+  },
+  {
+    name: 'Marvel Rivals',
+    socialMedia: {
+      discord: 'https://discord.gg/rdTNPCyDEt',
+      instagram: 'https://www.instagram.com/rutgersmarvelrivals/',
+    },
+  },
+  {
+    name: 'Minecraft',
+    image: minecraft,
+    socialMedia: {
+      discord: 'https://rumc.club/discord',
+      instagram: 'https://www.instagram.com/rutgersmc/',
+    },
+  },
+  {
+    name: 'RFGC',
+    socialMedia: {
+      discord: 'https://discord.gg/d45UQxN7cj',
+      instagram: 'https://www.instagram.com/rutgersfightinggames/',
+      twitter: 'https://x.com/RUFightingGames',
+    },
+  },
+  {
+    name: 'COGS',
+    socialMedia: {
+      discord: 'https://discord.com/invite/erTWnAhdwj',
+      instagram: 'https://www.instagram.com/rutgerscogs/',
+    },
+  },
+  {
+    name: 'Deadlock',
+    socialMedia: {
+      discord: 'https://discord.gg/gZetry5A3P',
     },
   },
 ]

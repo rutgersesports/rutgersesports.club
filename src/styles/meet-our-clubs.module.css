@@ -42,26 +42,41 @@
   margin-left: 15px;
   margin-right: 15px;
   transition: width 0.3s;
-}
-
-.club::after {
-  filter: brightness(50%);
+  flex-shrink: 0;
 }
 
 .club:hover {
   width: 370px;
 }
 
-#club-links {
-  position: absolute;
-  left: 0;
-  right: 0;
-  transition: opacity 0.3s;
-  opacity: 0.5;
+.club-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.club:hover #club-links {
+.club-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.club:hover .club-links,
+.club:focus-within .club-links {
   opacity: 1;
+  pointer-events: auto;
+}
+
+@media (hover: none) {
+  .club-links {
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 
 .club-contents h2 {
@@ -69,14 +84,19 @@
   color: white;
   width: 300px;
   font-size: 1.8rem;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
   filter: drop-shadow(0 0.25rem 0 #a71f1f);
 }
 
-.club-contents #social-media-icon {
+.social-media-icon {
   width: 1.8rem;
-  color: white;
+  height: 1.8rem;
   filter: invert(100%) drop-shadow(0 0.25rem 0 #a71f1f);
+  transition: filter 0.2s ease;
+}
+
+.club-links a:hover .social-media-icon {
+  filter: invert(100%) brightness(0.85) drop-shadow(0 0.25rem 0 #a71f1f);
 }
 
 @media (min-width: 874px) {
